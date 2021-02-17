@@ -1,3 +1,11 @@
+## Version 5.16.0 (February 16, 2021)
+- **Features**
+  - The MoPub Unity Plugin now includes version `5.16.0` of the MoPub Android and iOS SDKs.
+  - Enabled multidex by default on Android sample app.
+
+- **Bug Fixes**
+  - Fixed issue when building for iOS on Unity 2019.3+ due to TargetGuidByName.
+
 ## Version 5.15.0 (November 18, 2020)
 - **Features**
   - The MoPub Unity Plugin now includes version `5.15.0` of the MoPub Android and iOS SDKs.
@@ -5,7 +13,7 @@
   - Updated External Dependency Manager from 1.2.147 to 1.2.160.
 
 - **Bug Fixes**
-  -  Cleaned up Android dependencies.
+  - Cleaned up Android dependencies.
 
 ## Version 5.14.1 (October 5, 2020)
 - **Features**

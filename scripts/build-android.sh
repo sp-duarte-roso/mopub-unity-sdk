@@ -34,15 +34,15 @@ UNITY_DIR=unity-sample-app/Assets/MoPub/Plugins/Android
 MOPUB_DEPENDENCIES_XML=unity-sample-app/Assets/MoPub/Scripts/Editor/MoPubDependencies.xml
 INTERNAL_DEPENDENCIES='\
 <!--INTERNAL_DEPS_START-->\
-    <!-- NOTE: Internal dependencies are toggled by build-android.sh, so update them in that script! -->\
+    <!-- NOTE: Internal dependencies are toggled by build-android.sh, so update them in that script as well! -->\
     <androidPackage spec="com.mopub.volley:mopub-volley:2.1.0"\/>\
     <androidPackage spec="com.mopub:omsdk-android:1.3.4@aar"\/>\
     <androidPackage spec="androidx.legacy:legacy-support-v4:1.0.0"\/>\
     <androidPackage spec="androidx.appcompat:appcompat:1.1.0"\/>\
     <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"\/>\
-    <androidPackage spec="androidx.media2:media2-session:1.0.1"\/>\
-    <androidPackage spec="androidx.media2:media2-widget:1.0.1"\/>\
-    <androidPackage spec="androidx.media2:media2-player:1.0.1"\/>\
+    <androidPackage spec="androidx.media2:media2-session:1.1.1"\/>\
+    <androidPackage spec="androidx.media2:media2-widget:1.1.1"\/>\
+    <androidPackage spec="androidx.media2:media2-player:1.1.1"\/>\
     <androidPackage spec="androidx.core:core-ktx:1.1.0"\/>\
     <androidPackage spec="com.google.code.gson:gson:2.8.5"\/>\
 <!--INTERNAL_DEPS_END-->'
@@ -64,6 +64,7 @@ if [[ "$INTERNAL_SDK" = true ]]; then
   done
 
   print_blue_line "Updating MoPubDependencies.xml for INTERNAL Android SDK"
+  # TODO: ensure changes to the internal deps above are replicated to the xml, even when not switching from external
   # Comment out SDK and add internal dependencies
   sed -i "" -Ee "s/^  .*com.mopub:mopub-sdk.*/<!--&-->${INTERNAL_DEPENDENCIES}/" ${MOPUB_DEPENDENCIES_XML}
   validate
