@@ -10,16 +10,12 @@ To get started visit our [Unity Integration Guide](https://developers.mopub.com/
 
 To file an issue with our team please email [support@mopub.com](mailto:support@mopub.com).
 
-## New in This Version (5.16.0 - February 16, 2021)
+## New in This Version (5.16.1 - February 22, 2021)
 
 Please view the [MoPub Unity SDK changelog](https://github.com/mopub/mopub-unity-sdk/blob/master/CHANGELOG.md), [MoPub Android SDK changelog](https://github.com/mopub/mopub-android-sdk/blob/master/CHANGELOG.md), and [MoPub iOS SDK changelog](https://github.com/mopub/mopub-ios-sdk/blob/master/CHANGELOG.md) for a complete list of additions, fixes, and enhancements across releases and platforms.
 
 - **Features**
-  - The MoPub Unity Plugin now includes version `5.16.0` of the MoPub Android and iOS SDKs.
-  - Enabled multidex by default on Android sample app.
-
-- **Bug Fixes**
-  - Fixed issue when building for iOS on Unity 2019.3+ due to TargetGuidByName.
+  - The MoPub Unity Plugin now includes version `5.16.1` of the MoPub iOS SDK and version `5.16.0` of the Android SDK.
 
 ## Upgrading to SDK 5.16
 Starting from version `5.16.0` the minimum supported Gradle Tools version is `3.4.3`.
