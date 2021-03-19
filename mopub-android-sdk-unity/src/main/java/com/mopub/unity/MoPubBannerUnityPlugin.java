@@ -1,13 +1,17 @@
 package com.mopub.unity;
 
+import android.app.Activity;
+import android.util.DisplayMetrics;
 import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import androidx.annotation.Nullable;
 
+import com.mopub.common.logging.MoPubLog;
 import com.mopub.mobileads.MoPubErrorCode;
 import com.mopub.mobileads.MoPubView;
 import com.mopub.mobileads.MoPubView.MoPubAdSize;
@@ -69,6 +73,7 @@ public class MoPubBannerUnityPlugin extends MoPubUnityPlugin implements MoPubVie
                 mMoPubView.setUserDataKeywords(userDataKeywords);
                 mMoPubView.setBannerAdListener(MoPubBannerUnityPlugin.this);
 
+                setViewSize(width);
                 mMoPubView.loadAd(MoPubAdSize.valueOf((int) height));
 
                 prepLayout(alignment);
@@ -171,6 +176,7 @@ public class MoPubBannerUnityPlugin extends MoPubUnityPlugin implements MoPubVie
 
     @Override
     public void onBannerLoaded(MoPubView banner) {
+        setViewSize(banner.getAdWidth());
         UnityEvent.AdLoaded.Emit(mAdUnitId, String.valueOf(banner.getAdWidth()),
                 String.valueOf(banner.getAdHeight()));
     }
@@ -199,6 +205,38 @@ public class MoPubBannerUnityPlugin extends MoPubUnityPlugin implements MoPubVie
     /* ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
      * Private helpers                                                                         *
      * ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****/
+
+    private void setViewSize(float width) {
+        int widthPx = width == -1 ? LinearLayout.LayoutParams.MATCH_PARENT : convertDpToPx(width);
+        // Height is handled by the Android SDK via loadAd
+        int heightPx = LinearLayout.LayoutParams.WRAP_CONTENT;
+        ViewGroup.LayoutParams params = mMoPubView.getLayoutParams();
+        if (params == null) {
+            params = new ViewGroup.LayoutParams(widthPx, heightPx);
+        } else {
+            params.width = widthPx;
+            params.height = heightPx;
+        }
+        mMoPubView.setLayoutParams(params);
+    }
+
+    private static int convertDpToPx(final float dp) {
+        return Math.round(dp * getScreenDensity());
+    }
+
+    private static float getScreenDensity() {
+        final DisplayMetrics metrics = new DisplayMetrics();
+        Activity activity = getActivity();
+
+        if (activity != null) {
+            activity.getWindowManager().getDefaultDisplay().getMetrics(metrics);
+            return metrics.densityDpi / (float) DisplayMetrics.DENSITY_DEFAULT;
+        }
+
+        MoPubLog.log(MoPubLog.AdLogEvent.CUSTOM,
+                "getScreenDensity: Activity was null, so using default screen density.");
+        return 1f;
+    }
 
     private void prepLayout(int alignment) {
         // create a RelativeLayout and add the ad view to it
