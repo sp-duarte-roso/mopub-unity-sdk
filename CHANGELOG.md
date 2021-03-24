@@ -1,4 +1,13 @@
-## Version 5.16.2 (March 19, 2021)
+## Version 5.16.3 (March 24, 2021)
+- **Features**
+  - The MoPub Unity Plugin now includes version `5.16.3` of the MoPub Android SDK and version `5.16.2` of the iOS SDK.
+  - Updated External Dependency Manager from 1.2.160 to 1.2.164. (*carryover from `5.16.2`*)
+
+- **Bug Fixes**
+  - Fixed release issues from `5.16.2`.
+  - Fixed issue with some banners extending beyond the desired size. (*carryover from `5.16.2`*)
+
+## Version 5.16.2 (March 19, 2021) *Deprecated*
 - **Features**
   - The MoPub Unity Plugin now includes version `5.16.2` of the MoPub Android and iOS SDKs.
   - Updated External Dependency Manager from 1.2.160 to 1.2.164.
