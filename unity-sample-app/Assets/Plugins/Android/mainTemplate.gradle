@@ -24,7 +24,7 @@ dependencies {
     implementation 'com.android.support:multidex:1.0.3'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
-    implementation 'com.mopub:mopub-sdk:5.16.0' // Assets/MoPub/Scripts/Editor/MoPubDependencies.xml:3
+    implementation 'com.mopub:mopub-sdk:5.16.4' // Assets/MoPub/Scripts/Editor/MoPubDependencies.xml:3
 // Android Resolver Dependencies End
 **DEPS**}
 

@@ -1,3 +1,10 @@
+## Version 5.16.4 (March 31, 2021)
+- **Features**
+  - The MoPub Unity Plugin now includes version `5.16.4` of the MoPub Android SDK and version `5.16.2` of the iOS SDK.
+
+- **Bug Fixes**
+  - Fixed issue with App Store submissions.
+
 ## Version 5.16.3 (March 24, 2021)
 - **Features**
   - The MoPub Unity Plugin now includes version `5.16.3` of the MoPub Android SDK and version `5.16.2` of the iOS SDK.
