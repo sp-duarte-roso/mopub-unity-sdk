@@ -58,7 +58,7 @@ if [[ "$INTERNAL_SDK" = true ]]; then
 
   print_blue_line "Copying internal Android SDK aars"
   # Copy the generated mopub-sdk-*.aar into the unity sample app
-  for lib in base banner fullscreen native-static; do
+  for lib in base util networking banner fullscreen native-static; do
     cp "$SDK_DIR/mopub-sdk/mopub-sdk-$lib/$AAR_DIR/mopub-sdk-$lib-release.aar" "$UNITY_DIR"/mopub-sdk-${lib}.aar
     validate
   done

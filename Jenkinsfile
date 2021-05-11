@@ -1,9 +1,9 @@
 #!/usr/bin/env groovy
 pipeline {
-    agent { label 'unity' }
     parameters {
         string(name: 'UNITY_ROOT', defaultValue: '/Applications/Unity/Hub/Editor', description: 'Override the root directory of the agent Unity root')
         string(name: 'UNITY_VERSION', defaultValue: '2019.4.21f1', description: 'The version directory name of the Unity install')
+        string(name: 'XCODE_VERSION', defaultValue: "${env.DEFAULT_XCODE}", description: 'Xcode version')
     }
     environment {
         UNITY_ROOT = "${params.UNITY_ROOT}"
@@ -11,12 +11,17 @@ pipeline {
         UNITY_BIN = "${env.UNITY_ROOT}/${env.UNITY_VERSION}/Unity.app/Contents/MacOS/Unity"
         PARSED_JOB_NAME = URLDecoder.decode(env.JOB_NAME, "UTF-8")
         SLACK_JOB_NAME = "<${env.BUILD_URL}|${PARSED_JOB_NAME} #${env.BUILD_NUMBER}>"
+        XCODE_VERSION = "${params.XCODE_VERSION}"
     }
-
+    agent {
+        node {
+            label "${params.XCODE_VERSION}&&unity"
+        }
+    }
     stages {
         stage('Prepare') {
             steps {
-                sh 'sudo xcode-select --switch /Applications/Xcode.app/' // Select Xcode version set on symlink (via Jenkins UI)
+                sh 'sudo xcode-select --switch ${!XCODE_VERSION}' // Select Xcode version
             }
         }
         stage('Build SDKs and Unity Package') {

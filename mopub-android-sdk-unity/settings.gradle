@@ -22,6 +22,8 @@ include ':mopub-sdk'
 project(':mopub-sdk').projectDir = file("../" + mopubSdkDir + "/mopub-sdk")
 
 include ':mopub-sdk:mopub-sdk-base',
+        ':mopub-sdk:mopub-sdk-util',
+        ':mopub-sdk:mopub-sdk-networking',
         ':mopub-sdk:mopub-sdk-banner',
         ':mopub-sdk:mopub-sdk-fullscreen',
         ':mopub-sdk:mopub-sdk-native-static'

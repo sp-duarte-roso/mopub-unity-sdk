@@ -86,7 +86,7 @@ public class MoPubManager : MonoBehaviour
 #if mopub_native_beta
 
     // Fired when a native ad is loaded
-    public static event Action<string, AbstractNativeAd.Data> OnNativeLoadEvent;
+    public static event Action<string, MoPubAbstractNativeAd.Data> OnNativeLoadEvent;
 
     // Fired when a native ad is shown
     public static event Action<string> OnNativeImpressionEvent;
@@ -635,7 +635,7 @@ public class MoPubManager : MonoBehaviour
     {
         var args = MoPubUtils.DecodeArgs(argsJson, min: 2);
         var adUnitId = args[0];
-        var data = AbstractNativeAd.Data.FromJson(args[1]);
+        var data = MoPubAbstractNativeAd.Data.FromJson(args[1]);
 
         MoPubLog.Log("EmitNativeLoadEvent", MoPubLog.AdLogEvent.LoadSuccess);
         EmitNativeLoadEvent(adUnitId, data);
@@ -654,7 +654,7 @@ public class MoPubManager : MonoBehaviour
     }
 
 
-    public void EmitNativeLoadEvent(string adUnitId, AbstractNativeAd.Data nativeAdData)
+    public void EmitNativeLoadEvent(string adUnitId, MoPubAbstractNativeAd.Data nativeAdData)
     {
         var evt = OnNativeLoadEvent;
         if (evt != null) evt(adUnitId, nativeAdData);
