@@ -1,6 +1,16 @@
+## Version 5.18.0 (August 4, 2021)
+- **Features**
+  - The MoPub Unity Plugin now includes version `5.18.0` of the MoPub Android and iOS SDKs.
+  - Completely new sample app (see below), rebuilt from the ground up, with a focus on usability, cross-platform consistency, and showcasing the MoPub API.
+  - Added validation to prevent duplicate ad unit ids.
+
+- **Bug Fixes**
+  - Removed size 468x60 constant due to inconsistent behavior.
+
 ## Version 5.17.0 (May 12, 2021)
 - **Features**
   - The MoPub Unity Plugin now includes version `5.17.0` of the MoPub Android and iOS SDKs.
+  - Completely new sample app (see below), rebuilt from the ground up, with a focus on usability, cross-platform consistency, and showcasing the MoPub API.
   - Cleaned up `MoPub.cs` to ensure it only includes Publisher API methods.
 
 - **Bug Fixes**

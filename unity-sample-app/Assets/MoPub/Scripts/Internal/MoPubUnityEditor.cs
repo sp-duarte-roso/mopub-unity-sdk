@@ -236,7 +236,7 @@ internal class MoPubUnityEditor : MoPubPlatformApi
     public static void SimulateApplicationResume()
     {
         WaitOneFrame(() => {
-            Debug.Log("Simulating application resume.");
+            MoPubLog.Log("SimulateApplicationResume", "Simulating application resume.");
             MoPubManager.EmitConsentDialogDismissedIfApplicable(false);
         });
     }

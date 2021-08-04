@@ -23,9 +23,6 @@ public class MoPubBaseInternal
     protected static void LoadPluginsForAdUnits(string[] adUnitIds, string adType = null)
     {
         AdUnitManager.InitAdUnits(adUnitIds, adType);
-
-        MoPubLog.Log("LoadPluginsForAdUnits", "{0} {1} AdUnits loaded for plugins:\n{2}", adUnitIds.Length, adType ?? "",
-            string.Join(", ", adUnitIds));
     }
 
 
@@ -74,7 +71,16 @@ public class MoPubBaseInternal
 
         public static void InitAdUnits(string[] adUnitIds, string adType)
         {
-            foreach (var adUnitId in adUnitIds) AdUnits[adUnitId] = MoPubAdUnit.CreateMoPubAdUnit(adUnitId, adType);
+            foreach (var adUnitId in adUnitIds) {
+                if (!AdUnits.ContainsKey(adUnitId)) {
+                    AdUnits[adUnitId] = MoPubAdUnit.CreateMoPubAdUnit(adUnitId, adType);
+                    MoPubLog.Log("InitAdUnits", "Initialized {0} AdUnit with id {1}", adType, adUnitId);
+                }
+                else {
+                    MoPubLog.Log("InitAdUnits", "WARNING: Skipping {0} AdUnit with id {1} since it was already initialized",
+                        adType, adUnitId);
+                }
+            }
         }
 
         public static void InitAdUnits(string adType, params string[] adUnitIds)

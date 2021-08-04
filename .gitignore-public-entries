@@ -1,6 +1,7 @@
 # internal SDK submodules
 mopub-android/
 mopub-ios/
+unity-sample-app/iOSBuildAids
 
 # internal scripts
 scripts/private/
