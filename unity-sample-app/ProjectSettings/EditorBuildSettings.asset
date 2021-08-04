@@ -6,4 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MoPub/Sample/MoPubDemoScene.unity
+    path: Assets/MoPub/Sample/MoPubSample.unity
+    guid: a06bb75101d5942e38f5b8cf0e37f5f8
+  m_configObjects: {}

@@ -1,0 +1,41 @@
+<MoPubAdUnitListView xmlns="Delight" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="Delight ../Delight.xsd"
+    ShowAdUnit="t:Action"
+>
+    <Group BackgroundColor="White" Spacing="10" Height="" Alignment="Top">
+        <Region Style="MPSectionTitle">
+            <Label Text="Banners" Style="MPSectionTitle" />
+        </Region>
+        <List Items="{adUnit in @BannerAdUnits}" Style="MPAdUnitList">
+            <ListItem Style="MPListItem" Click="AdUnitClickHandler(adUnit)">
+                <Label Text="{adUnit.Name}" Style="MPAdUnitItemName" />
+                <Label Text="{adUnit.AdUnitId}" Style="MPAdUnitItemId" />
+                <Image Style="MPAdUnitChevron" />
+                <Region Style="MPItemDelimeter" />
+            </ListItem>
+        </List>
+
+        <Region Style="MPSectionTitle">
+            <Label Text="Interstitials" Style="MPSectionTitle"/>
+        </Region>
+        <List Items="{adUnit in @InterstitialAdUnits}" Style="MPAdUnitList">
+            <ListItem Style="MPListItem" Click="AdUnitClickHandler(adUnit)">
+                <Label Text="{adUnit.Name}" Style="MPAdUnitItemName" />
+                <Label Text="{adUnit.AdUnitId}" Style="MPAdUnitItemId" />
+                <Image Style="MPAdUnitChevron" />
+                <Region Style="MPItemDelimeter" />
+            </ListItem>
+        </List>
+
+        <Region Style="MPSectionTitle">
+            <Label Text="Rewarded Ads" Style="MPSectionTitle"/>
+        </Region>
+        <List Items="{adUnit in @RewardedAdUnits}" Style="MPAdUnitList">
+            <ListItem Style="MPListItem" Click="AdUnitClickHandler(adUnit)">
+                <Label Text="{adUnit.Name}" Style="MPAdUnitItemName" />
+                <Label Text="{adUnit.AdUnitId}" Style="MPAdUnitItemId" />
+                <Image Style="MPAdUnitChevron" />
+                <Region Style="MPItemDelimeter" />
+            </ListItem>
+        </List>
+    </Group>
+</MoPubAdUnitListView>

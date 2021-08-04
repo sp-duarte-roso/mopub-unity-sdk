@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 my_dir="$(dirname $0)"
-source "$my_dir/validate.sh"
 source "$my_dir/print_helpers.sh"
+source "$my_dir/validate.sh"
 
 ensure_unity_bin
 

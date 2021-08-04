@@ -1,1 +1,4568 @@
-H
+
+æPRπP
+MoPubAdUnitListViewMoPubAdUnitListView"n/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Views/MoPubAdUnitListView.xml*–.RÀ.
+UIViewUIView"l/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/UIView.xml* R≈
+SceneObjectViewSceneObjectView"r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/SceneObjectView.xml*éRâ
+ViewView"g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/View.xml:ãRÜ
+Ä
+LoadModeLoadMode"XDelight.LoadMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.LoadMode®Äà:¢Rù
+ó
+
+GameObject
+GameObject"eUnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.GameObject®:ïRê
+ä
+EnableScriptEventsBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:èRä
+Ñ
+IgnoreObjectBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ã	RÜ
+Ä
+IsActiveBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:
+R
+IsActiveTrue®:.R*
+%
+	BeginDrag
+ViewAction2
+ViewAction@®:+R'
+"
+Cancel
+ViewAction2
+ViewAction@®:*R&
+!
+Click
+ViewAction2
+ViewAction@®:-R)
+$
+Deselect
+ViewAction2
+ViewAction@®:)R%
+ 
+Drag
+ViewAction2
+ViewAction@®:)R%
+ 
+Drop
+ViewAction2
+ViewAction@®:,R(
+#
+EndDrag
+ViewAction2
+ViewAction@®:<R8
+3
+InitializePotentialDrag
+ViewAction2
+ViewAction@®:)R%
+ 
+Move
+ViewAction2
+ViewAction@®:.R*
+%
+	MouseDown
+ViewAction2
+ViewAction@®:/R+
+&
+
+MouseEnter
+ViewAction2
+ViewAction@®:.R*
+%
+	MouseExit
+ViewAction2
+ViewAction@®:,R(
+#
+MouseUp
+ViewAction2
+ViewAction@®:+R'
+"
+Scroll
+ViewAction2
+ViewAction@®:+R'
+"
+Select
+ViewAction2
+ViewAction@®:+R'
+"
+Submit
+ViewAction2
+ViewAction@®:3R/
+*
+UpdateSelected
+ViewAction2
+ViewAction@®Äà:∞R´
+•
+RectTransformRectTransform"hUnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.RectTransform@®:R2
+SizeWidthHeight®:ëRå
+Ü
+WidthElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:íRç
+á
+HeightElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:ô Rî
+é
+OverrideWidthElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:ö!Rï
+è
+OverrideHeightElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:î"Rè
+â
+ScaleVector3"bUnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.Vector3®:§#Rü
+ô
+	AlignmentElementAlignment"`Delight.ElementAlignment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementAlignment®:ò$Rì
+ç
+MarginElementMargin"]Delight.ElementMargin, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementMargin®:ò%Rì
+ç
+OffsetElementMargin"]Delight.ElementMargin, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementMargin®:¢&Rù
+ó
+OffsetFromParentElementMargin"]Delight.ElementMargin, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementMargin®:î'Rè
+â
+PivotVector2"bUnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.Vector2®:(R
+Pivot0.5,0.5®:ñ)Rë
+ã
+DisableLayoutUpdateBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:É*R
+z
+AlphaSingle"ZSystem.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Single®:å+Rá
+Å
+	IsVisibleBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:,R
+	IsVisibleTrue®:´-R¶
+†
+RaycastBlockModeRaycastBlockMode"`Delight.RaycastBlockMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.RaycastBlockMode®:ë.Rå
+Ü
+IsInteractableBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:/R
+IsInteractableTrue®:¶0R°
+õ
+CanvasGroupCanvasGroup"dUnityEngine.CanvasGroup, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.CanvasGroup@®:ê1Rã
+Ö
+UseFastShaderBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®: 2R≈
+ø
+FastMaterialMaterial"cUnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.Material@J(3R$
+MaterialUnityEngine.Material ®:(4R$
+FastMaterialUI-Fast-Default®:°5Rú
+ñ
+BubbleNotifyChildLayoutChangedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ç6Rà
+Ç
+
+IgnoreFlipBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:†7Rõ
+ï
+Rotation
+Quaternion"eUnityEngine.Quaternion, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.Quaternion®:ó8Rí
+å
+PositionVector3"bUnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.Vector3®:£9Rû
+ò
+AdjustToParentAdjustToParent"^Delight.AdjustToParent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.AdjustToParent®Äà†:/:R+
+&
+
+ShowAdUnit
+ViewAction2
+ViewAction@®:;R
+
+Group1Group2Group@:,<R(
+&
+Group1TemplateTemplate2Template@:!=R
+
+Region1Region2Region@:->R)
+'
+Region1TemplateTemplate2Template@:?R
+
+Label1Label2Label@:,@R(
+&
+Label1TemplateTemplate2Template@:AR
+
+List1List2List@:+BR'
+%
+List1TemplateTemplate2Template@:'CR#
+!
+	ListItem1ListItem2ListItem@:/DR+
+)
+ListItem1TemplateTemplate2Template@:ER
+
+Label2Label2Label@:,FR(
+&
+Label2TemplateTemplate2Template@:GR
+
+Label3Label2Label@:,HR(
+&
+Label3TemplateTemplate2Template@:IR
+
+Image1Image2Image@:,JR(
+&
+Image1TemplateTemplate2Template@:!KR
+
+Region2Region2Region@:-LR)
+'
+Region2TemplateTemplate2Template@:!MR
+
+Region3Region2Region@:-NR)
+'
+Region3TemplateTemplate2Template@:OR
+
+Label4Label2Label@:,PR(
+&
+Label4TemplateTemplate2Template@:QR
+
+List2List2List@:+RR'
+%
+List2TemplateTemplate2Template@:'SR#
+!
+	ListItem2ListItem2ListItem@:/TR+
+)
+ListItem2TemplateTemplate2Template@:UR
+
+Label5Label2Label@:,VR(
+&
+Label5TemplateTemplate2Template@:WR
+
+Label6Label2Label@:,XR(
+&
+Label6TemplateTemplate2Template@:YR
+
+Image2Image2Image@:,ZR(
+&
+Image2TemplateTemplate2Template@:![R
+
+Region4Region2Region@:-\R)
+'
+Region4TemplateTemplate2Template@:!]R
+
+Region5Region2Region@:-^R)
+'
+Region5TemplateTemplate2Template@:_R
+
+Label7Label2Label@:,`R(
+&
+Label7TemplateTemplate2Template@:aR
+
+List3List2List@:+bR'
+%
+List3TemplateTemplate2Template@:'cR#
+!
+	ListItem3ListItem2ListItem@:/dR+
+)
+ListItem3TemplateTemplate2Template@:eR
+
+Label8Label2Label@:,fR(
+&
+Label8TemplateTemplate2Template@:gR
+
+Label9Label2Label@:,hR(
+&
+Label9TemplateTemplate2Template@:iR
+
+Image3Image2Image@:,jR(
+&
+Image3TemplateTemplate2Template@:!kR
+
+Region6Region2Region@:-lR)
+'
+Region6TemplateTemplate2Template@BƒmRø
+GroupGroup1#nR
+BackgroundColorWhite ®oR
+Spacing10 ®pR
+Height  ®qR
+	AlignmentTop ®*vrRr
+RegionRegion1*GsRC
+LabelLabel1tR
+TextBanners ®0:MPSectionTitleJrP0:MPSectionTitleJmP
+*ÉuR˛
+ListList1"PvRLG
+Items{adUnit in @BannerAdUnits}*
+Models.BannerAdUnits :adUnit®*ÜwRÅ
+ListItem	ListItem1.xR*%
+ClickAdUnitClickHandler(adUnit) ®	*`yR\
+LabelLabel2"1zR-(
+Text{adUnit.Name}*
+adUnit.Name : ®
+0
+:MPAdUnitItemNameJwP*f{Rb
+LabelLabel3"9|R50
+Text{adUnit.AdUnitId}*
+adUnit.AdUnitId : ®0:MPAdUnitItemIdJwP*,}R(
+ImageImage10:MPAdUnitChevronJwP*.~R*
+RegionRegion20:MPItemDelimeterJwP0	:
+MPListItemJuP0:MPAdUnitListJmP
+*~Rz
+RegionRegion3*OÄRJ
+LabelLabel4!ÅR
+TextInterstitials ®0:MPSectionTitleJP0:MPSectionTitleJmP
+*ûÇRò
+ListList2"]ÉRXS
+Items {adUnit in @InterstitialAdUnits}* 
+Models.InterstitialAdUnits :adUnit®*ìÑRç
+ListItem	ListItem2/ÖR*%
+ClickAdUnitClickHandler(adUnit) ®*cÜR^
+LabelLabel5"2áR-(
+Text{adUnit.Name}*
+adUnit.Name : ®0:MPAdUnitItemNameJÑP*iàRd
+LabelLabel6":âR50
+Text{adUnit.AdUnitId}*
+adUnit.AdUnitId : ®0:MPAdUnitItemIdJÑP*.äR)
+ImageImage20:MPAdUnitChevronJÑP*0ãR+
+RegionRegion40:MPItemDelimeterJÑP0:
+MPListItemJÇP0:MPAdUnitListJmP
+*åRz
+RegionRegion5*OçRJ
+LabelLabel7 éR
+TextRewarded Ads ®0:MPSectionTitleJåP0:MPSectionTitleJmP
+*ñèRê
+ListList3"UêRPK
+Items{adUnit in @RewardedAdUnits}*
+Models.RewardedAdUnits :adUnit® *ìëRç
+ListItem	ListItem3/íR*%
+ClickAdUnitClickHandler(adUnit) ®!*cìR^
+LabelLabel8"2îR-(
+Text{adUnit.Name}*
+adUnit.Name : ®"0":MPAdUnitItemNameJëP*iïRd
+LabelLabel9":ñR50
+Text{adUnit.AdUnitId}*
+adUnit.AdUnitId : ®#0#:MPAdUnitItemIdJëP*.óR)
+ImageImage30$:MPAdUnitChevronJëP*0òR+
+RegionRegion60%:MPItemDelimeterJëP0!:
+MPListItemJèP0 :MPAdUnitListJmP
+0PÄà
+
+ÆôR®
+GroupGroup"k/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Group.xml*¢öRú
+UIImageViewUIImageView"q/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/UIImageView.xml*:äõRÑ
+
+MaskMask"ZUnityEngine.UI.Mask, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.UI.Mask@®:èúRâ
+É
+MaskContentBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ùR
+MaskContentFalse®:òûRí
+å
+ImageComponentImage"[UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.UI.Image@®:&üR!"
+ImageComponent
+Background®Äà†:î†Ré
+à
+SpacingElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:≠°Rß
+°
+OrientationElementOrientation"bDelight.ElementOrientation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementOrientation®:¨¢R¶
+†
+ContentAlignmentElementAlignment"`Delight.ElementAlignment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementAlignment®:Ü£RÄ:{
+	SortIndexInt32"YSystem.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Int32®Äà†
+…§R√
+RegionRegion"l/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Region.xml*ö:•R
+Width100% ®:¶R
+Height100% ®Äà†
+≠ßRß
+LabelLabel"w/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/TextMeshPro/Label.xml*:®®R¢
+ú
+TextMeshProUGUITextMeshProUGUI"_TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2TMPro.TextMeshProUGUI@®:©R"
+TextMeshProUGUI ®:3™R.*)
+TextMeshProUGUIAlignmentTextAlignment®:-´R(*#
+TextMeshProUGUIMargin
+TextMargin®:¨R*
+Color	FontColor®:!≠R
+TextAlignmentLeft ®:ÆR
+Width120 ®:ØR
+Height40 ®:∞R
+	FontColorBlack ®:±R
+FontSize24 ®:ï≤Rè
+â
+MaxWidthElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:å≥RÜ
+Ä
+AutoSizeAutoSize"XDelight.AutoSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.AutoSize®bTextMeshProÄà†
+›`¥R◊`
+ListList"j/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/List.xml*ÇµR¸
+
+Collection
+Collection"p/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Collection.xml*ö:ß∂R°
+õ
+ItemsBindableCollection"bDelight.BindableCollection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.BindableCollection®:6∑R1
+,
+TemplateSelector
+ViewMethod2
+ViewMethod@®xÄà†:≠∏Rß
+°
+OrientationElementOrientation"bDelight.ElementOrientation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementOrientation®:îπRé
+à
+SpacingElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:û∫Rò
+í
+HorizontalSpacingElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:úªRñ
+ê
+VerticalSpacingElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:öºRî
+é
+PaddingElementMargin"]Delight.ElementMargin, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementMargin®:¨ΩR¶
+†
+ContentAlignmentElementAlignment"`Delight.ElementAlignment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementAlignment®:íæRå
+Ü
+AlternateItemsBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:êøRä
+Ñ
+IsScrollableBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ë¿Rã
+Ö
+IsVirtualizedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ò¡Rí
+å
+OverflowOverflowMode"\Delight.OverflowMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.OverflowMode®:µ¬RØ
+©
+SortDirectionElementSortDirection"dDelight.ElementSortDirection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSortDirection®:2√R-
+(
+ItemSelected
+ViewAction2
+ViewAction@®:4ƒR/
+*
+ItemDeselected
+ViewAction2
+ViewAction@®:ç≈Rá
+Å
+	CanSelectBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:∆R
+	CanSelectTrue®:è«Râ
+É
+CanDeselectBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:í»Rå
+Ü
+CanMultiSelectBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:è…Râ
+É
+CanReselectBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ó Rë
+ã
+DeselectAfterSelectBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ìÀRç
+á
+SelectOnMouseUpBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:çÃRá
+Å
+SelectedItemObject"ZSystem.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Object®:åÕRÜ
+Ä
+IsStaticBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ŒR"
+ScrollableRegion ®:7œR2
+-
+VirtualItemGetter
+ViewMethod2
+ViewMethod@®:–RJ
+SelectedItem®:°—Rõ
+ï
+RealizationMarginVector2"bUnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.Vector2®:ö“Rî
+é
+DisableItemArrangementBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ä”RÑ
+
+IsPagedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:Ñ‘R
+z
+PageSizeInt32"YSystem.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Int32®:’R
+PageSize20®:Ü÷RÄ
+{
+	PageIndexInt32"YSystem.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Int32®:¨◊R¶
+†
+PageNavigationGroupOffsetElementMargin"]Delight.ElementMargin, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementMargin®:/ÿR*%
+PageNavigationGroupOffset0,50,0,0®:∏ŸR≤
+¨
+PageNavigationGroupAlignmentElementAlignment"`Delight.ElementAlignment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementAlignment®:0⁄R+&
+PageNavigationGroupAlignmentBottom®:¿€R∫
+¥
+PageNavigationGroupOrientationElementOrientation"bDelight.ElementOrientation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementOrientation®:6‹R1,
+PageNavigationGroupOrientation
+Horizontal®:ß›R°
+õ
+PageNavigationGroupSpacingElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:)ﬁR$
+PageNavigationGroupSpacing2®:“ﬂRÃ
+∆
+ShowNavigationButtonsNavigationButtonsVisibility"kDelight.NavigationButtonsVisibility, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2#Delight.NavigationButtonsVisibility®:'‡R"
+ShowNavigationButtonsTrue®:õ·Rï
+è
+CascadingAnimationDelayDuration"XDelight.Duration, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.Duration®:&‚R!
+CascadingAnimationDelay0®:º„R∂
+∞
+ListAnimationOptionsListAnimationOptions"dDelight.ListAnimationOptions, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ListAnimationOptions®:8‰R3.
+ListAnimationOptionsOnListOperationsAndSet®:?ÂR:
+8
+ScrollableRegionScrollableRegion2ScrollableRegion@:7ÊR2
+0
+ScrollableRegionTemplateTemplate2Template@BØÁR©
+ScrollableRegionScrollableRegionËR
+MaskContentTrue ®2ÈR-(
+BubbleNotifyChildLayoutChangedTrue ®*ÍR% 
+AutoSizeContentRegionFalse ®0PZÁr„ÎR›
+ListItemListItem"n/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/ListItem.xml*ö:ÉÏR~
+y
+ItemObject"ZSystem.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Object®:éÌRà
+Ç
+
+IsDisabledBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:èÓRâ
+É
+IsAlternateBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:éÔRà
+Ç
+
+IsSelectedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:çRá
+Å
+	IsPressedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:èÒRâ
+É
+IsMouseOverBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ïÚRè
+â
+AutoSizeToContentBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:#ÛR
+AutoSizeToContentTrue®:ìÙRç
+á
+LengthElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:îıRé
+à
+BreadthElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:'ˆR"
+ClickListItemMouseClick ®:,˜R'"
+
+MouseEnterListItemMouseEnter ®:*¯R% 
+	MouseExitListItemMouseExit ®:*˘R% 
+	MouseDownListItemMouseDown ®:&˙R!
+MouseUpListItemMouseUp ®:∏˚R≤
+¨
+ContentTemplateDataContentTemplateData"cDelight.ContentTemplateData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ContentTemplateData®:î¸Ré:à
+SetListItemStateBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:&˝R!
+RaycastBlockModeAlways ®:2˛R-
+(
+ItemSelected
+ViewAction2
+ViewAction@®Äà†rÌˇRÁ
+NavigationButtonNavigationButton"v/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/NavigationButton.xml*·ÄR€
+ButtonButton"l/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Button.xml*ö:ÅR
+Height40 ®:ÇR"	
+Label ®:ôÉRì
+ç
+DefaultWidthElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:ÑR
+DefaultWidth160®:%ÖR 
+ClickButtonMouseClick ®:*ÜR% 
+
+MouseEnterButtonMouseEnter ®:(áR#
+	MouseExitButtonMouseExit ®:(àR#
+	MouseDownButtonMouseDown ®:$âR
+MouseUpButtonMouseUp ®:íäRå
+Ü
+IsToggleButtonBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:éãRà
+Ç
+
+IsDisabledBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:èåRâ
+É
+ToggleValueBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ûçRò
+í
+TextPaddingElementMargin"]Delight.ElementMargin, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementMargin®:$éR
+TextPadding20,10,20,10®:èèRâ
+É
+CanToggleOnBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:êR
+CanToggleOnTrue®:êëRä
+Ñ
+CanToggleOffBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:íR
+CanToggleOffTrue®:1ìR,
+'
+ToggleClick
+ViewAction2
+ViewAction@®:.îR)
+$
+ToggleOn
+ViewAction2
+ViewAction@®:/ïR*
+%
+	ToggleOff
+ViewAction2
+ViewAction@®:èñRâ
+É
+IsMouseOverBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:çóRá
+Å
+	IsPressedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:åòRÜ
+Ä
+AutoSizeAutoSize"XDelight.AutoSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.AutoSize®:ùôRó
+ë
+
+TextOffsetElementMargin"]Delight.ElementMargin, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementMargin®:öR
+
+TextOffset0®:ëõRã
+Ö
+IsCloseButtonBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:êúRä
+Ñ
+IsBackButtonBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:&ùR!
+EnableScriptEventsTrue ®:êûRä
+Ñ
+DisplayLabelBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:üR
+DisplayLabelTrue®:†R
+
+LabelLabel2Label@:,°R'
+%
+LabelTemplateTemplate2Template@B‚¢R‹
+LabelLabel#£R
+TextAlignmentCenter ®§R
+Width100% ®•R
+Height100% ®"2¶R-(
+Offset{TextOffset}*
+
+TextOffset : ®"8ßR3.
+IsActive{DisplayLabel}*
+DisplayLabel : ®0PÄà†:*®R% 
+ClickNavigationButtonClick ®:∂©R∞
+™
+NavigationTypeNavigationButtonType"dDelight.NavigationButtonType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.NavigationButtonType®:+™R&!
+NavigationTypeNextAndPrevious®:Ü´RÄ
+{
+	PageIndexInt32"YSystem.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Int32®:¨R
+AutoSizeNone ®:#≠R
+TextAlignmentCenter ®Äà†xÄà†
+Î
+«ÆR¡
+ImageImage"k/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Image.xml*:òØRí
+å
+ImageComponentImage"[UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.UI.Image@®:∞R"
+ImageComponent ®Äà†
+ﬂﬁ±Rÿﬁ
+MoPubAdUnitViewMoPubAdUnitView"j/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Views/MoPubAdUnitView.xml*:&≤R!
+EnableScriptEventsTrue ®:2≥R-
+(
+NavigateBack
+ViewAction2
+ViewAction@®:Ü¥RÄ
+{
+AdTypeString"ZSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.String®:åµRÜ
+Ä
+IsBannerBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:∂R
+IsBannertrue®:í∑Rå
+Ü
+IsInterstitialBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®: ∏R
+IsInterstitialtrue®:êπRä
+Ñ
+IsRewardedAdBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:∫R
+IsRewardedAdtrue®:ªR"
+
+AdUnitName ®:ºR"
+AdUnitId ®:ΩR
+
+Group1Group2Group@:-æR(
+&
+Group1TemplateTemplate2Template@:øR
+
+Group2Group2Group@:-¿R(
+&
+Group2TemplateTemplate2Template@:¡R
+
+Image1Image2Image@:-¬R(
+&
+Image1TemplateTemplate2Template@:"√R
+
+Button1Button2Button@:.ƒR)
+'
+Button1TemplateTemplate2Template@:"≈R
+
+Region1Region2Region@:.∆R)
+'
+Region1TemplateTemplate2Template@:#«R
+
+
+AdUnitNameLabel2Label@:1»R,
+*
+AdUnitNameTemplateTemplate2Template@:…R
+
+Label1Label2Label@:- R(
+&
+Label1TemplateTemplate2Template@:!ÀR
+
+AdUnitIdLabel2Label@:/ÃR*
+(
+AdUnitIdTemplateTemplate2Template@:"ÕR
+
+Region2Region2Region@:.ŒR)
+'
+Region2TemplateTemplate2Template@:+œR&
+$
+Keywords
+InputField2
+InputField@:/–R*
+(
+KeywordsTemplateTemplate2Template@:,—R'
+%
+KeywordsDelimiterRegion2Region@:8“R3
+1
+KeywordsDelimiterTemplateTemplate2Template@:3”R.
+,
+UserDataKeywords
+InputField2
+InputField@:7‘R2
+0
+UserDataKeywordsTemplateTemplate2Template@:4’R/
+-
+UserDataKeywordsDelimiterRegion2Region@:@÷R;
+9
+!UserDataKeywordsDelimiterTemplateTemplate2Template@:"◊R
+
+Region3Region2Region@:.ÿR)
+'
+Region3TemplateTemplate2Template@:'ŸR"
+ 
+LoadAdButtonButton2Button@:3⁄R.
+,
+LoadAdButtonTemplateTemplate2Template@:'€R"
+ 
+ShowAdButtonButton2Button@:3‹R.
+,
+ShowAdButtonTemplateTemplate2Template@:"›R
+
+Region4Region2Region@:.ﬁR)
+'
+Region4TemplateTemplate2Template@:1ﬂR,
+*
+OnAdLoadedExpanderExpander2Expander@:9‡R4
+2
+OnAdLoadedExpanderTemplateTemplate2Template@::·R5
+3
+ExpanderHeader1ExpanderHeader2ExpanderHeader@:6‚R1
+/
+ExpanderHeader1TemplateTemplate2Template@:"„R
+
+Region5Region2Region@:.‰R)
+'
+Region5TemplateTemplate2Template@:9ÂR4
+2
+ OnAdLoadedExpanderMPEventChevronImage2Image@:GÊRB
+@
+(OnAdLoadedExpanderMPEventChevronTemplateTemplate2Template@:5ÁR0
+.
+OnAdLoadedExpanderCheckImageImage2Image@:CËR>
+<
+$OnAdLoadedExpanderCheckImageTemplateTemplate2Template@:5ÈR0
+.
+OnAdLoadedExpanderEventLabelLabel2Label@:CÍR>
+<
+$OnAdLoadedExpanderEventLabelTemplateTemplate2Template@:=ÎR8
+6
+ExpanderContent1ExpanderContent2ExpanderContent@:7ÏR2
+0
+ExpanderContent1TemplateTemplate2Template@:ÌR
+
+Group3Group2Group@:-ÓR(
+&
+Group3TemplateTemplate2Template@:8ÔR3
+1
+OnAdLoadedExpanderAdUnitIdLabelLabel2Label@:FRA
+?
+'OnAdLoadedExpanderAdUnitIdLabelTemplateTemplate2Template@:6ÒR1
+/
+OnAdLoadedExpanderHeightLabelLabel2Label@:DÚR?
+=
+%OnAdLoadedExpanderHeightLabelTemplateTemplate2Template@:"ÛR
+
+Region6Region2Region@:.ÙR)
+'
+Region6TemplateTemplate2Template@:2ıR-
++
+OnAdClickedExpanderExpander2Expander@::ˆR5
+3
+OnAdClickedExpanderTemplateTemplate2Template@::˜R5
+3
+ExpanderHeader2ExpanderHeader2ExpanderHeader@:6¯R1
+/
+ExpanderHeader2TemplateTemplate2Template@:"˘R
+
+Region7Region2Region@:.˙R)
+'
+Region7TemplateTemplate2Template@::˚R5
+3
+!OnAdClickedExpanderMPEventChevronImage2Image@:H¸RC
+A
+)OnAdClickedExpanderMPEventChevronTemplateTemplate2Template@:6˝R1
+/
+OnAdClickedExpanderCheckImageImage2Image@:D˛R?
+=
+%OnAdClickedExpanderCheckImageTemplateTemplate2Template@:6ˇR1
+/
+OnAdClickedExpanderEventLabelLabel2Label@:DÄR?
+=
+%OnAdClickedExpanderEventLabelTemplateTemplate2Template@:=ÅR8
+6
+ExpanderContent2ExpanderContent2ExpanderContent@:7ÇR2
+0
+ExpanderContent2TemplateTemplate2Template@:9ÉR4
+2
+ OnAdClickedExpanderAdUnitIdLabelLabel2Label@:GÑRB
+@
+(OnAdClickedExpanderAdUnitIdLabelTemplateTemplate2Template@:"ÖR
+
+Region8Region2Region@:.ÜR)
+'
+Region8TemplateTemplate2Template@:1áR,
+*
+OnAdFailedExpanderExpander2Expander@:9àR4
+2
+OnAdFailedExpanderTemplateTemplate2Template@::âR5
+3
+ExpanderHeader3ExpanderHeader2ExpanderHeader@:6äR1
+/
+ExpanderHeader3TemplateTemplate2Template@:"ãR
+
+Region9Region2Region@:.åR)
+'
+Region9TemplateTemplate2Template@:9çR4
+2
+ OnAdFailedExpanderMPEventChevronImage2Image@:GéRB
+@
+(OnAdFailedExpanderMPEventChevronTemplateTemplate2Template@:5èR0
+.
+OnAdFailedExpanderCheckImageImage2Image@:CêR>
+<
+$OnAdFailedExpanderCheckImageTemplateTemplate2Template@:5ëR0
+.
+OnAdFailedExpanderEventLabelLabel2Label@:CíR>
+<
+$OnAdFailedExpanderEventLabelTemplateTemplate2Template@:=ìR8
+6
+ExpanderContent3ExpanderContent2ExpanderContent@:7îR2
+0
+ExpanderContent3TemplateTemplate2Template@:ïR
+
+Group4Group2Group@:-ñR(
+&
+Group4TemplateTemplate2Template@:8óR3
+1
+OnAdFailedExpanderAdUnitIdLabelLabel2Label@:FòRA
+?
+'OnAdFailedExpanderAdUnitIdLabelTemplateTemplate2Template@:5ôR0
+.
+OnAdFailedExpanderErrorLabelLabel2Label@:CöR>
+<
+$OnAdFailedExpanderErrorLabelTemplateTemplate2Template@:#õR
+
+Region10Region2Region@:/úR*
+(
+Region10TemplateTemplate2Template@:;ùR6
+4
+OnInterstitialLoadedExpanderExpander2Expander@:CûR>
+<
+$OnInterstitialLoadedExpanderTemplateTemplate2Template@::üR5
+3
+ExpanderHeader4ExpanderHeader2ExpanderHeader@:6†R1
+/
+ExpanderHeader4TemplateTemplate2Template@:#°R
+
+Region11Region2Region@:/¢R*
+(
+Region11TemplateTemplate2Template@:C£R>
+<
+*OnInterstitialLoadedExpanderMPEventChevronImage2Image@:Q§RL
+J
+2OnInterstitialLoadedExpanderMPEventChevronTemplateTemplate2Template@:?•R:
+8
+&OnInterstitialLoadedExpanderCheckImageImage2Image@:M¶RH
+F
+.OnInterstitialLoadedExpanderCheckImageTemplateTemplate2Template@:?ßR:
+8
+&OnInterstitialLoadedExpanderEventLabelLabel2Label@:M®RH
+F
+.OnInterstitialLoadedExpanderEventLabelTemplateTemplate2Template@:=©R8
+6
+ExpanderContent4ExpanderContent2ExpanderContent@:7™R2
+0
+ExpanderContent4TemplateTemplate2Template@:B´R=
+;
+)OnInterstitialLoadedExpanderAdUnitIdLabelLabel2Label@:P¨RK
+I
+1OnInterstitialLoadedExpanderAdUnitIdLabelTemplateTemplate2Template@:#≠R
+
+Region12Region2Region@:/ÆR*
+(
+Region12TemplateTemplate2Template@::ØR5
+3
+OnInterstitialShownExpanderExpander2Expander@:B∞R=
+;
+#OnInterstitialShownExpanderTemplateTemplate2Template@::±R5
+3
+ExpanderHeader5ExpanderHeader2ExpanderHeader@:6≤R1
+/
+ExpanderHeader5TemplateTemplate2Template@:#≥R
+
+Region13Region2Region@:/¥R*
+(
+Region13TemplateTemplate2Template@:BµR=
+;
+)OnInterstitialShownExpanderMPEventChevronImage2Image@:P∂RK
+I
+1OnInterstitialShownExpanderMPEventChevronTemplateTemplate2Template@:>∑R9
+7
+%OnInterstitialShownExpanderCheckImageImage2Image@:L∏RG
+E
+-OnInterstitialShownExpanderCheckImageTemplateTemplate2Template@:>πR9
+7
+%OnInterstitialShownExpanderEventLabelLabel2Label@:L∫RG
+E
+-OnInterstitialShownExpanderEventLabelTemplateTemplate2Template@:=ªR8
+6
+ExpanderContent5ExpanderContent2ExpanderContent@:7ºR2
+0
+ExpanderContent5TemplateTemplate2Template@:AΩR<
+:
+(OnInterstitialShownExpanderAdUnitIdLabelLabel2Label@:OæRJ
+H
+0OnInterstitialShownExpanderAdUnitIdLabelTemplateTemplate2Template@:#øR
+
+Region14Region2Region@:/¿R*
+(
+Region14TemplateTemplate2Template@:<¡R7
+5
+OnInterstitialClickedExpanderExpander2Expander@:D¬R?
+=
+%OnInterstitialClickedExpanderTemplateTemplate2Template@::√R5
+3
+ExpanderHeader6ExpanderHeader2ExpanderHeader@:6ƒR1
+/
+ExpanderHeader6TemplateTemplate2Template@:#≈R
+
+Region15Region2Region@:/∆R*
+(
+Region15TemplateTemplate2Template@:D«R?
+=
++OnInterstitialClickedExpanderMPEventChevronImage2Image@:R»RM
+K
+3OnInterstitialClickedExpanderMPEventChevronTemplateTemplate2Template@:@…R;
+9
+'OnInterstitialClickedExpanderCheckImageImage2Image@:N RI
+G
+/OnInterstitialClickedExpanderCheckImageTemplateTemplate2Template@:@ÀR;
+9
+'OnInterstitialClickedExpanderEventLabelLabel2Label@:NÃRI
+G
+/OnInterstitialClickedExpanderEventLabelTemplateTemplate2Template@:=ÕR8
+6
+ExpanderContent6ExpanderContent2ExpanderContent@:7ŒR2
+0
+ExpanderContent6TemplateTemplate2Template@:CœR>
+<
+*OnInterstitialClickedExpanderAdUnitIdLabelLabel2Label@:Q–RL
+J
+2OnInterstitialClickedExpanderAdUnitIdLabelTemplateTemplate2Template@:#—R
+
+Region16Region2Region@:/“R*
+(
+Region16TemplateTemplate2Template@:>”R9
+7
+OnInterstitialDismissedExpanderExpander2Expander@:F‘RA
+?
+'OnInterstitialDismissedExpanderTemplateTemplate2Template@::’R5
+3
+ExpanderHeader7ExpanderHeader2ExpanderHeader@:6÷R1
+/
+ExpanderHeader7TemplateTemplate2Template@:#◊R
+
+Region17Region2Region@:/ÿR*
+(
+Region17TemplateTemplate2Template@:FŸRA
+?
+-OnInterstitialDismissedExpanderMPEventChevronImage2Image@:T⁄RO
+M
+5OnInterstitialDismissedExpanderMPEventChevronTemplateTemplate2Template@:B€R=
+;
+)OnInterstitialDismissedExpanderCheckImageImage2Image@:P‹RK
+I
+1OnInterstitialDismissedExpanderCheckImageTemplateTemplate2Template@:B›R=
+;
+)OnInterstitialDismissedExpanderEventLabelLabel2Label@:PﬁRK
+I
+1OnInterstitialDismissedExpanderEventLabelTemplateTemplate2Template@:=ﬂR8
+6
+ExpanderContent7ExpanderContent2ExpanderContent@:7‡R2
+0
+ExpanderContent7TemplateTemplate2Template@:E·R@
+>
+,OnInterstitialDismissedExpanderAdUnitIdLabelLabel2Label@:S‚RN
+L
+4OnInterstitialDismissedExpanderAdUnitIdLabelTemplateTemplate2Template@:#„R
+
+Region18Region2Region@:/‰R*
+(
+Region18TemplateTemplate2Template@:;ÂR6
+4
+OnInterstitialFailedExpanderExpander2Expander@:CÊR>
+<
+$OnInterstitialFailedExpanderTemplateTemplate2Template@::ÁR5
+3
+ExpanderHeader8ExpanderHeader2ExpanderHeader@:6ËR1
+/
+ExpanderHeader8TemplateTemplate2Template@:#ÈR
+
+Region19Region2Region@:/ÍR*
+(
+Region19TemplateTemplate2Template@:CÎR>
+<
+*OnInterstitialFailedExpanderMPEventChevronImage2Image@:QÏRL
+J
+2OnInterstitialFailedExpanderMPEventChevronTemplateTemplate2Template@:?ÌR:
+8
+&OnInterstitialFailedExpanderCheckImageImage2Image@:MÓRH
+F
+.OnInterstitialFailedExpanderCheckImageTemplateTemplate2Template@:?ÔR:
+8
+&OnInterstitialFailedExpanderEventLabelLabel2Label@:MRH
+F
+.OnInterstitialFailedExpanderEventLabelTemplateTemplate2Template@:=ÒR8
+6
+ExpanderContent8ExpanderContent2ExpanderContent@:7ÚR2
+0
+ExpanderContent8TemplateTemplate2Template@:ÛR
+
+Group5Group2Group@:-ÙR(
+&
+Group5TemplateTemplate2Template@:BıR=
+;
+)OnInterstitialFailedExpanderAdUnitIdLabelLabel2Label@:PˆRK
+I
+1OnInterstitialFailedExpanderAdUnitIdLabelTemplateTemplate2Template@:?˜R:
+8
+&OnInterstitialFailedExpanderErrorLabelLabel2Label@:M¯RH
+F
+.OnInterstitialFailedExpanderErrorLabelTemplateTemplate2Template@:#˘R
+
+Region20Region2Region@:/˙R*
+(
+Region20TemplateTemplate2Template@:<˚R7
+5
+OnRewardedVideoLoadedExpanderExpander2Expander@:D¸R?
+=
+%OnRewardedVideoLoadedExpanderTemplateTemplate2Template@::˝R5
+3
+ExpanderHeader9ExpanderHeader2ExpanderHeader@:6˛R1
+/
+ExpanderHeader9TemplateTemplate2Template@:#ˇR
+
+Region21Region2Region@:/ÄR*
+(
+Region21TemplateTemplate2Template@:DÅR?
+=
++OnRewardedVideoLoadedExpanderMPEventChevronImage2Image@:RÇRM
+K
+3OnRewardedVideoLoadedExpanderMPEventChevronTemplateTemplate2Template@:@ÉR;
+9
+'OnRewardedVideoLoadedExpanderCheckImageImage2Image@:NÑRI
+G
+/OnRewardedVideoLoadedExpanderCheckImageTemplateTemplate2Template@:@ÖR;
+9
+'OnRewardedVideoLoadedExpanderEventLabelLabel2Label@:NÜRI
+G
+/OnRewardedVideoLoadedExpanderEventLabelTemplateTemplate2Template@:=áR8
+6
+ExpanderContent9ExpanderContent2ExpanderContent@:7àR2
+0
+ExpanderContent9TemplateTemplate2Template@:CâR>
+<
+*OnRewardedVideoLoadedExpanderAdUnitIdLabelLabel2Label@:QäRL
+J
+2OnRewardedVideoLoadedExpanderAdUnitIdLabelTemplateTemplate2Template@:#ãR
+
+Region22Region2Region@:/åR*
+(
+Region22TemplateTemplate2Template@:;çR6
+4
+OnRewardedVideoShownExpanderExpander2Expander@:CéR>
+<
+$OnRewardedVideoShownExpanderTemplateTemplate2Template@:;èR6
+4
+ExpanderHeader10ExpanderHeader2ExpanderHeader@:7êR2
+0
+ExpanderHeader10TemplateTemplate2Template@:#ëR
+
+Region23Region2Region@:/íR*
+(
+Region23TemplateTemplate2Template@:CìR>
+<
+*OnRewardedVideoShownExpanderMPEventChevronImage2Image@:QîRL
+J
+2OnRewardedVideoShownExpanderMPEventChevronTemplateTemplate2Template@:?ïR:
+8
+&OnRewardedVideoShownExpanderCheckImageImage2Image@:MñRH
+F
+.OnRewardedVideoShownExpanderCheckImageTemplateTemplate2Template@:?óR:
+8
+&OnRewardedVideoShownExpanderEventLabelLabel2Label@:MòRH
+F
+.OnRewardedVideoShownExpanderEventLabelTemplateTemplate2Template@:>ôR9
+7
+ExpanderContent10ExpanderContent2ExpanderContent@:8öR3
+1
+ExpanderContent10TemplateTemplate2Template@:BõR=
+;
+)OnRewardedVideoShownExpanderAdUnitIdLabelLabel2Label@:PúRK
+I
+1OnRewardedVideoShownExpanderAdUnitIdLabelTemplateTemplate2Template@:#ùR
+
+Region24Region2Region@:/ûR*
+(
+Region24TemplateTemplate2Template@:=üR8
+6
+OnRewardedVideoClickedExpanderExpander2Expander@:E†R@
+>
+&OnRewardedVideoClickedExpanderTemplateTemplate2Template@:;°R6
+4
+ExpanderHeader11ExpanderHeader2ExpanderHeader@:7¢R2
+0
+ExpanderHeader11TemplateTemplate2Template@:#£R
+
+Region25Region2Region@:/§R*
+(
+Region25TemplateTemplate2Template@:E•R@
+>
+,OnRewardedVideoClickedExpanderMPEventChevronImage2Image@:S¶RN
+L
+4OnRewardedVideoClickedExpanderMPEventChevronTemplateTemplate2Template@:AßR<
+:
+(OnRewardedVideoClickedExpanderCheckImageImage2Image@:O®RJ
+H
+0OnRewardedVideoClickedExpanderCheckImageTemplateTemplate2Template@:A©R<
+:
+(OnRewardedVideoClickedExpanderEventLabelLabel2Label@:O™RJ
+H
+0OnRewardedVideoClickedExpanderEventLabelTemplateTemplate2Template@:>´R9
+7
+ExpanderContent11ExpanderContent2ExpanderContent@:8¨R3
+1
+ExpanderContent11TemplateTemplate2Template@:D≠R?
+=
++OnRewardedVideoClickedExpanderAdUnitIdLabelLabel2Label@:RÆRM
+K
+3OnRewardedVideoClickedExpanderAdUnitIdLabelTemplateTemplate2Template@:#ØR
+
+Region26Region2Region@:/∞R*
+(
+Region26TemplateTemplate2Template@:<±R7
+5
+OnRewardedVideoClosedExpanderExpander2Expander@:D≤R?
+=
+%OnRewardedVideoClosedExpanderTemplateTemplate2Template@:;≥R6
+4
+ExpanderHeader12ExpanderHeader2ExpanderHeader@:7¥R2
+0
+ExpanderHeader12TemplateTemplate2Template@:#µR
+
+Region27Region2Region@:/∂R*
+(
+Region27TemplateTemplate2Template@:D∑R?
+=
++OnRewardedVideoClosedExpanderMPEventChevronImage2Image@:R∏RM
+K
+3OnRewardedVideoClosedExpanderMPEventChevronTemplateTemplate2Template@:@πR;
+9
+'OnRewardedVideoClosedExpanderCheckImageImage2Image@:N∫RI
+G
+/OnRewardedVideoClosedExpanderCheckImageTemplateTemplate2Template@:@ªR;
+9
+'OnRewardedVideoClosedExpanderEventLabelLabel2Label@:NºRI
+G
+/OnRewardedVideoClosedExpanderEventLabelTemplateTemplate2Template@:>ΩR9
+7
+ExpanderContent12ExpanderContent2ExpanderContent@:8æR3
+1
+ExpanderContent12TemplateTemplate2Template@:CøR>
+<
+*OnRewardedVideoClosedExpanderAdUnitIdLabelLabel2Label@:Q¿RL
+J
+2OnRewardedVideoClosedExpanderAdUnitIdLabelTemplateTemplate2Template@:#¡R
+
+Region28Region2Region@:/¬R*
+(
+Region28TemplateTemplate2Template@:D√R?
+=
+%OnRewardedVideoReceivedRewardExpanderExpander2Expander@:LƒRG
+E
+-OnRewardedVideoReceivedRewardExpanderTemplateTemplate2Template@:;≈R6
+4
+ExpanderHeader13ExpanderHeader2ExpanderHeader@:7∆R2
+0
+ExpanderHeader13TemplateTemplate2Template@:#«R
+
+Region29Region2Region@:/»R*
+(
+Region29TemplateTemplate2Template@:L…RG
+E
+3OnRewardedVideoReceivedRewardExpanderMPEventChevronImage2Image@:Z RU
+S
+;OnRewardedVideoReceivedRewardExpanderMPEventChevronTemplateTemplate2Template@:HÀRC
+A
+/OnRewardedVideoReceivedRewardExpanderCheckImageImage2Image@:VÃRQ
+O
+7OnRewardedVideoReceivedRewardExpanderCheckImageTemplateTemplate2Template@:HÕRC
+A
+/OnRewardedVideoReceivedRewardExpanderEventLabelLabel2Label@:VŒRQ
+O
+7OnRewardedVideoReceivedRewardExpanderEventLabelTemplateTemplate2Template@:>œR9
+7
+ExpanderContent13ExpanderContent2ExpanderContent@:8–R3
+1
+ExpanderContent13TemplateTemplate2Template@:—R
+
+Group6Group2Group@:-“R(
+&
+Group6TemplateTemplate2Template@:K”RF
+D
+2OnRewardedVideoReceivedRewardExpanderAdUnitIdLabelLabel2Label@:Y‘RT
+R
+:OnRewardedVideoReceivedRewardExpanderAdUnitIdLabelTemplateTemplate2Template@:H’RC
+A
+/OnRewardedVideoReceivedRewardExpanderLabelLabelLabel2Label@:V÷RQ
+O
+7OnRewardedVideoReceivedRewardExpanderLabelLabelTemplateTemplate2Template@:I◊RD
+B
+0OnRewardedVideoReceivedRewardExpanderAmountLabelLabel2Label@:WÿRR
+P
+8OnRewardedVideoReceivedRewardExpanderAmountLabelTemplateTemplate2Template@:#ŸR
+
+Region30Region2Region@:/⁄R*
+(
+Region30TemplateTemplate2Template@:B€R=
+;
+#OnRewardedVideoFailedToPlayExpanderExpander2Expander@:J‹RE
+C
++OnRewardedVideoFailedToPlayExpanderTemplateTemplate2Template@:;›R6
+4
+ExpanderHeader14ExpanderHeader2ExpanderHeader@:7ﬁR2
+0
+ExpanderHeader14TemplateTemplate2Template@:#ﬂR
+
+Region31Region2Region@:/‡R*
+(
+Region31TemplateTemplate2Template@:J·RE
+C
+1OnRewardedVideoFailedToPlayExpanderMPEventChevronImage2Image@:X‚RS
+Q
+9OnRewardedVideoFailedToPlayExpanderMPEventChevronTemplateTemplate2Template@:F„RA
+?
+-OnRewardedVideoFailedToPlayExpanderCheckImageImage2Image@:T‰RO
+M
+5OnRewardedVideoFailedToPlayExpanderCheckImageTemplateTemplate2Template@:FÂRA
+?
+-OnRewardedVideoFailedToPlayExpanderEventLabelLabel2Label@:TÊRO
+M
+5OnRewardedVideoFailedToPlayExpanderEventLabelTemplateTemplate2Template@:>ÁR9
+7
+ExpanderContent14ExpanderContent2ExpanderContent@:8ËR3
+1
+ExpanderContent14TemplateTemplate2Template@:ÈR
+
+Group7Group2Group@:-ÍR(
+&
+Group7TemplateTemplate2Template@:IÎRD
+B
+0OnRewardedVideoFailedToPlayExpanderAdUnitIdLabelLabel2Label@:WÏRR
+P
+8OnRewardedVideoFailedToPlayExpanderAdUnitIdLabelTemplateTemplate2Template@:FÌRA
+?
+-OnRewardedVideoFailedToPlayExpanderErrorLabelLabel2Label@:TÓRO
+M
+5OnRewardedVideoFailedToPlayExpanderErrorLabelTemplateTemplate2Template@:#ÔR
+
+Region32Region2Region@:/R*
+(
+Region32TemplateTemplate2Template@:AÒR<
+:
+"OnRewardedVideoFailedEventExpanderExpander2Expander@:IÚRD
+B
+*OnRewardedVideoFailedEventExpanderTemplateTemplate2Template@:;ÛR6
+4
+ExpanderHeader15ExpanderHeader2ExpanderHeader@:7ÙR2
+0
+ExpanderHeader15TemplateTemplate2Template@:#ıR
+
+Region33Region2Region@:/ˆR*
+(
+Region33TemplateTemplate2Template@:I˜RD
+B
+0OnRewardedVideoFailedEventExpanderMPEventChevronImage2Image@:W¯RR
+P
+8OnRewardedVideoFailedEventExpanderMPEventChevronTemplateTemplate2Template@:E˘R@
+>
+,OnRewardedVideoFailedEventExpanderCheckImageImage2Image@:S˙RN
+L
+4OnRewardedVideoFailedEventExpanderCheckImageTemplateTemplate2Template@:E˚R@
+>
+,OnRewardedVideoFailedEventExpanderEventLabelLabel2Label@:S¸RN
+L
+4OnRewardedVideoFailedEventExpanderEventLabelTemplateTemplate2Template@:>˝R9
+7
+ExpanderContent15ExpanderContent2ExpanderContent@:8˛R3
+1
+ExpanderContent15TemplateTemplate2Template@:ˇR
+
+Group8Group2Group@:-ÄR(
+&
+Group8TemplateTemplate2Template@:HÅRC
+A
+/OnRewardedVideoFailedEventExpanderAdUnitIdLabelLabel2Label@:VÇRQ
+O
+7OnRewardedVideoFailedEventExpanderAdUnitIdLabelTemplateTemplate2Template@:EÉR@
+>
+,OnRewardedVideoFailedEventExpanderErrorLabelLabel2Label@:SÑRN
+L
+4OnRewardedVideoFailedEventExpanderErrorLabelTemplateTemplate2Template@:#ÖR
+
+Region34Region2Region@:/ÜR*
+(
+Region34TemplateTemplate2Template@:<áR7
+5
+OnImpressionTrackedBgExpanderExpander2Expander@:DàR?
+=
+%OnImpressionTrackedBgExpanderTemplateTemplate2Template@:;âR6
+4
+ExpanderHeader16ExpanderHeader2ExpanderHeader@:7äR2
+0
+ExpanderHeader16TemplateTemplate2Template@:#ãR
+
+Region35Region2Region@:/åR*
+(
+Region35TemplateTemplate2Template@:DçR?
+=
++OnImpressionTrackedBgExpanderMPEventChevronImage2Image@:RéRM
+K
+3OnImpressionTrackedBgExpanderMPEventChevronTemplateTemplate2Template@:@èR;
+9
+'OnImpressionTrackedBgExpanderCheckImageImage2Image@:NêRI
+G
+/OnImpressionTrackedBgExpanderCheckImageTemplateTemplate2Template@:@ëR;
+9
+'OnImpressionTrackedBgExpanderEventLabelLabel2Label@:NíRI
+G
+/OnImpressionTrackedBgExpanderEventLabelTemplateTemplate2Template@:>ìR9
+7
+ExpanderContent16ExpanderContent2ExpanderContent@:8îR3
+1
+ExpanderContent16TemplateTemplate2Template@:ïR
+
+Group9Group2Group@:-ñR(
+&
+Group9TemplateTemplate2Template@:CóR>
+<
+*OnImpressionTrackedBgExpanderAdUnitIdLabelLabel2Label@:QòRL
+J
+2OnImpressionTrackedBgExpanderAdUnitIdLabelTemplateTemplate2Template@:SôRN
+L
+0OnImpressionTrackedBgExpanderImpressionDataField
+InputField2
+InputField@:WöRR
+P
+8OnImpressionTrackedBgExpanderImpressionDataFieldTemplateTemplate2Template@:#õR
+
+Region36Region2Region@:/úR*
+(
+Region36TemplateTemplate2Template@::ùR5
+3
+OnImpressionTrackedExpanderExpander2Expander@:BûR=
+;
+#OnImpressionTrackedExpanderTemplateTemplate2Template@:;üR6
+4
+ExpanderHeader17ExpanderHeader2ExpanderHeader@:7†R2
+0
+ExpanderHeader17TemplateTemplate2Template@:#°R
+
+Region37Region2Region@:/¢R*
+(
+Region37TemplateTemplate2Template@:B£R=
+;
+)OnImpressionTrackedExpanderMPEventChevronImage2Image@:P§RK
+I
+1OnImpressionTrackedExpanderMPEventChevronTemplateTemplate2Template@:>•R9
+7
+%OnImpressionTrackedExpanderCheckImageImage2Image@:L¶RG
+E
+-OnImpressionTrackedExpanderCheckImageTemplateTemplate2Template@:>ßR9
+7
+%OnImpressionTrackedExpanderEventLabelLabel2Label@:L®RG
+E
+-OnImpressionTrackedExpanderEventLabelTemplateTemplate2Template@:>©R9
+7
+ExpanderContent17ExpanderContent2ExpanderContent@:8™R3
+1
+ExpanderContent17TemplateTemplate2Template@: ´R
+
+Group10Group2Group@:.¨R)
+'
+Group10TemplateTemplate2Template@:A≠R<
+:
+(OnImpressionTrackedExpanderAdUnitIdLabelLabel2Label@:OÆRJ
+H
+0OnImpressionTrackedExpanderAdUnitIdLabelTemplateTemplate2Template@:QØRL
+J
+.OnImpressionTrackedExpanderImpressionDataField
+InputField2
+InputField@:U∞RP
+N
+6OnImpressionTrackedExpanderImpressionDataFieldTemplateTemplate2Template@:#±R
+
+Region38Region2Region@:/≤R*
+(
+Region38TemplateTemplate2Template@B∂•≥RØ•
+GroupGroup1$¥R
+BackgroundColorWhite ®µR
+Spacing10 ®∂R
+Height  ®∑R
+	AlignmentTop ®*í∏Rå
+GroupGroup2%πR 
+Orientation
+Horizontal ®∫R
+	AlignmentLeft ®ªR
+Spacing  ®*mºRh
+ImageImage1"ΩR
+Spritechevron-left ®æR
+Offset15,5 ®0:MPEventChevronJ∏P*£øRù
+ButtonButton1¿R
+Text  Back ®%¡R 
+ClickBackClickHandler ®¬R
+Offset0,0,50 ®√R
+Width200 ®0:MPBackJ∏P0J≥P
+*èƒRâ
+RegionRegion1*]≈RX
+Label
+AdUnitName*∆R% 
+TextAdUnitName_placeholder ®0:MPSectionTitleJƒP0:MPSectionTitleJ≥P
+*F«RA
+LabelLabel1»R
+Text
+Ad Unit ID ®0:MPTitleJ≥P
+*r…Rm
+LabelAdUnitId( R#
+TextAdUnitId_placeholder ®ÀR
+Offset0,-10 ®0:
+MPSubtitleJ≥P
+*,ÃR'
+RegionRegion20:MPDelimiterJ≥P
+*1ÕR,
+
+InputFieldKeywords0:MPTextEntryJ≥P
+*6ŒR1
+RegionKeywordsDelimiter0:MPDelimiterJ≥P
+*9œR4
+
+InputFieldUserDataKeywords0:MPTextEntryJ≥P
+*>–R9
+RegionUserDataKeywordsDelimiter0:MPDelimiterJ≥P
+*2—R-
+RegionRegion30:MPHeaderDelimiterJ≥P
+*ë“Rã
+ButtonLoadAdButton”R
+TextLoad Ad ®!‘R
+Offset-110,56 ®!"’R
+ClickLoadAdHandler ®!0!:
+MPAdActionJ≥P
+*Á÷R·
+ButtonShowAdButton◊R
+TextShow Ad ®"ÿR
+Offset110,-34 ®""ŸR
+ClickShowAdHandler ®"⁄R
+
+IsDisabledtrue ®""4€R/*
+	IsVisible{!IsBanner}*
+IsBanner : ®"0":
+MPAdActionJ≥P
+*J‹RE
+RegionRegion4›R
+Offset  ®%0%:MPHeaderDelimiterJ≥P
+*áﬁRÅ
+ExpanderOnAdLoadedExpanderUﬂRPK
+Click>OnAdLoadedExpander.IsExpanded = !OnAdLoadedExpander.IsExpanded 0®+"0‡R+&
+IsActive
+{IsBanner}*
+IsBanner : ®+*à·RÇ
+ExpanderHeaderExpanderHeader1*∆‚R¿
+RegionRegion5$„R
+BackgroundColorWhite ®.*“‰RÃ
+Image OnAdLoadedExpanderMPEventChevron*ÂR% 
+Spritechevron-downExpanded®/0/:MPEventChevronB\ÊRWBR
+SetExpanderStateTrueExpanderHeader1"Boolean*ExpanderHeader2System.Boolean®/J‚P*AÁR<
+ImageOnAdLoadedExpanderCheckImage01:MPCheckImageJ‚P*fËRa
+LabelOnAdLoadedExpanderEventLabel#ÈR
+TextOnAdLoadedEvent ®202:MPEventLabelJ‚P0.J·P0-:MPEventHeaderJﬁP*≤ÍR¨
+ExpanderContentExpanderContent1ÎR
+Size100%,100 ®5*œÏR…
+GroupGroup3*BÌR=
+LabelOnAdLoadedExpanderAdUnitIdLabel07:
+MPSubtitleJÏP*]ÓRX
+LabelOnAdLoadedExpanderHeightLabelÔR
+Offset0,-50 ®808:
+MPSubtitleJÏP06:MPEventGroupJÍP05:MPEventContentJﬁP0+:MPEventExpanderJ≥P
+*^RY
+RegionRegion6"0ÒR+&
+IsActive
+{IsBanner}*
+IsBanner : ®<0<:MPDelimiterJ≥P
+*„ÚR›
+ExpanderOnAdClickedExpanderWÛRRM
+Click@OnAdClickedExpander.IsExpanded = !OnAdClickedExpander.IsExpanded 0®>"0ÙR+&
+IsActive
+{IsBanner}*
+IsBanner : ®>*åıRÜ
+ExpanderHeaderExpanderHeader2* ˆRƒ
+RegionRegion7$˜R
+BackgroundColorWhite ®A*”¯RÕ
+Image!OnAdClickedExpanderMPEventChevron*˘R% 
+Spritechevron-downExpanded®B0B:MPEventChevronB\˙RWBR
+SetExpanderStateTrueExpanderHeader2"Boolean*ExpanderHeader2System.Boolean®BJˆP*B˚R=
+ImageOnAdClickedExpanderCheckImage0D:MPCheckImageJˆP*h¸Rc
+LabelOnAdClickedExpanderEventLabel$˝R
+TextOnAdClickedEvent ®E0E:MPEventLabelJˆP0AJıP0@:MPEventHeaderJÚP*á˛RÅ
+ExpanderContentExpanderContent2*CˇR>
+Label OnAdClickedExpanderAdUnitIdLabel0I:
+MPSubtitleJ˛P0H:MPEventContentJÚP0>:MPEventExpanderJ≥P
+*^ÄRY
+RegionRegion8"0ÅR+&
+IsActive
+{IsBanner}*
+IsBanner : ®L0L:MPDelimiterJ≥P
+*ÜÇRÄ
+ExpanderOnAdFailedExpanderUÉRPK
+Click>OnAdFailedExpander.IsExpanded = !OnAdFailedExpander.IsExpanded 0®N"0ÑR+&
+IsActive
+{IsBanner}*
+IsBanner : ®N*àÖRÇ
+ExpanderHeaderExpanderHeader3*∆ÜR¿
+RegionRegion9$áR
+BackgroundColorWhite ®Q*“àRÃ
+Image OnAdFailedExpanderMPEventChevron*âR% 
+Spritechevron-downExpanded®R0R:MPEventChevronB\äRWBR
+SetExpanderStateTrueExpanderHeader3"Boolean*ExpanderHeader2System.Boolean®RJÜP*AãR<
+ImageOnAdFailedExpanderCheckImage0T:MPCheckImageJÜP*fåRa
+LabelOnAdFailedExpanderEventLabel#çR
+TextOnAdFailedEvent ®U0U:MPEventLabelJÜP0QJÖP0P:MPEventHeaderJÇP*±éR´
+ExpanderContentExpanderContent3èR
+Size100%,100 ®X*ŒêR»
+GroupGroup4*BëR=
+LabelOnAdFailedExpanderAdUnitIdLabel0Z:
+MPSubtitleJêP*\íRW
+LabelOnAdFailedExpanderErrorLabelìR
+Offset0,-50 ®[0[:
+MPSubtitleJêP0Y:MPEventGroupJéP0X:MPEventContentJÇP0N:MPEventExpanderJ≥P
+*_îRZ
+RegionRegion10"0ïR+&
+IsActive
+{IsBanner}*
+IsBanner : ®_0_:MPDelimiterJ≥P
+*∏ñR≤
+ExpanderOnInterstitialLoadedExpanderióRd_
+ClickROnInterstitialLoadedExpander.IsExpanded = !OnInterstitialLoadedExpander.IsExpanded 0®e"<òR72
+IsActive{IsInterstitial}*
+IsInterstitial : ®e*±ôR´
+ExpanderHeaderExpanderHeader4*ÔöRÈ
+RegionRegion11$õR
+BackgroundColorWhite ®h*‹úR÷
+Image*OnInterstitialLoadedExpanderMPEventChevron*ùR% 
+Spritechevron-downExpanded®i0i:MPEventChevronB\ûRWBR
+SetExpanderStateTrueExpanderHeader4"Boolean*ExpanderHeader2System.Boolean®iJöP*KüRF
+Image&OnInterstitialLoadedExpanderCheckImage0k:MPCheckImageJöP*z†Ru
+Label&OnInterstitialLoadedExpanderEventLabel-°R(#
+TextOnInterstitialLoadedEvent ®l0l:MPEventLabelJöP0hJôP0g:MPEventHeaderJñP*ê¢Rä
+ExpanderContentExpanderContent4*L£RG
+Label)OnInterstitialLoadedExpanderAdUnitIdLabel0p:
+MPSubtitleJ¢P0o:MPEventContentJñP0e:MPEventExpanderJ≥P
+*k§Rf
+RegionRegion12"<•R72
+IsActive{IsInterstitial}*
+IsInterstitial : ®s0s:MPDelimiterJ≥P
+*±¶R´
+ExpanderOnInterstitialShownExpandergßRb]
+ClickPOnInterstitialShownExpander.IsExpanded = !OnInterstitialShownExpander.IsExpanded 0®u"<®R72
+IsActive{IsInterstitial}*
+IsInterstitial : ®u*≠©Rß
+ExpanderHeaderExpanderHeader5*Î™RÂ
+RegionRegion13$´R
+BackgroundColorWhite ®x*€¨R’
+Image)OnInterstitialShownExpanderMPEventChevron*≠R% 
+Spritechevron-downExpanded®y0y:MPEventChevronB\ÆRWBR
+SetExpanderStateTrueExpanderHeader5"Boolean*ExpanderHeader2System.Boolean®yJ™P*JØRE
+Image%OnInterstitialShownExpanderCheckImage0{:MPCheckImageJ™P*x∞Rs
+Label%OnInterstitialShownExpanderEventLabel,±R'"
+TextOnInterstitialShownEvent ®|0|:MPEventLabelJ™P0xJ©P0w:MPEventHeaderJ¶P*ê≤Rä
+ExpanderContentExpanderContent5*L≥RG
+Label(OnInterstitialShownExpanderAdUnitIdLabel0Ä:
+MPSubtitleJ≤P0:MPEventContentJ¶P0u:MPEventExpanderJ≥P
+*m¥Rh
+RegionRegion14"=µR82
+IsActive{IsInterstitial}*
+IsInterstitial : ®É0É:MPDelimiterJ≥P
+*Œ∂R»
+ExpanderOnInterstitialClickedExpanderl∑Rga
+ClickTOnInterstitialClickedExpander.IsExpanded = !OnInterstitialClickedExpander.IsExpanded 0®Ö"=∏R82
+IsActive{IsInterstitial}*
+IsInterstitial : ®Ö*æπR∏
+ExpanderHeaderExpanderHeader6*˚∫Rı
+RegionRegion15%ªR 
+BackgroundColorWhite ®à*‡ºR⁄
+Image+OnInterstitialClickedExpanderMPEventChevron+ΩR& 
+Spritechevron-downExpanded®â0â:MPEventChevronB]æRXBR
+SetExpanderStateTrueExpanderHeader6"Boolean*ExpanderHeader2System.Boolean®âJ∫P*MøRH
+Image'OnInterstitialClickedExpanderCheckImage0ã:MPCheckImageJ∫P*~¿Ry
+Label'OnInterstitialClickedExpanderEventLabel/¡R*$
+TextOnInterstitialClickedEvent ®å0å:MPEventLabelJ∫P0àJπP0á:MPEventHeaderJ∂P*ì¬Rç
+ExpanderContentExpanderContent6*N√RI
+Label*OnInterstitialClickedExpanderAdUnitIdLabel0ê:
+MPSubtitleJ¬P0è:MPEventContentJ∂P0Ö:MPEventExpanderJ≥P
+*mƒRh
+RegionRegion16"=≈R82
+IsActive{IsInterstitial}*
+IsInterstitial : ®ì0ì:MPDelimiterJ≥P
+*ﬂ∆RŸ
+ExpanderOnInterstitialDismissedExpanderp«Rke
+ClickXOnInterstitialDismissedExpander.IsExpanded = !OnInterstitialDismissedExpander.IsExpanded 0®ï"=»R82
+IsActive{IsInterstitial}*
+IsInterstitial : ®ï*«…R¡
+ExpanderHeaderExpanderHeader7*Ñ R˛
+RegionRegion17%ÀR 
+BackgroundColorWhite ®ò*‚ÃR‹
+Image-OnInterstitialDismissedExpanderMPEventChevron+ÕR& 
+Spritechevron-downExpanded®ô0ô:MPEventChevronB]ŒRXBR
+SetExpanderStateTrueExpanderHeader7"Boolean*ExpanderHeader2System.Boolean®ôJ P*OœRJ
+Image)OnInterstitialDismissedExpanderCheckImage0õ:MPCheckImageJ P*Ç–R}
+Label)OnInterstitialDismissedExpanderEventLabel1—R,&
+TextOnInterstitialDismissedEvent ®ú0ú:MPEventLabelJ P0òJ…P0ó:MPEventHeaderJ∆P*ï“Rè
+ExpanderContentExpanderContent7*P”RK
+Label,OnInterstitialDismissedExpanderAdUnitIdLabel0†:
+MPSubtitleJ“P0ü:MPEventContentJ∆P0ï:MPEventExpanderJ≥P
+*m‘Rh
+RegionRegion18"=’R82
+IsActive{IsInterstitial}*
+IsInterstitial : ®£0£:MPDelimiterJ≥P
+*ˇ÷R˘
+ExpanderOnInterstitialFailedExpanderj◊Re_
+ClickROnInterstitialFailedExpander.IsExpanded = !OnInterstitialFailedExpander.IsExpanded 0®•"=ÿR82
+IsActive{IsInterstitial}*
+IsInterstitial : ®•*∫ŸR¥
+ExpanderHeaderExpanderHeader8*˜⁄RÒ
+RegionRegion19%€R 
+BackgroundColorWhite ®®*ﬂ‹RŸ
+Image*OnInterstitialFailedExpanderMPEventChevron+›R& 
+Spritechevron-downExpanded®©0©:MPEventChevronB]ﬁRXBR
+SetExpanderStateTrueExpanderHeader8"Boolean*ExpanderHeader2System.Boolean®©J⁄P*LﬂRG
+Image&OnInterstitialFailedExpanderCheckImage0´:MPCheckImageJ⁄P*|‡Rw
+Label&OnInterstitialFailedExpanderEventLabel.·R)#
+TextOnInterstitialFailedEvent ®¨0¨:MPEventLabelJ⁄P0®JŸP0ß:MPEventHeaderJ÷P*À‚R≈
+ExpanderContentExpanderContent8„R
+Size100%,100 ®Ø*Ê‰R‡
+GroupGroup5*MÂRH
+Label)OnInterstitialFailedExpanderAdUnitIdLabel0±:
+MPSubtitleJ‰P*hÊRc
+Label&OnInterstitialFailedExpanderErrorLabelÁR
+Offset0,-50 ®≤0≤:
+MPSubtitleJ‰P0∞:MPEventGroupJ‚P0Ø:MPEventContentJ÷P0•:MPEventExpanderJ≥P
+*mËRh
+RegionRegion20"=ÈR82
+IsActive{IsInterstitial}*
+IsInterstitial : ®∂0∂:MPDelimiterJ≥P
+* ÍRƒ
+ExpanderOnRewardedVideoLoadedExpanderlÎRga
+ClickTOnRewardedVideoLoadedExpander.IsExpanded = !OnRewardedVideoLoadedExpander.IsExpanded 0®º"9ÏR4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®º*æÌR∏
+ExpanderHeaderExpanderHeader9*˚ÓRı
+RegionRegion21%ÔR 
+BackgroundColorWhite ®ø*‡R⁄
+Image+OnRewardedVideoLoadedExpanderMPEventChevron+ÒR& 
+Spritechevron-downExpanded®¿0¿:MPEventChevronB]ÚRXBR
+SetExpanderStateTrueExpanderHeader9"Boolean*ExpanderHeader2System.Boolean®¿JÓP*MÛRH
+Image'OnRewardedVideoLoadedExpanderCheckImage0¬:MPCheckImageJÓP*~ÙRy
+Label'OnRewardedVideoLoadedExpanderEventLabel/ıR*$
+TextOnRewardedVideoLoadedEvent ®√0√:MPEventLabelJÓP0øJÌP0æ:MPEventHeaderJÍP*ìˆRç
+ExpanderContentExpanderContent9*N˜RI
+Label*OnRewardedVideoLoadedExpanderAdUnitIdLabel0«:
+MPSubtitleJˆP0∆:MPEventContentJÍP0º:MPEventExpanderJ≥P
+*i¯Rd
+RegionRegion22"9˘R4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ® 0 :MPDelimiterJ≥P
+*ƒ˙Ræ
+ExpanderOnRewardedVideoShownExpanderj˚Re_
+ClickROnRewardedVideoShownExpander.IsExpanded = !OnRewardedVideoShownExpander.IsExpanded 0®Ã"9¸R4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®Ã*ª˝Rµ
+ExpanderHeaderExpanderHeader10*˜˛RÒ
+RegionRegion23%ˇR 
+BackgroundColorWhite ®œ*‡ÄR⁄
+Image*OnRewardedVideoShownExpanderMPEventChevron+ÅR& 
+Spritechevron-downExpanded®–0–:MPEventChevronB^ÇRYBS
+SetExpanderStateTrueExpanderHeader10"Boolean*ExpanderHeader2System.Boolean®–J˛P*LÉRG
+Image&OnRewardedVideoShownExpanderCheckImage0“:MPCheckImageJ˛P*{ÑRv
+Label&OnRewardedVideoShownExpanderEventLabel-ÖR("
+TextOnRewardedVideoShownvent ®”0”:MPEventLabelJ˛P0œJ˝P0Œ:MPEventHeaderJ˙P*ìÜRç
+ExpanderContentExpanderContent10*MáRH
+Label)OnRewardedVideoShownExpanderAdUnitIdLabel0◊:
+MPSubtitleJÜP0÷:MPEventContentJ˙P0Ã:MPEventExpanderJ≥P
+*iàRd
+RegionRegion24"9âR4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®⁄0⁄:MPDelimiterJ≥P
+*÷äR–
+ExpanderOnRewardedVideoClickedExpandernãRic
+ClickVOnRewardedVideoClickedExpander.IsExpanded = !OnRewardedVideoClickedExpander.IsExpanded 0®‹"9åR4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®‹*≈çRø
+ExpanderHeaderExpanderHeader11*ÅéR˚
+RegionRegion25%èR 
+BackgroundColorWhite ®ﬂ*‚êR‹
+Image,OnRewardedVideoClickedExpanderMPEventChevron+ëR& 
+Spritechevron-downExpanded®‡0‡:MPEventChevronB^íRYBS
+SetExpanderStateTrueExpanderHeader11"Boolean*ExpanderHeader2System.Boolean®‡JéP*NìRI
+Image(OnRewardedVideoClickedExpanderCheckImage0‚:MPCheckImageJéP*ÄîR{
+Label(OnRewardedVideoClickedExpanderEventLabel0ïR+%
+TextOnRewardedVideoClickedEvent ®„0„:MPEventLabelJéP0ﬂJçP0ﬁ:MPEventHeaderJäP*ïñRè
+ExpanderContentExpanderContent11*OóRJ
+Label+OnRewardedVideoClickedExpanderAdUnitIdLabel0Á:
+MPSubtitleJñP0Ê:MPEventContentJäP0‹:MPEventExpanderJ≥P
+*iòRd
+RegionRegion26"9ôR4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®Í0Í:MPDelimiterJ≥P
+*ÕöR«
+ExpanderOnRewardedVideoClosedExpanderlõRga
+ClickTOnRewardedVideoClosedExpander.IsExpanded = !OnRewardedVideoClosedExpander.IsExpanded 0®Ï"9úR4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®Ï*¿ùR∫
+ExpanderHeaderExpanderHeader12*¸ûRˆ
+RegionRegion27%üR 
+BackgroundColorWhite ®Ô*·†R€
+Image+OnRewardedVideoClosedExpanderMPEventChevron+°R& 
+Spritechevron-downExpanded®0:MPEventChevronB^¢RYBS
+SetExpanderStateTrueExpanderHeader12"Boolean*ExpanderHeader2System.Boolean®JûP*M£RH
+Image'OnRewardedVideoClosedExpanderCheckImage0Ú:MPCheckImageJûP*~§Ry
+Label'OnRewardedVideoClosedExpanderEventLabel/•R*$
+TextOnRewardedVideoClosedEvent ®Û0Û:MPEventLabelJûP0ÔJùP0Ó:MPEventHeaderJöP*î¶Ré
+ExpanderContentExpanderContent12*NßRI
+Label*OnRewardedVideoClosedExpanderAdUnitIdLabel0˜:
+MPSubtitleJ¶P0ˆ:MPEventContentJöP0Ï:MPEventExpanderJ≥P
+*i®Rd
+RegionRegion28"9©R4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®˙0˙:MPDelimiterJ≥P
+*∆
+™R¿
+
+Expander%OnRewardedVideoReceivedRewardExpander|´Rwq
+ClickdOnRewardedVideoReceivedRewardExpander.IsExpanded = !OnRewardedVideoReceivedRewardExpander.IsExpanded 0®¸"9¨R4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®¸*‚≠R‹
+ExpanderHeaderExpanderHeader13*ûÆRò
+RegionRegion29%ØR 
+BackgroundColorWhite ®ˇ*È∞R„
+Image3OnRewardedVideoReceivedRewardExpanderMPEventChevron+±R& 
+Spritechevron-downExpanded®Ä0Ä:MPEventChevronB^≤RYBS
+SetExpanderStateTrueExpanderHeader13"Boolean*ExpanderHeader2System.Boolean®ÄJÆP*U≥RP
+Image/OnRewardedVideoReceivedRewardExpanderCheckImage0Ç:MPCheckImageJÆP*è¥Râ
+Label/OnRewardedVideoReceivedRewardExpanderEventLabel7µR2,
+Text"OnRewardedVideoReceivedRewardEvent ®É0É:MPEventLabelJÆP0ˇJ≠P0˛:MPEventHeaderJ™P*”∂RÕ
+ExpanderContentExpanderContent13∑R
+Size100%,180 ®á*Ì∏RÁ
+GroupGroup6*VπRQ
+Label2OnRewardedVideoReceivedRewardExpanderAdUnitIdLabel0â:
+MPSubtitleJ∏P*q∫Rl
+Label/OnRewardedVideoReceivedRewardExpanderLabelLabelªR
+Offset0,-50 ®ä0ä:
+MPSubtitleJ∏P*sºRn
+Label0OnRewardedVideoReceivedRewardExpanderAmountLabelΩR
+Offset0,-100 ®ã0ã:
+MPSubtitleJ∏P0à:MPEventGroupJ∂P0á:MPEventContentJ™P0¸:MPEventExpanderJ≥P
+*iæRd
+RegionRegion30"9øR4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®è0è:MPDelimiterJ≥P
+*ø	¿Rπ	
+Expander#OnRewardedVideoFailedToPlayExpanderx¡Rsm
+Click`OnRewardedVideoFailedToPlayExpander.IsExpanded = !OnRewardedVideoFailedToPlayExpander.IsExpanded 0®ë"9¬R4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®ë*⁄√R‘
+ExpanderHeaderExpanderHeader14*ñƒRê
+RegionRegion31%≈R 
+BackgroundColorWhite ®î*Á∆R·
+Image1OnRewardedVideoFailedToPlayExpanderMPEventChevron+«R& 
+Spritechevron-downExpanded®ï0ï:MPEventChevronB^»RYBS
+SetExpanderStateTrueExpanderHeader14"Boolean*ExpanderHeader2System.Boolean®ïJƒP*S…RN
+Image-OnRewardedVideoFailedToPlayExpanderCheckImage0ó:MPCheckImageJƒP*ã RÖ
+Label-OnRewardedVideoFailedToPlayExpanderEventLabel5ÀR0*
+Text OnRewardedVideoFailedToPlayEvent ®ò0ò:MPEventLabelJƒP0îJ√P0ì:MPEventHeaderJ¿P*⁄ÃR‘
+ExpanderContentExpanderContent14ÕR
+Size100%,100 ®õ*ÙŒRÓ
+GroupGroup7*TœRO
+Label0OnRewardedVideoFailedToPlayExpanderAdUnitIdLabel0ù:
+MPSubtitleJŒP*o–Rj
+Label-OnRewardedVideoFailedToPlayExpanderErrorLabel—R
+Offset0,-50 ®û0û:
+MPSubtitleJŒP0ú:MPEventGroupJÃP0õ:MPEventContentJ¿P0ë:MPEventExpanderJ≥P
+*i“Rd
+RegionRegion32"9”R4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®¢0¢:MPDelimiterJ≥P
+*∞	‘R™	
+Expander"OnRewardedVideoFailedEventExpanderv’Rqk
+Click^OnRewardedVideoFailedEventExpander.IsExpanded = !OnRewardedVideoFailedEventExpander.IsExpanded 0®§"9÷R4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®§*–◊R 
+ExpanderHeaderExpanderHeader15*åÿRÜ
+RegionRegion33%ŸR 
+BackgroundColorWhite ®ß*Ê⁄R‡
+Image0OnRewardedVideoFailedEventExpanderMPEventChevron+€R& 
+Spritechevron-downExpanded®®0®:MPEventChevronB^‹RYBS
+SetExpanderStateTrueExpanderHeader15"Boolean*ExpanderHeader2System.Boolean®®JÿP*R›RM
+Image,OnRewardedVideoFailedEventExpanderCheckImage0™:MPCheckImageJÿP*ÉﬁR~
+Label,OnRewardedVideoFailedEventExpanderEventLabel/ﬂR*$
+TextOnRewardedVideoFailedEvent ®´0´:MPEventLabelJÿP0ßJ◊P0¶:MPEventHeaderJ‘P*ÿ‡R“
+ExpanderContentExpanderContent15·R
+Size100%,100 ®Æ*Ú‚RÏ
+GroupGroup8*S„RN
+Label/OnRewardedVideoFailedEventExpanderAdUnitIdLabel0∞:
+MPSubtitleJ‚P*n‰Ri
+Label,OnRewardedVideoFailedEventExpanderErrorLabelÂR
+Offset0,-50 ®±0±:
+MPSubtitleJ‚P0Ø:MPEventGroupJ‡P0Æ:MPEventContentJ‘P0§:MPEventExpanderJ≥P
+*iÊRd
+RegionRegion34"9ÁR4.
+IsActive{IsRewardedAd}*
+IsRewardedAd : ®µ0µ:MPDelimiterJ≥P
+*∆ËR¿
+ExpanderOnImpressionTrackedBgExpanderlÈRga
+ClickTOnImpressionTrackedBgExpander.IsExpanded = !OnImpressionTrackedBgExpander.IsExpanded 0®ª*¿ÍR∫
+ExpanderHeaderExpanderHeader16*¸ÎRˆ
+RegionRegion35%ÏR 
+BackgroundColorWhite ®æ*·ÌR€
+Image+OnImpressionTrackedBgExpanderMPEventChevron+ÓR& 
+Spritechevron-downExpanded®ø0ø:MPEventChevronB^ÔRYBS
+SetExpanderStateTrueExpanderHeader16"Boolean*ExpanderHeader2System.Boolean®øJÎP*MRH
+Image'OnImpressionTrackedBgExpanderCheckImage0¡:MPCheckImageJÎP*~ÒRy
+Label'OnImpressionTrackedBgExpanderEventLabel/ÚR*$
+TextOnImpressionTrackedBgEvent ®¬0¬:MPEventLabelJÎP0æJÍP0Ω:MPEventHeaderJËP*»ÛR¬
+ExpanderContentExpanderContent16'ÙR"
+AutoSizeToContentFalse ®≈*ÿıR“
+GroupGroup9*NˆRI
+Label*OnImpressionTrackedBgExpanderAdUnitIdLabel0«:
+MPSubtitleJıP*Y˜RT
+
+InputField0OnImpressionTrackedBgExpanderImpressionDataField0»:
+MPTextAreaJıP0∆:MPEventGroupJÛP0≈:MPEventContentJËP0ª:MPEventExpanderJ≥P
+*.¯R)
+RegionRegion360Ã:MPDelimiterJ≥P
+*µ˘RØ
+ExpanderOnImpressionTrackedExpanderh˙Rc]
+ClickPOnImpressionTrackedExpander.IsExpanded = !OnImpressionTrackedExpander.IsExpanded 0®Œ*∏˚R≤
+ExpanderHeaderExpanderHeader17*Ù¸RÓ
+RegionRegion37%˝R 
+BackgroundColorWhite ®—*ﬂ˛RŸ
+Image)OnImpressionTrackedExpanderMPEventChevron+ˇR& 
+Spritechevron-downExpanded®“0“:MPEventChevronB^ÄRYBS
+SetExpanderStateTrueExpanderHeader17"Boolean*ExpanderHeader2System.Boolean®“J¸P*KÅRF
+Image%OnImpressionTrackedExpanderCheckImage0‘:MPCheckImageJ¸P*zÇRu
+Label%OnImpressionTrackedExpanderEventLabel-ÉR("
+TextOnImpressionTrackedEvent ®’0’:MPEventLabelJ¸P0—J˚P0–:MPEventHeaderJ˘P*≈ÑRø
+ExpanderContentExpanderContent17'ÖR"
+AutoSizeToContentFalse ®ÿ*’ÜRœ
+GroupGroup10*LáRG
+Label(OnImpressionTrackedExpanderAdUnitIdLabel0⁄:
+MPSubtitleJÜP*WàRR
+
+InputField.OnImpressionTrackedExpanderImpressionDataField0€:
+MPTextAreaJÜP0Ÿ:MPEventGroupJÑP0ÿ:MPEventContentJ˘P0Œ:MPEventExpanderJ≥P
+*.âR)
+RegionRegion380ﬂ:MPDelimiterJ≥P
+0PÄà
+Ä
+ÚäRÏ
+
+InputField
+InputField"|/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/TextMeshPro/InputField.xml*ö:≠ãRß
+°
+TMP_InputFieldComponentTMP_InputField"^TMPro.TMP_InputField, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2TMPro.TMP_InputField@®:%åR "
+TMP_InputFieldComponent ®:çR"
+	InputText ®:ïéRè
+â
+SetValueOnEndEditBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:°èRõ
+ï
+OnlyTriggerValueChangedFromUIBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:-êR(
+#
+EndEdit
+ViewAction2
+ViewAction@®:2ëR-
+(
+ValueChanged
+ViewAction2
+ViewAction@®:íR
+Width120 ®:ìR
+Height40 ®:ùîRó
+ë
+
+TextMarginElementMargin"]Delight.ElementMargin, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementMargin®:ïR
+
+TextMargin9®:ñRJ
+Text®:0óR+
+)
+InputFieldPlaceholderRegion2Region@:<òR7
+5
+InputFieldPlaceholderTemplateTemplate2Template@:+ôR&
+$
+TextArea
+RectMask2D2
+RectMask2D@:/öR*
+(
+TextAreaTemplateTemplate2Template@:"õR
+
+	InputTextLabel2Label@:0úR+
+)
+InputTextTemplateTemplate2Template@B(ùR#
+RegionInputFieldPlaceholder0PB”ûRÕ
+
+RectMask2DTextArea"2üR-(
+Margin{TextMargin}*
+
+TextMargin : ®*}†Rx
+Label	InputText°R
+Width100% ®¢R
+Height100% ®$£R
+TextAlignmentTopLeft ®0JûP0PZùbTextMeshProÄà†
+∑§R±
+ExpanderExpander"n/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Expander.xml*ö:é•Rà
+Ç
+
+IsExpandedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:¶R
+
+IsExpandedTrue®:éßRà
+Ç
+
+IsDisabledBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ô®Rì
+ç
+HeaderHeightElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:†©Rö
+î
+ContentMarginElementMargin"]Delight.ElementMargin, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementMargin®:#™R
+ContentMargin0,10,0,0®:´´R•
+ü
+HeaderAlignmentElementAlignment"`Delight.ElementAlignment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementAlignment®:$¨R
+HeaderAlignmentTopLeft®:É≠R~
+y
+TextString"ZSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.String®:ºÆR∂
+∞
+SpriteSprite"aUnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.Sprite@J%ØR 
+SpriteUnityEngine.Sprite ®:∞RJ
+
+IsExpanded®:î±Ré
+à
+
+ToggleMode
+SwitchMode"ZDelight.SwitchMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.SwitchMode®:≤R
+
+ToggleModeEnable®r≤≥R¨
+ExpanderContentExpanderContent"u/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/ExpanderContent.xml*Ã¥R∆
+FrameFrame"k/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Frame.xml*ö:ïµRè
+â
+AutoSizeToContentBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:#∂R
+AutoSizeToContentTrue®Äà†:∏∑R≤
+¨
+ContentTemplateDataContentTemplateData"cDelight.ContentTemplateData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ContentTemplateData®Äà†r◊∏R—
+ExpanderHeaderExpanderHeader"t/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/ExpanderHeader.xml*:îπRé:à
+SetExpanderStateBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®: ∫R
+	AlignmentTopLeft ®:(ªR#
+ClickExpanderHeaderClick ®:&ºR!
+RaycastBlockModeAlways ®:ÉΩR~
+y
+TextString"ZSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.String®:öæRî
+é
+SpriteSprite"aUnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.Sprite@JØ®Äà†xÄà†
+∏
+≥
+ÕøR«
+MoPubSampleViewMoPubSampleView"j/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Views/MoPubSampleView.xml*:&¿R!
+EnableScriptEventsTrue ®:"¡R
+
+Grid1Grid2
+LayoutGrid@:,¬R'
+%
+Grid1TemplateTemplate2Template@:;√R6
+4
+MPScrollableScrollableRegion2ScrollableRegion@:3ƒR.
+,
+MPScrollableTemplateTemplate2Template@:"≈R
+
+Region1Region2Region@:.∆R)
+'
+Region1TemplateTemplate2Template@::«R5
+3
+MoPubAdUnitSwitcherViewSwitcher2ViewSwitcher@::»R5
+3
+MoPubAdUnitSwitcherTemplateTemplate2Template@:D…R?
+=
+MoPubAdUnitListMoPubAdUnitListView2MoPubAdUnitListView@:6 R1
+/
+MoPubAdUnitListTemplateTemplate2Template@:8ÀR3
+1
+MoPubAdUnitMoPubAdUnitView2MoPubAdUnitView@:2ÃR-
++
+MoPubAdUnitTemplateTemplate2Template@:"ÕR
+
+Region2Region2Region@:.ŒR)
+'
+Region2TemplateTemplate2Template@:œR
+
+Label1Label2Label@:-–R(
+&
+Label1TemplateTemplate2Template@:"—R
+
+Region3Region2Region@:.“R)
+'
+Region3TemplateTemplate2Template@:"”R
+
+Region4Region2Region@:.‘R)
+'
+Region4TemplateTemplate2Template@:"’R
+
+Region5Region2Region@:.÷R)
+'
+Region5TemplateTemplate2Template@:◊R
+
+Group1Group2Group@:-ÿR(
+&
+Group1TemplateTemplate2Template@:"ŸR
+
+Region6Region2Region@:.⁄R)
+'
+Region6TemplateTemplate2Template@:"€R
+
+Region7Region2Region@:.‹R)
+'
+Region7TemplateTemplate2Template@:"›R
+
+Region8Region2Region@:.ﬁR)
+'
+Region8TemplateTemplate2Template@:(ﬂR#
+!
+PluginNameLabelLabel2Label@:6‡R1
+/
+PluginNameLabelTemplateTemplate2Template@:%·R 
+
+SdkNameLabelLabel2Label@:3‚R.
+,
+SdkNameLabelTemplateTemplate2Template@Bﬁ„Rÿ
+GridGrid1‰R
+Columns100% ® ÂR
+Rows150,100%,150 ®ÊR
+Spacing0 ®$ÁR
+BackgroundColorWhite ®*îËRé
+ScrollableRegionMPScrollable*åÈRÜ
+RegionRegion1ÍR
+Offset  ®	"QÎRLG
+Height$ {@ScreenHeight}"{0}*!
+Models.Globals.ScreenHeight : ®	*˛ÏR¯
+ViewSwitcherMoPubAdUnitSwitcherÌR
+Offset  ®
+*ZÓRU
+MoPubAdUnitListViewMoPubAdUnitList$ÔR
+
+ShowAdUnit
+ShowAdUnit ®0JÏP*VRQ
+MoPubAdUnitViewMoPubAdUnit(ÒR#
+NavigateBackNavigateBack ®0JÏP0
+JÈP0	JËP0:MPScrollableRegionB@ÚR;B6
+Cell1,0Grid1"	CellIndex*Grid2Delight.CellIndex®J„P
+*ÈÛR„
+RegionRegion2ÙR
+Width100% ®$ıR
+BackgroundColorWhite ®ˆR
+Margin0 ®*O˜RJ
+LabelLabel1&¯R!
+TextMoPub Unity Sample ®0:MPHeaderJÛP*o˘Rj
+RegionRegion3˙R
+	AlignmentBottom ®˚R
+Offset0,-3 ®0:MPHeaderDelimiterJÛP*i¸Rd
+RegionRegion4˝R
+	AlignmentBottom ®˛R
+Offset0 ®0:MPHeaderShadowJÛP0B@ˇR;B6
+Cell0,0Grid1"	CellIndex*Grid2Delight.CellIndex®J„P
+*¬Ä	Rº
+RegionRegion5$Å	R
+BackgroundColorWhite ®Ç	R
+Width100% ®*úÉ	Rñ
+GroupGroup1#Ñ	R
+OrientationVertical ®&Ö	R!
+ContentAlignmentBottom ®Ü	R
+Height150 ®á	R
+	AlignmentBottom ®à	R
+Width100% ®*iâ	Rd
+RegionRegion6ä	R
+	AlignmentBottom ®ã	R
+Offset0 ®0:MPHeaderShadowJÉ	P*lå	Rg
+RegionRegion7ç	R
+	AlignmentBottom ®é	R
+Offset0 ®0:MPHeaderDelimiterJÉ	P*˛è	R¯
+RegionRegion8ê	R
+Margin0,0,0,0 ®ë	R
+Width100% ®*‚í	R‹
+LabelPluginNameLabel+ì	R&!
+Textplugin_name_placeholder ®î	R
+FontSize34 ®ï	R
+	AlignmentBottom ®#ñ	R
+TextAlignmentBottom ®ó	R
+Offset0,0,0,50 ®0:
+MPSubtitleJè	P*ºò	R∂
+LabelSdkNameLabel(ô	R#
+Textsdk_name_placeholder ® ö	R
+FontSize34 ® õ	R
+	AlignmentBottom ® #ú	R
+TextAlignmentCenter ® 0 :
+MPSubtitleJè	P0JÉ	P0JÄ	P0B@ù	R;B6
+Cell2,0Grid1"	CellIndex*Grid2Delight.CellIndex®J„P
+0PÄà
+¶
+û	R†
+
+Grid
+LayoutGrid"j/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Grid.xml*ö:îü	Ré
+à
+SpacingElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:ö†	Rî
+é
+ColumnSpacingElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:ó°	Rë
+ã
+
+RowSpacingElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:ö¢	Rî
+é
+RowsRowDefinitions"^Delight.RowDefinitions, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.RowDefinitions®:¶£	R†
+ö
+ColumnsColumnDefinitions"aDelight.ColumnDefinitions, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ColumnDefinitions®:4§	R/2*
+CellsRowDefinitionsColumnDefinitions®:ä•	RÑ:
+Cell	CellIndex"YDelight.CellIndex, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.CellIndex®:è¶	Râ:É
+CellSpan	CellIndex"YDelight.CellIndex, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.CellIndex®:&ß	R!
+EnableScriptEventsTrue ®Äàò†
+Ë-®	R‚-
+ScrollableRegionScrollableRegion"v/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/ScrollableRegion.xml*ü	©	Rô	
+UICanvasUICanvas"n/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/UICanvas.xml*:ì™	Rç
+á
+CanvasCanvas"_UnityEngine.Canvas, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.Canvas@®:´´	R•
+ü
+CanvasScalerCanvasScaler"bUnityEngine.UI.CanvasScaler, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.UI.CanvasScaler@®:ª¨	Rµ
+Ø
+GraphicRaycasterGraphicRaycaster"fUnityEngine.UI.GraphicRaycaster, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.UI.GraphicRaycaster@®:ç≠	Rá
+Å
+RenderCameraString"ZSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.String®:Æ	R"
+
+Canvas ®:Ø	R"
+CanvasScaler ®:∞	R"
+GraphicRaycaster ®:!±	R
+PixelPerfectFalse ®:–≤	R 
+ƒ
+AdjustToScreenOrientationAdjustToScreenOrientation"iDelight.AdjustToScreenOrientation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2!Delight.AdjustToScreenOrientation®:,≥	R'"
+AdjustToScreenOrientationNever®Äà†:è¥	Râ
+É
+MaskContentBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:µ	R
+MaskContentTrue®:ù∂	Ró
+ë
+Mask
+RectMask2D"`UnityEngine.UI.RectMask2D, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.UI.RectMask2D@®:ò∑	Rí
+å
+ImageComponentImage"[UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.UI.Image@®:∏	R
+DragOnDrag ®:$π	R
+	BeginDragOnBeginDrag ®:@∫	R;6
+InitializePotentialDragOnInitializePotentialDrag ®: ª	R
+EndDrag	OnEndDrag ®:º	R
+ScrollOnScroll ®:éΩ	Rà
+Ç
+
+HasInertiaBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:æ	R
+
+HasInertiaTrue®:ëø	Rã
+Ö
+DecelerationRateSingle"ZSystem.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Single®:#¿	R
+DecelerationRate0.135®:ä¡	RÑ
+
+
+ElasticitySingle"ZSystem.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Single®:¬	R
+
+Elasticity0.1®:ô√	Rì
+ç
+CanScrollHorizontallyBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:'ƒ	R"
+CanScrollHorizontallyTrue®:ó≈	Rë
+ã
+CanScrollVerticallyBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:%∆	R 
+CanScrollVerticallyTrue®:&«	R!
+EnableScriptEventsTrue ®:¨»	R¶
+†
+ContentAlignmentElementAlignment"`Delight.ElementAlignment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementAlignment®:ô…	Rì
+ç
+AutoSizeContentRegionBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:' 	R"
+AutoSizeContentRegionTrue®:úÀ	Rñ
+ê
+ScrollBoundsScrollBounds"\Delight.ScrollBounds, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ScrollBounds®:!Ã	R
+ScrollBoundsElastic®:ûÕ	Rò
+í
+DisableInteractionScrollDeltaSingle"ZSystem.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Single®:íŒ	Rå
+Ü
+ScrollSensitivitySingle"ZSystem.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Single®:!œ	R
+ScrollSensitivity60®:[–	RV2Q
+ScrollbarVisibilityHorizontalScrollbarVisibilityVerticalScrollbarVisibility®:Œ—	R»
+¬
+HorizontalScrollbarVisibilityScrollbarVisibilityMode"gDelight.ScrollbarVisibilityMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ScrollbarVisibilityMode®:/“	R*%
+HorizontalScrollbarVisibilityAuto®:Ã”	R∆
+¿
+VerticalScrollbarVisibilityScrollbarVisibilityMode"gDelight.ScrollbarVisibilityMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ScrollbarVisibilityMode®:-‘	R(#
+VerticalScrollbarVisibilityAuto®:ï’	Rè
+â
+DisableMouseWheelBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:5÷	R0
++
+ContentScrolled
+ViewAction2
+ViewAction@®:ü◊	Rô
+ì
+UnblockDragEventsInChildrenBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:-ÿ	R(#
+UnblockDragEventsInChildrenTrue®:ëŸ	Rã
+Ö
+ScrollEnabledBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:⁄	R
+ScrollEnabledTrue®:4€	R/"*
+HorizontalScrollbarHorizontalScrollbar®:0‹	R+"&
+VerticalScrollbarVerticalScrollbar®:(›	R#
+!
+ContentRegionRegion2Region@:4ﬁ	R/
+-
+ContentRegionTemplateTemplate2Template@:4ﬂ	R/
+-
+HorizontalScrollbar	Scrollbar2	Scrollbar@::‡	R5
+3
+HorizontalScrollbarTemplateTemplate2Template@:2·	R-
++
+VerticalScrollbar	Scrollbar2	Scrollbar@:8‚	R3
+1
+VerticalScrollbarTemplateTemplate2Template@Bò„	Rí
+RegionContentRegion2‰	R-(
+BubbleNotifyChildLayoutChangedTrue ®"AÂ	R<7
+	Alignment{ContentAlignment}*
+ContentAlignment : ®0PBPÊ	RK
+	ScrollbarHorizontalScrollbar%Á	R 
+Orientation
+Horizontal ®0PBLË	RG
+	ScrollbarVerticalScrollbar#È	R
+OrientationVertical ®0PZ„	Äà†
+πÍ	R≥
+ViewSwitcherViewSwitcher"r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/ViewSwitcher.xml*:îÎ	Ré
+à
+
+SwitchMode
+SwitchMode"ZDelight.SwitchMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.SwitchMode®:Ï	R
+
+SwitchModeEnable®:âÌ	RÉ
+~
+	StartViewString"ZSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.String®:ñÓ	Rê
+ä
+ShowFirstByDefaultBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:$Ô	R
+ShowFirstByDefaultTrue®:ë	Rã
+Ö
+ChildLoadModeLoadMode"XDelight.LoadMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.LoadMode®Äà†
+
+
+ö
+ñÒ	Rê
+CanvasRendererCanvasRendererView"t/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/CanvasRenderer.xml*:ºÚ	R∂
+∞
+CanvasRendererComponentCanvasRenderer"gUnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.CanvasRenderer@®:%Û	R "
+CanvasRendererComponent ®Äàò†
+ﬂ
+Ù	RŸ
+
+CheckBoxCheckBox"n/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/CheckBox.xml*ö:çı	Rá
+Å
+	IsCheckedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:éˆ	Rà
+Ç
+
+IsDisabledBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:î˜	Ré
+à
+SpacingElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:¯	R
+Spacing10®:'˘	R""
+CheckBoxImageViewCheckBox®:˙	R"
+CheckBoxLabel ®:˚	R
+Height40 ®:"¸	R
+ClickCheckBoxClick ®:˝	RJ
+	IsChecked®:&˛	R!
+
+CheckBoxGroupGroup2Group@:4ˇ	R/
+-
+CheckBoxGroupTemplateTemplate2Template@:*Ä
+R%
+#
+CheckBoxImageViewImage2Image@:8Å
+R3
+1
+CheckBoxImageViewTemplateTemplate2Template@:&Ç
+R!
+
+CheckBoxLabelLabel2Label@:4É
+R/
+-
+CheckBoxLabelTemplateTemplate2Template@B¥Ñ
+RÆ
+GroupCheckBoxGroup%Ö
+R 
+Orientation
+Horizontal ®	"-Ü
+R(#
+Spacing	{Spacing}*
+Spacing : ®	*[á
+RV
+ImageCheckBoxImageViewà
+R
+Width40 ®
+â
+R
+Height40 ®
+0
+JÑ
+P*_ä
+RZ
+LabelCheckBoxLabelã
+R
+AutoSizeWidth ®å
+R
+Height100% ®0JÑ
+P0	PÄà†
+µ
+˝ç
+R˜
+ComboBoxComboBox"n/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/ComboBox.xml*:é
+R
+Width160 ®:è
+R
+Height40 ®:åê
+RÜ
+Ä
+IsDropUpBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:&ë
+R!
+EnableScriptEventsTrue ®:îí
+Ré
+à
+ShowSelectedItemBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:"ì
+R
+ShowSelectedItemTrue®:î
+R"
+ComboBoxList ®:"ï
+R"
+ComboBoxButtonButton®:2ñ
+R-
+(
+ItemSelected
+ViewAction2
+ViewAction@®:)ó
+R$
+"
+ComboBoxButtonButton2Button@:5ò
+R0
+.
+ComboBoxButtonTemplateTemplate2Template@:1ô
+R,
+*
+ComboBoxListCanvasUICanvas2UICanvas@:9ö
+R4
+2
+ComboBoxListCanvasTemplateTemplate2Template@:#õ
+R
+
+ComboBoxListList2List@:3ú
+R.
+,
+ComboBoxListTemplateTemplate2Template@B÷ù
+R–
+ButtonComboBoxButton"û
+R
+IsToggleButtonTrue ®
+ü
+R
+Width100% ®
+†
+R
+Height100% ®
+°
+R
+AutoSizeFalse ®
+(¢
+R#
+ClickComboBoxButtonClick ®
+0
+:ComboBoxButtonPB‰£
+Rﬁ
+UICanvasComboBoxListCanvas§
+R
+	AlignmentTop ®#•
+R
+OverrideSortingTrue ®¶
+R
+SortingOrder10 ®*÷ß
+R–
+ListComboBoxList®
+R
+Width100% ®©
+R
+	AlignmentTop ®™
+R
+IsActiveFalse ®´
+R
+CanReselectTrue ®8¨
+R3.
+ItemSelectedComboBoxListSelectionChanged ®0J£
+P0PZß
+rÿ≠
+R“
+ComboBoxListItemComboBoxListItem"v/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/ComboBoxListItem.xml*Î:&Æ
+R!
+AutoSizeToContentFalse ®Äà†xÄà†
+≠
+
+©	
+†Ø
+Rö
+DefaultExpanderHeaderDefaultExpanderHeader"{/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/DefaultExpanderHeader.xml*∏:∞
+R
+Height20 ®:$±
+R
+
+HeaderGroupGroup2Group@:2≤
+R-
++
+HeaderGroupTemplateTemplate2Template@:#≥
+R
+
+
+HeaderIconImage2Image@:1¥
+R,
+*
+HeaderIconTemplateTemplate2Template@:$µ
+R
+
+HeaderLabelLabel2Label@:2∂
+R-
++
+HeaderLabelTemplateTemplate2Template@B∏∑
+R≤
+GroupHeaderGroup%∏
+R 
+Orientation
+Horizontal ®π
+R
+Spacing5 ® ∫
+R
+	AlignmentTopLeft ®*Mª
+RH
+Image
+HeaderIcon"*º
+R% 
+Sprite{Sprite}*
+
+Sprite : ®0J∑
+P*fΩ
+Ra
+LabelHeaderLabelæ
+R
+AutoSizeTrue ®"$ø
+R
+Text{Text}*
+Text : ®0J∑
+P0PÄà†
+¥
+â¿
+RÉ
+GridSplitterGridSplitter"r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/GridSplitter.xml*:ñ¡
+Rê
+ä
+	ThicknessElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:¬
+R
+	Thickness10®:°√
+Rõ
+ï
+InteractionThicknessElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:ñƒ
+Rê
+ä
+SetSizeOnDragEndedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ê≈
+Rä
+Ñ
+	SplitMode	SplitMode"YDelight.SplitMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.SplitMode®:%∆
+R 
+	SplitModeRowsAndColumns®:ó«
+Rë
+ã
+SplitterColorColor"`UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.Color®: »
+R
+SplitterColorClear®:¢…
+Rú
+ñ
+SplitterSpriteSprite"aUnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.Sprite@JØ®:ä 
+RÑ
+
+BePushyBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:úÀ
+Rñ
+ê
+OverrideProportionalSizeBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:*Ã
+R% 
+OverrideProportionalSizeTrue®xÄà†
+„Õ
+R›
+GridSplitterHandleGridSplitterHandle"x/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/GridSplitterHandle.xml*ö:çŒ
+Rá
+Å
+	IsEnabledBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:œ
+R
+	IsEnabledTrue®:–
+R
+DragOnDrag ®:$—
+R
+	BeginDragOnBeginDrag ®:@“
+R;6
+InitializePotentialDragOnInitializePotentialDrag ®: ”
+R
+EndDrag	OnEndDrag ®:&‘
+R!
+
+MouseEnterOnMouseEnter ®:$’
+R
+	MouseExitOnMouseExit ®:$÷
+R
+BackgroundColorClear ®:&◊
+R!
+RaycastBlockModeAlways ®:'ÿ
+R"
+ 
+SplitterHandleImage2Image@:5Ÿ
+R0
+.
+SplitterHandleTemplateTemplate2Template@BW⁄
+RR
+ImageSplitterHandle€
+R
+Width100% ®‹
+R
+Height100% ®0PZ⁄
+Äà†
+Ù›
+RÓ
+
+LayoutRoot
+LayoutRoot"p/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/LayoutRoot.xml*©	:&ﬁ
+R!
+EnableScriptEventsTrue ®:,ﬂ
+R'"
+
+RenderModeScreenSpaceOverlay ®Äà†
+ˇ
+Â‡
+Rﬂ
+MaskMask"j/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Mask.xml*ö:î·
+Ré
+à
+MaskComponentMask"ZUnityEngine.UI.Mask, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.UI.Mask@®:‚
+R"
+MaskComponent ®:#„
+R
+ShowMaskGraphicTrue ®Äà†
+à‰
+RÇ
+	Navigator	Navigator"o/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Navigator.xml*:îÂ
+Ré
+à
+
+SwitchMode
+SwitchMode"ZDelight.SwitchMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.SwitchMode®:Ê
+R
+
+SwitchModeEnable®:âÁ
+RÉ
+~
+	StartPathString"ZSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.String®:ÉË
+R~:y
+PathString"ZSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.String®:éÈ
+Rà
+Ç
+
+IsDisabledBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ëÍ
+Rã
+Ö
+ChildLoadModeLoadMode"XDelight.LoadMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.LoadMode®Äà†
+ˆ
+Î
+R
+
+RadioButtonRadioButton"q/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/RadioButton.xml*ö:çÏ
+Rá
+Å
+	IsCheckedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:éÌ
+Rà
+Ç
+
+IsDisabledBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:îÓ
+Ré
+à
+SpacingElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:Ô
+R
+Spacing10®:-
+R("#
+RadioButtonImageViewRadioButton®:Ò
+R"
+RadioButtonLabel ®:Ú
+R
+Height40 ®:%Û
+R 
+ClickRadioButtonClick ®:)Ù
+R$
+"
+RadioButtonGroupGroup2Group@:7ı
+R2
+0
+RadioButtonGroupTemplateTemplate2Template@:-ˆ
+R(
+&
+RadioButtonImageViewImage2Image@:;˜
+R6
+4
+RadioButtonImageViewTemplateTemplate2Template@:)¯
+R$
+"
+RadioButtonLabelLabel2Label@:7˘
+R2
+0
+RadioButtonLabelTemplateTemplate2Template@BΩ˙
+R∑
+GroupRadioButtonGroup%˚
+R 
+Orientation
+Horizontal ®"-¸
+R(#
+Spacing	{Spacing}*
+Spacing : ®*^˝
+RY
+ImageRadioButtonImageView˛
+R
+Width40 ®	ˇ
+R
+Height40 ®	0	J˙
+P*bÄR]
+LabelRadioButtonLabelÅR
+AutoSizeWidth ®
+ÇR
+Height100% ®
+0
+J˙
+P0PÄà†
+ﬂÉRŸ
+RawImageRawImage"n/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/RawImage.xml*:§ÑRû
+ò
+RawImageComponentRawImage"^UnityEngine.UI.RawImage, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.UI.RawImage@®:ÖR"
+RawImageComponent ®Äà†
+ÑÜR˛
+
+RectMask2D
+RectMask2D"p/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/RectMask2D.xml*ö:áR
+Width100% ®:àR
+Height100% ®:¨âR¶
+†
+RectMask2DComponent
+RectMask2D"`UnityEngine.UI.RectMask2D, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null2UnityEngine.UI.RectMask2D@®Äà†
+óäRë
+	Scrollbar	Scrollbar"o/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Scrollbar.xml*ö:ãR"
+
+BarBar®:åR"
+HandleHandle®:ìçRç
+á
+LengthElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:éR
+Length100%®:îèRé
+à
+BreadthElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:êR
+Breadth10®:≠ëRß
+°
+OrientationElementOrientation"bDelight.ElementOrientation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementOrientation®:èíRâ
+É
+ScrollPositionSingle"ZSystem.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Single®:éìRà
+Ç
+ViewportRatioSingle"ZSystem.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Single®:îR
+ViewportRatio0.1®:ïR
+
+BarImage2Image@:*ñR%
+#
+BarTemplateTemplate2Template@:óR
+
+HandleImage2Image@:-òR(
+&
+HandleTemplateTemplate2Template@B⁄ôR‘
+ImageBaröR
+ColorGrey ®õR
+Width100% ®úR
+Height100% ®*pùRk
+ImageHandleûR
+ColorBrown ®üR
+Width100% ®†R
+Height100% ®0JôP0PÄà†
+˝°R˜
+SelectionIndicatorSelectionIndicator"x/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/SelectionIndicator.xml*ö:&¢R!
+EnableScriptEventsTrue ®:¨£R¶
+†
+SelectedViewInfoSelectedViewInfo"`Delight.SelectedViewInfo, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.SelectedViewInfo®:'§R"
+DisableLayoutUpdateTrue ®:•R
+	IsVisibleFalse ®:%¶R 
+RaycastBlockModeNever ®Äà†
+âßRÉ
+SliderSlider"l/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Slider.xml*ö:®R
+Drag
+SliderDrag ®:(©R#
+	BeginDragSliderBeginDrag ®:$™R
+EndDragSliderEndDrag ®:D´R?:
+InitializePotentialDragSliderInitializePotentialDrag ®:ì¨Rç
+á
+LengthElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:≠R
+Length160®:îÆRé
+à
+BreadthElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:ØR
+Breadth40®:≠∞Rß
+°
+OrientationElementOrientation"bDelight.ElementOrientation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementOrientation®:#±R
+Orientation
+Horizontal®:Ç≤R}
+x
+MinSingle"ZSystem.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Single®:≥R
+Min0®:Ç¥R}
+x
+MaxSingle"ZSystem.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Single®:µR
+
+Max100®:Ñ∂R
+z
+ValueSingle"ZSystem.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Single®:å∑RÜ
+Ä
+CanSlideBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:∏R
+CanSlideTrue®:óπRë
+ã
+SetValueOnDragEndedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:é∫Rà
+Ç
+
+IsReversedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ÑªR
+z
+StepsSingle"ZSystem.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Single®:2ºR-
+(
+ValueChanged
+ViewAction2
+ViewAction@®:-ΩR("#
+SliderBackgroundImageViewSlider®:+æR&"!
+SliderFillImageView
+SliderFill®:/øR*"%
+SliderHandleImageViewSliderHandle®:4¿R/**
+SliderFillRegionMarginSliderFillMargin®:¡RJ	
+Value®:'¬R"
+ 
+SliderRegionRegion2Region@:3√R.
+,
+SliderRegionTemplateTemplate2Template@:2ƒR-
++
+SliderBackgroundImageViewImage2Image@:@≈R;
+9
+!SliderBackgroundImageViewTemplateTemplate2Template@:+∆R&
+$
+SliderFillRegionRegion2Region@:7«R2
+0
+SliderFillRegionTemplateTemplate2Template@:,»R'
+%
+SliderFillImageViewImage2Image@::…R5
+3
+SliderFillImageViewTemplateTemplate2Template@:. R)
+'
+SliderHandleImageViewImage2Image@:<ÀR7
+5
+SliderHandleImageViewTemplateTemplate2Template@B‘ÃRŒ
+RegionSliderRegion*gÕRb
+ImageSliderBackgroundImageViewŒR
+Width100% ®œR
+Height100% ®0JÃP*≈–Rø
+RegionSliderFillRegion—R
+Margin0 ®*Ä“R{
+ImageSliderFillImageView”R
+	AlignmentLeft ®‘R
+Width100% ®’R
+Height100% ®0J–P0JÃP*Ä÷R{
+ImageSliderHandleImageView◊R
+	AlignmentLeft ®ÿR
+Width20 ®ŸR
+Height100% ®0JÃP0PÄà†
+ÿ⁄R“
+TabTab"i/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Tab.xml*:∏€R≤
+¨
+ContentTemplateDataContentTemplateData"cDelight.ContentTemplateData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ContentTemplateData®:É‹R~
+y
+TextString"ZSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.String®:å›RÜ
+Ä
+TabHeaderIdString"ZSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.String®Äà†
+äﬁRÑ
+	TabHeader	TabHeader"o/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/TabHeader.xml*Ä:∏ﬂR≤
+¨
+ContentTemplateDataContentTemplateData"cDelight.ContentTemplateData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ContentTemplateData®:)‡R$
+ToggleClickTabToggleClick ®:Ñ·R
+z
+TabIndexInt32"YSystem.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Int32®hÄà†
+ß‚R°
+TabPanelTabPanel"n/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/TabPanel.xml*µ:é„Rà
+Ç
+SelectedTabIndexInt32"YSystem.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Int32®:‰R
+SelectedTabIndex0®:åÂRÜ
+Ä
+IsStaticBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:õÊRï
+è
+TabHeaderWidthElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:úÁRñ
+ê
+TabHeaderHeightElementSize"[Delight.ElementSize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.ElementSize®:#ËR"
+TabHeaderGroupTabList®:1ÈR,
+'
+TabSelected
+ViewAction2
+ViewAction@®:óÍRë
+ã
+TabSwitchMode
+SwitchMode"ZDelight.SwitchMode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.SwitchMode®:!ÎR
+TabSwitchModeEnable®:2ÏR-
++
+TabSwitcherViewSwitcher2ViewSwitcher@:2ÌR-
++
+TabSwitcherTemplateTemplate2Template@:3ÓR.
+,
+TabHeaderGroupToggleGroup2ToggleGroup@:5ÔR0
+.
+TabHeaderGroupTemplateTemplate2Template@B$R
+ViewSwitcherTabSwitcher0PBoÒRj
+ToggleGroupTabHeaderGroup%ÚR 
+Orientation
+Horizontal ®	 ÛR
+	AlignmentTopLeft ®	0	PZr⁄rﬁxÄà†
+°ÙRõ
+ToggleGroupToggleGroup"q/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/ToggleGroup.xml*ôÄà†
+∑}ıR±}
+DelightDesignerDelightDesigner"|/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Editor/DelightDesigner.xml*›
+:&ˆR!
+EnableScriptEventsTrue ®:Ã˜R∆
+¿
+DesignerViewsDesignerViewData"uDelight.Editor.Parser.DesignerViewData, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2&Delight.Editor.Parser.DesignerViewData®:”¯RÕ
+«
+ChangedDesignerViewsDesignerViewData"uDelight.Editor.Parser.DesignerViewData, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2&Delight.Editor.Parser.DesignerViewData®:’˘Rœ
+…
+DisplayedDesignerViewsDesignerViewData"uDelight.Editor.Parser.DesignerViewData, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2&Delight.Editor.Parser.DesignerViewData®:ç˙Rá
+Å
+	AutoParseBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:˚R
+	AutoParseTrue®:ò¸Rí
+å
+DisplayReadOnlyViewsBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:'˝R"
+DisplayReadOnlyViewsFalse®:ô˛Rì
+ç
+DisplayReadOnlyViewsTextString"ZSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.String®::ˇR50
+DisplayReadOnlyViewsTextShow Read-Only Views®:¿ÄR∫
+¥
+DisplayedViewDesignerView"qDelight.Editor.Parser.DesignerView, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2"Delight.Editor.Parser.DesignerView®:ΩÅR∑
+±
+
+EditedViewDesignerView"qDelight.Editor.Parser.DesignerView, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2"Delight.Editor.Parser.DesignerView®:(ÇR#
+!
+ViewsDesignerRegion2Region@:4ÉR/
+-
+ViewsDesignerTemplateTemplate2Template@:%ÑR 
+
+MainGridGrid2
+LayoutGrid@:/ÖR*
+(
+MainGridTemplateTemplate2Template@:"ÜR
+
+Region1Region2Region@:.áR)
+'
+Region1TemplateTemplate2Template@:*àR%
+#
+ContentExplorerRegion2Region@:6âR1
+/
+ContentExplorerTemplateTemplate2Template@:"äR
+
+Region2Region2Region@:.ãR)
+'
+Region2TemplateTemplate2Template@:NåRI
+G
+ContentExplorerScrollableRegionScrollableRegion2ScrollableRegion@:FçRA
+?
+'ContentExplorerScrollableRegionTemplateTemplate2Template@:(éR#
+!
+	Expander1Expander2Expander@:0èR+
+)
+Expander1TemplateTemplate2Template@:OêRJ
+H
+DefaultExpanderHeader1DefaultExpanderHeader2DefaultExpanderHeader@:=ëR8
+6
+DefaultExpanderHeader1TemplateTemplate2Template@:=íR8
+6
+ExpanderContent1ExpanderContent2ExpanderContent@:7ìR2
+0
+ExpanderContent1TemplateTemplate2Template@:îR
+
+List1List2List@:,ïR'
+%
+List1TemplateTemplate2Template@:(ñR#
+!
+	ListItem1ListItem2ListItem@:0óR+
+)
+ListItem1TemplateTemplate2Template@:òR
+
+Label1Label2Label@:-ôR(
+&
+Label1TemplateTemplate2Template@:öR
+
+Image1Image2Image@:-õR(
+&
+Image1TemplateTemplate2Template@:'úR"
+ 
+ViewMenuComboBox2ComboBox@:/ùR*
+(
+ViewMenuTemplateTemplate2Template@:@ûR;
+9
+ComboBoxListItem1ComboBoxListItem2ComboBoxListItem@:8üR3
+1
+ComboBoxListItem1TemplateTemplate2Template@:†R
+
+Label2Label2Label@:-°R(
+&
+Label2TemplateTemplate2Template@:@¢R;
+9
+ComboBoxListItem2ComboBoxListItem2ComboBoxListItem@:8£R3
+1
+ComboBoxListItem2TemplateTemplate2Template@:§R
+
+Label3Label2Label@:-•R(
+&
+Label3TemplateTemplate2Template@:*¶R%
+#
+XmlEditorRegionRegion2Region@:6ßR1
+/
+XmlEditorRegionTemplateTemplate2Template@:*®R%
+#
+	XmlEditor	XmlEditor2	XmlEditor@:0©R+
+)
+XmlEditorTemplateTemplate2Template@:!™R
+
+LockIconImage2Image@:/´R*
+(
+LockIconTemplateTemplate2Template@:-¨R(
+&
+XmlEditorStatusBarRegion2Region@:9≠R4
+2
+XmlEditorStatusBarTemplateTemplate2Template@:ÆR
+
+Group1Group2Group@:-ØR(
+&
+Group1TemplateTemplate2Template@:0∞R+
+)
+AutoParseCheckBoxCheckBox2CheckBox@:8±R3
+1
+AutoParseCheckBoxTemplateTemplate2Template@:"≤R
+
+Button1Button2Button@:.≥R)
+'
+Button1TemplateTemplate2Template@:(¥R#
+!
+DisplayRegionRegion2Region@:4µR/
+-
+DisplayRegionTemplateTemplate2Template@:F∂RA
+?
+ScrollableContentRegionScrollableRegion2ScrollableRegion@:>∑R9
+7
+ScrollableContentRegionTemplateTemplate2Template@:2∏R-
++
+ContentRegionCanvasUICanvas2UICanvas@::πR5
+3
+ContentRegionCanvasTemplateTemplate2Template@:,∫R'
+%
+ViewContentRegionRegion2Region@:8ªR3
+1
+ViewContentRegionTemplateTemplate2Template@:=ºR8
+6
+DesignerToolbar1DesignerToolbar2DesignerToolbar@:7ΩR2
+0
+DesignerToolbar1TemplateTemplate2Template@:æR
+
+Group2Group2Group@:-øR(
+&
+Group2TemplateTemplate2Template@:¿R
+
+Label4Label2Label@:-¡R(
+&
+Label4TemplateTemplate2Template@:,¬R'
+%
+LockDisplayButtonButton2Button@:8√R3
+1
+LockDisplayButtonTemplateTemplate2Template@:!ƒR
+
+HideUIButton2Button@:-≈R(
+&
+HideUITemplateTemplate2Template@:4∆R/
+-
+GridSplitter1GridSplitter2GridSplitter@:4«R/
+-
+GridSplitter1TemplateTemplate2Template@:4»R/
+-
+GridSplitter2GridSplitter2GridSplitter@:4…R/
+-
+GridSplitter2TemplateTemplate2Template@:+ R&
+$
+SaveChangesPopupRegion2Region@:7ÀR2
+0
+SaveChangesPopupTemplateTemplate2Template@:ÃR
+
+Label5Label2Label@:-ÕR(
+&
+Label5TemplateTemplate2Template@:ŒR
+
+List2List2List@:,œR'
+%
+List2TemplateTemplate2Template@:(–R#
+!
+	ListItem2ListItem2ListItem@:0—R+
+)
+ListItem2TemplateTemplate2Template@:“R
+
+Label6Label2Label@:-”R(
+&
+Label6TemplateTemplate2Template@:‘R
+
+Group3Group2Group@:-’R(
+&
+Group3TemplateTemplate2Template@:"÷R
+
+Button2Button2Button@:.◊R)
+'
+Button2TemplateTemplate2Template@:"ÿR
+
+Button3Button2Button@:.ŸR)
+'
+Button3TemplateTemplate2Template@:"⁄R
+
+Button4Button2Button@:.€R)
+'
+Button4TemplateTemplate2Template@BëM‹RãM
+RegionViewsDesigner*Ì=›RÁ=
+GridMainGrid&ﬁR!
+Columns40[50-50],200,* ®ﬂR
+Rows	*,240[20] ®*÷‡R–
+RegionRegion1&·R!
+BackgroundColor#3c4165 ®0BC‚R>B9
+Cell0,0MainGrid"	CellIndex*Grid2Delight.CellIndex®BG„RBB=
+CellSpan2,1MainGrid"	CellIndex*Grid2Delight.CellIndex®J›P*˘‰RÛ
+RegionContentExplorer&ÂR!
+BackgroundColor#dddddd ®*¶ÊR†
+RegionRegion2ÁR
+Margin0,12,0,0 ®*„ËR›
+ScrollableRegionContentExplorerScrollableRegionÈR
+Width100% ®ÍR
+Height100% ®#ÎR
+ContentAlignmentTop ®.ÏR)$
+DisableInteractionScrollDelta1 ®ÌR
+
+HasInertiaFalse ®4ÓR/*
+VerticalScrollbarVisibility	MouseOver ®5ÔR0+
+ VerticalScrollbarBackgroundColorClear ®3R.)
+VerticalScrollbarHandleColor#9f9f9f ®.ÒR)$
+VerticalScrollbarBarColorClear ®'ÚR"
+VerticalScrollbarWidth6 ®1ÛR,'
+VerticalScrollbarBarMargin0,0,2,0 ®.ÙR)$
+VerticalScrollbarOffset0,0,0,0 ®*ıR% 
+CanScrollHorizontallyFalse ®*ÁˆR·
+Expander	Expander1˜R
+TextViews ®¯R
+Width100% ®˘R
+Margin0,0,0,0 ®*í˙Rå
+DefaultExpanderHeaderDefaultExpanderHeader1˚R
+TextViews ®¸R
+Height26 ®˝R
+Margin4,0,0,0 ®0JˆP*÷˛R–
+ExpanderContentExpanderContent1*°ˇRõ
+ListList1 ÄR
+	AlignmentTopLeft ®ÅR
+Margin0,10,0,0 ®&ÇR!
+BackgroundColor#dddddd ®ÉR
+Width100% ®ÑR
+CanReselectTrue ®(ÖR#
+ItemSelectedViewSelected ®#ÜR
+AlternateItemsFalse ®"UáRPK
+Items {view in DisplayedDesignerViews}*
+DisplayedDesignerViews :view®*∂	àR∞	
+ListItem	ListItem1âR
+Size100%, 21 ® äR
+Margin2,0,2,0 ® ;ãR61
+BackgroundSpriteRoundedSquare10_5pxSelected® >åR94
+BackgroundSpriteRoundedSquare10_5pxHighlighted® 1çR,'
+BackgroundColor#eaeaeaHighlighted® .éR)$
+BackgroundColor#f4f4f4Selected® -èR(#
+BackgroundColor#eaeaeaPressed® 1êR,'
+BackgroundColor	#bbc3c3c3	Alternate® *´ëR•
+LabelLabel1íR
+FontSize12 ®! ìR
+FontSegoe UI SDF ®!îR
+Height21 ®! ïR
+	FontColor#313b46 ®!ñR
+Width100% ®!óR
+Margin15,0,0,0 ®!'òR"
+EnableWordWrappingFalse ®!$ôR
+OverflowModeTruncate ®! öR
+ExtraPaddingTrue ®!+õR&!
+	FontColor#333333Highlighted®!(úR#
+	FontColor#333333Selected®!"<ùR72
+Text{view.DisplayName}*
+view.DisplayName : ®!0!BPûRKBF
+SetListItemStateTrue	ListItem1"Boolean*ListItem2System.Boolean®!JàP*‚üR‹
+ImageImage1†R
+Spriteeye16 ®#°R
+	AlignmentRight ®#¢R
+Offset0,0,5,0 ®#£R
+Color#808080 ®#"H§RC>
+IsActive{view.IsDisplayLocked}*
+view.IsDisplayLocked : ®#0#JàP0 JˇP0J˛P0JˆP0JËP0JÊP0J‰P
+*Ô	•RÈ	
+ComboBoxViewMenu¶R
+Size23,23 ®-!ßR
+	AlignmentTopRight ®-®R
+Offset0,7,10,0 ®-7©R2-
+ButtonBackgroundSpriteHamburgerMenuIcon ®-E™R@;
+ButtonBackgroundSpriteHamburgerMenuIconPressedPressed®-$´R
+ComboBoxListWidth180 ®-%¨R 
+ShowSelectedItemFalse ®-*≠R% 
+ComboBoxListOffset70,2,0,0 ®-'ÆR"
+DeselectAfterSelectTrue ®-&ØR!
+BackgroundColor#F6F6F6 ®--∞R(#
+BackgroundSpriteContextMenuBg ®-±R
+MaskContentTrue ®-* ≤Rƒ
+ComboBoxListItemComboBoxListItem1≥R
+Height20 ®1&¥R!
+ItemSelected
+AddNewView ®1*—µRÀ
+LabelLabel2∂R
+TextCreate View ®2∑R
+FontSize14 ®2 ∏R
+FontSegoe UI SDF ®2πR
+Height20 ®2∫R
+Margin5,0,0,0 ®2ªR
+Width100% ®202J≤P01J•P*ÑºR˛
+ComboBoxListItemComboBoxListItem2ΩR
+Height20 ®43æR.)
+ItemSelectedToggleShowReadOnlyViews ®4*˛øR¯
+LabelLabel3¿R
+FontSize14 ®5 ¡R
+FontSegoe UI SDF ®5¬R
+Height20 ®5√R
+Margin5,0,0,0 ®5ƒR
+Width100% ®5"L≈RGB
+Text{DisplayReadOnlyViewsText}*
+DisplayReadOnlyViewsText : ®505JºP04J•P0-J‰P
+0BC∆R>B9
+Cell0,1MainGrid"	CellIndex*Grid2Delight.CellIndex®BG«RBB=
+CellSpan2,1MainGrid"	CellIndex*Grid2Delight.CellIndex®J›P*º
+»R∂
+
+RegionXmlEditorRegion&…R!
+BackgroundColor#fbfbfb ®; R
+	IsVisibleFalse ®;*◊ÀR—
+	XmlEditor	XmlEditorÃR
+Margin	10,21,0,0 ®<ÕR
+EditOnEdit ®<2ŒR-(
+SelectViewAtLineOnSelectViewAtLine ®<"?œR:5
+DesignerViews{DesignerViews}*
+DesignerViews : ®<0<J»P
+*π–R≥
+ImageLockIcon—R
+SpriteLock ®= “R
+	AlignmentTopLeft ®=”R
+Offset5,5,0,0 ®=‘R
+Size16 ®="’R
+PreserveAspectTrue ®=0=J»P
+*Ó÷RË
+RegionXmlEditorStatusBar◊R
+Width175 ®>ÿR
+Height20 ®>$ŸR
+	AlignmentBottomRight ®>$⁄R
+BackgroundColorWhite ®>*¿€R∫
+GroupGroup1%‹R 
+Orientation
+Horizontal ®?›R
+Spacing10 ®?ﬁR
+	AlignmentRight ®?ﬂR
+Margin5,0,5,0 ®?*Ñ‡R˛
+CheckBoxAutoParseCheckBox·R
+Text
+Auto parse ®@‚R
+FontSize12 ®@ „R
+	FontColor#333333 ®@‰R
+CheckBoxWidth15 ®@ ÂR
+CheckBoxHeight15 ®@"5ÊR0+
+	IsChecked{AutoParse}*
+	AutoParse : ®@0@J€P*óÁRë
+ButtonButton1ËR
+TextParse ®A$ÈR
+ClickParseEditedView ®AÍR
+FontSize12 ®AÎR
+Height14 ®A0AJ€P0?J÷P0>J»P
+0;BCÏR>B9
+Cell1,2MainGrid"	CellIndex*Grid2Delight.CellIndex®;J›P*ÙÌRÓ
+RegionDisplayRegionÓR
+	IsVisibleFalse ®G&ÔR!
+BackgroundColor#394552 ®G*èRâ
+ScrollableRegionScrollableContentRegionÒR
+
+HasInertiaFalse ®H(ÚR#
+ScrollbarVisibilityNever ®HÛR
+ScrollOnScroll ®H%ÙR 
+DisableMouseWheelTrue ®H0ıR+&
+UnblockDragEventsInChildrenFalse ®HˆR
+Margin0,0,0,0 ®H*p˜Rk
+UICanvasContentRegionCanvas¯R
+Scale1 ®J*)˘R$
+RegionViewContentRegion0KJ˜P0JJP0HJÌP
+*P˙RK
+DesignerToolbarDesignerToolbar1˚R
+IsActiveFalse ®O0OJÌP
+*⁄¸R‘
+GroupGroup2%˝R 
+Orientation
+Horizontal ®P!˛R
+	AlignmentTopRight ®PˇR
+Offset0,5,15,0 ®PÄR
+Spacing10 ®P*µÅRØ
+LabelLabel4ÇR
+AutoSizeTrue ®QÉR
+	FontColorWhite ®QÑR
+FontSize12 ®QÖR
+Offset0,0,0,0 ®Q"@ÜR;6
+Text{DisplayedView.Name}*
+DisplayedView.Name : ®Q"ZáRUP
+IsActive{LockDisplayButton.ToggleValue}*!
+LockDisplayButton.ToggleValue : ®Q0QJ¸P*–àR 
+ButtonLockDisplayButton"âR
+IsToggleButtonTrue ®RäR
+Offset0,0,0,1 ®R)ãR$
+ToggleClickToggleViewLock ®RåR
+IsActiveTrue ®R%çR 
+BackgroundSpriteeye64 ®RéR
+Size28 ®R(èR#
+BackgroundColor	#50ffffff ®R/êR*%
+BackgroundColor	#ffffffffPressed®R0RJ¸P*©ëR£
+ButtonHideUI"íR
+IsToggleButtonTrue ®T'ìR"
+ToggleClickToggleHideUI ®TîR
+IsActiveTrue ®T*ïR% 
+BackgroundSprite
+fullscreen ®TñR
+Size16 ®T(óR#
+BackgroundColor	#50ffffff ®T/òR*%
+BackgroundColor	#ffffffffPressed®T0TJ¸P0PJÌP
+0GBCôR>B9
+Cell0,2MainGrid"	CellIndex*Grid2Delight.CellIndex®GJ›P*‹öR÷
+GridSplitterGridSplitter1õR
+	Thickness20 ®Y-úR(#
+OverrideProportionalSizeFalse ®YùR
+	SplitModeRows ®Y0YBCûR>B9
+Cell0,2MainGrid"	CellIndex*Grid2Delight.CellIndex®YJ›P*öüRî
+GridSplitterGridSplitter2†R
+	Thickness20 ®Z-°R(#
+OverrideProportionalSizeFalse ®Z ¢R
+	SplitModeColumns ®Z0ZJ›P0J‹P*˝£R˜
+RegionSaveChangesPopup§R
+IsActiveFalse ®^•R
+Width450 ®^¶R
+Height300 ®^&ßR!
+BackgroundColor#dbdbdb ®^*Ç®R¸
+LabelLabel5G©RB=
+Text3Do you want to save changes to the following items? ®_™R
+FontSize16 ®_ ´R
+FontSegoe UI SDF ®_¨R
+Width100% ®_ ≠R
+	AlignmentTopLeft ®_ÆR
+Margin10,0,0,0 ®_0_J£P*éØRà
+ListList2 ∞R
+IsScrollableTrue ®a±R
+	AlignmentTop ®a!≤R
+Margin10,40,10,55 ®a$≥R
+BackgroundColorWhite ®a¥R
+Width100% ®aµR
+Height100% ®a∂R
+	CanSelectFalse ®a∑R
+
+HasInertiaFalse ®a"Q∏RLG
+Items{view in ChangedDesignerViews}*
+ChangedDesignerViews :view®a*õπRï
+ListItem	ListItem2*Ù∫RÓ
+LabelLabel6ªR
+FontSize16 ®e ºR
+FontSegoe UI SDF ®eΩR
+Height24 ®e æR
+	FontColor#000000 ®eøR
+Width100% ®e¿R
+Margin16,0,0,0 ®e'¡R"
+EnableWordWrappingFalse ®e$¬R
+OverflowModeTruncate ®e √R
+ExtraPaddingTrue ®e".ƒR)$
+Text{view.Name}*
+	view.Name : ®e0eJπP0dJØP
+0aJ£P*ø≈Rπ
+GroupGroup3%∆R 
+Orientation
+Horizontal ®i«R
+Spacing8 ®i$»R
+	AlignmentBottomRight ®i…R
+Offset	0,0,10,10 ®i*± R´
+ButtonButton2ÀR
+TextYes ®j'ÃR"
+ClickSaveChangesAndQuit ®jÕR
+Width90 ®jŒR
+Height30 ®jœR
+FontSize16 ®j0jJ≈P
+*≥–R≠
+ButtonButton3—R
+TextNo ®k*“R% 
+ClickDiscardChangesAndQuit ®k”R
+Width90 ®k‘R
+Height30 ®k’R
+FontSize16 ®k0kJ≈P
+*¨÷R¶
+ButtonButton4◊R
+TextCancel ®lÿR
+Click
+CancelQuit ®lŸR
+Width90 ®l⁄R
+Height30 ®l€R
+FontSize16 ®l0lJ≈P
+0iJ£P0^J‹P0
+PbTextMeshProÄàê†
+”J‹RÕJ
+	XmlEditor	XmlEditor"v/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Editor/XmlEditor.xml*ö:&›R!
+BackgroundColor#fbfbfb ®:&ﬁR!
+EnableScriptEventsTrue ®:áﬂRÅ
+|
+XmlTextString"ZSystem.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.String®:ç‡Rá
+Å
+	IsFocusedBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:·R
+	IsFocusedTrue®:*‚R%
+ 
+Edit
+ViewAction2
+ViewAction@®:6„R1
+,
+SelectViewAtLine
+ViewAction2
+ViewAction@®:»‰R¬
+º
+AutoCompleteOptionsAutoCompleteOptionData"mDelight.AutoCompleteOptionData, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.AutoCompleteOptionData®:√ÂRΩ
+∑
+SelectedAutoCompleteOptionAutoCompleteOption"iDelight.AutoCompleteOption, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2Delight.AutoCompleteOption®:ÃÊR∆
+¿
+DesignerViewsDesignerViewData"uDelight.Editor.Parser.DesignerViewData, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null2&Delight.Editor.Parser.DesignerViewData®:éÁRà
+Ç
+
+IsReadOnlyBoolean"[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892System.Boolean®:ËR
+
+IsReadOnlyFalse®:?ÈR:
+8
+ScrollableRegionScrollableRegion2ScrollableRegion@:7ÍR2
+0
+ScrollableRegionTemplateTemplate2Template@:(ÎR#
+!
+XmlEditRegionRegion2Region@:4ÏR/
+-
+XmlEditRegionTemplateTemplate2Template@:(ÌR#
+!
+XmlTextRegionRegion2Region@:4ÓR/
+-
+XmlTextRegionTemplateTemplate2Template@:<ÔR7
+5
+TextSelectionCanvasRenderer2CanvasRendererView@:4R/
+-
+TextSelectionTemplateTemplate2Template@:%ÒR 
+
+XmlTextLabelLabel2Label@:3ÚR.
+,
+XmlTextLabelTemplateTemplate2Template@:ÛR
+
+CaretLabel2Label@:,ÙR'
+%
+CaretTemplateTemplate2Template@:(ıR#
+!
+	UICanvas1UICanvas2UICanvas@:0ˆR+
+)
+UICanvas1TemplateTemplate2Template@:*˜R%
+#
+AutoCompleteBoxRegion2Region@:6¯R1
+/
+AutoCompleteBoxTemplateTemplate2Template@:.˘R)
+'
+AutoCompleteOptionsListList2List@:>˙R9
+7
+AutoCompleteOptionsListTemplateTemplate2Template@:0˚R+
+)
+DefaultOptionItemListItem2ListItem@:8¸R3
+1
+DefaultOptionItemTemplateTemplate2Template@:˝R
+
+Label1Label2Label@:-˛R(
+&
+Label1TemplateTemplate2Template@:.ˇR)
+'
+AssetOptionItemListItem2ListItem@:6ÄR1
+/
+AssetOptionItemTemplateTemplate2Template@:(ÅR#
+!
+	RawImage1RawImage2RawImage@:0ÇR+
+)
+RawImage1TemplateTemplate2Template@:ÉR
+
+Label2Label2Label@:-ÑR(
+&
+Label2TemplateTemplate2Template@:#ÖR
+
+
+TooltipBoxFrame2Frame@:1ÜR,
+*
+TooltipBoxTemplateTemplate2Template@:%áR 
+
+TooltipLabelLabel2Label@:3àR.
+,
+TooltipLabelTemplateTemplate2Template@:âR
+
+Image1Image2Image@:-äR(
+&
+Image1TemplateTemplate2Template@:,ãR'
+%
+XmlEditLeftMarginRegion2Region@:8åR3
+1
+XmlEditLeftMarginTemplateTemplate2Template@:)çR$
+"
+LineNumbersLabelLabel2Label@:7éR2
+0
+LineNumbersLabelTemplateTemplate2Template@:1èR,
+*
+LineNumbersRightBorderRegion2Region@:=êR8
+6
+LineNumbersRightBorderTemplateTemplate2Template@:'ëR"
+ 
+DebugTextLabelLabel2Label@:5íR0
+.
+DebugTextLabelTemplateTemplate2Template@Bª,ìRµ,
+ScrollableRegionScrollableRegionîR
+Width100% ®ïR
+Height100% ®'ñR"
+ContentAlignmentTopLeft ®óR
+
+HasInertiaFalse ®#òR
+ScrollBoundsClamped ®"ôR
+ScrollEnabledFalse ®7öR2-
+"HorizontalScrollbarBackgroundColorWhite ®5õR0+
+ VerticalScrollbarBackgroundColorWhite ®,úR'"
+HorizontalScrollbarBreadth15 ®*ùR% 
+VerticalScrollbarBreadth15 ®0ûR+&
+HorizontalScrollbarBarColorWhite ®.üR)$
+VerticalScrollbarBarColorWhite ®5†R0+
+HorizontalScrollbarHandleColor#bfbfbf ®3°R.)
+VerticalScrollbarHandleColor#bfbfbf ®3¢R.)
+HorizontalScrollbarBarMargin3,5,3,5 ®1£R,'
+VerticalScrollbarBarMargin5,3,5,3 ®0§R+&
+UnblockDragEventsInChildrenFalse ®*é&•Rà&
+RegionXmlEditRegion¶R
+Width500 ®ßR
+Height500 ® ®R
+	AlignmentTopLeft ®*ˇ©R˘
+RegionXmlTextRegion™R
+Width100% ®´R
+Height100% ®¨R
+Margin60,0,0,0 ®*à≠RÇ
+CanvasRendererTextSelectionÆR
+Width2000 ®ØR
+Height10000 ® ∞R
+	AlignmentTopLeft ®0J©P
+*€±R’
+LabelXmlTextLabel≤R
+Width2000 ®≥R
+Height10000 ®+¥R&!
+FontInconsolata-Regular SDF ®µR
+FontSize18 ®$∂R
+TextAlignmentTopLeft ®∑R
+RichTextfalse ®$∏R
+OverflowModeOverflow ®'πR"
+EnableWordWrappingFalse ® ∫R
+	AlignmentTopLeft ®0J©P
+*¶ªR†
+LabelCaretºR
+Text| ®ΩR
+Width20 ®æR
+Height20 ®+øR&!
+FontInconsolata-Regular SDF ®¿R
+FontSize18 ®¡R
+	FontColorBlack ®¬R
+Offset-5,0,0,0 ®$√R
+TextAlignmentTopLeft ®ƒR
+RichTextfalse ®$≈R
+OverflowModeOverflow ®'∆R"
+EnableWordWrappingFalse ® «R
+	AlignmentTopLeft ®0J©P
+*Ì»RÁ
+UICanvas	UICanvas1…R
+SortingOrder1 ®# R
+OverrideSortingTrue ®*ÁÀR·
+RegionAutoCompleteBoxÃR
+Width300 ®ÕR
+Height150 ® ŒR
+	AlignmentTopLeft ®&œR!
+BackgroundColor#E2E2E2 ®–R
+	IsVisibleFalse ®*ù—Ró
+ListAutoCompleteOptionsList “R
+IsScrollableTrue ®”R
+Width100% ®‘R
+Height150 ®&’R!
+BackgroundColor#E2E2E2 ®!÷R
+IsVirtualizedTrue ®:◊R50
+TemplateSelectorAutoCompleteOptionSelector ®"SÿRNI
+Items{option in AutoCompleteOptions}*
+AutoCompleteOptions :option®"ZŸRUP
+SelectedItem{SelectedAutoCompleteOption}* 
+SelectedAutoCompleteOption : ®*…⁄R√
+ListItemDefaultOptionItem€R
+Width100% ®‹R
+Height20 ®&›R!
+BackgroundColor#E2E2E2 ®.ﬁR)$
+BackgroundColor#C8C8C8Selected®7ﬂR2-
+Click"AutoCompleteOptionSelected(option) ®*‘‡RŒ
+LabelLabel1·R
+Width100% ®‚R
+Height21 ® „R
+	AlignmentTopLeft ®‰R
+RichTextTrue ®$ÂR
+OverflowModeTruncate ®'ÊR"
+EnableWordWrappingFalse ®+ÁR&!
+FontInconsolata-Regular SDF ®ËR
+FontSize20 ® ÈR
+	FontColor#5B5B5B ®ÍR
+Margin0,0,0,0 ®$ÎR
+TextAlignmentTopLeft ®"@ÏR;6
+Text{option.DisplayText}*
+option.DisplayText : ®0J⁄P0J—P*êÌRä
+ListItemAssetOptionItemÓR
+Width100% ® ÔR
+Height20 ® &R!
+BackgroundColor#E2E2E2 ® .ÒR)$
+BackgroundColor#C8C8C8Selected® 7ÚR2-
+Click"AutoCompleteOptionSelected(option) ® *≈ÛRø
+RawImage	RawImage1ÙR
+Width20 ®!ıR
+Height20 ®!ˆR
+	AlignmentLeft ®!"M˜RHC
+Texture{option.PreviewThumbnail}*
+option.PreviewThumbnail : ®!0!JÌP*’¯Rœ
+LabelLabel2˘R
+Width100% ®"˙R
+Height21 ®" ˚R
+	AlignmentTopLeft ®"¸R
+RichTextTrue ®"$˝R
+OverflowModeTruncate ®"'˛R"
+EnableWordWrappingFalse ®"+ˇR&!
+FontInconsolata-Regular SDF ®"ÄR
+FontSize20 ®" ÅR
+	FontColor#5B5B5B ®"ÇR
+Margin25,0,0,0 ®"$ÉR
+TextAlignmentTopLeft ®""@ÑR;6
+Text{option.DisplayText}*
+option.DisplayText : ®"0"JÌP0 J—P0JÀP0J»P*òÖRí
+Frame
+TooltipBox&ÜR!
+BackgroundColor#cee7d2 ®)#áR
+	Alignment
+BottomLeft ®)àR
+	IsVisibleFalse ®)*ﬁâRÿ
+LabelTooltipLabel äR
+TextTooltipLabel ®* ãR
+FontSegoe UI SDF ®*åR
+FontSize14 ®*çR
+AutoSizeTrue ®*éR
+Margin5,0,5,0 ®*èR
+MaxWidth400 ®*0*JÖP*•êRü
+ImageImage1"ëR
+SpriteTooltipArrow ®,#íR
+	Alignment
+BottomLeft ®,ìR
+Offset10,6,0,0 ®,îR
+Color#cee7d2 ®,0,JÖP0)J»P0J©P
+0J•P*åïRÜ
+RegionXmlEditLeftMarginñR
+Width50 ®3óR
+Height21 ®3 òR
+	AlignmentTopLeft ®3ôR
+Offset0 ®3öR
+Margin0 ®3&õR!
+BackgroundColor#fbfbfb ®3*˝úR˜
+LabelLineNumbersLabelùR
+Width50 ®4ûR
+Height21 ®4+üR&!
+FontInconsolata-Regular SDF ®4†R
+FontSize18 ®4 °R
+	FontColor#888888 ®4%¢R 
+TextAlignmentTopRight ®4£R
+RichTextfalse ®4$§R
+OverflowModeOverflow ®4'•R"
+EnableWordWrappingFalse ®4 ¶R
+	AlignmentTopLeft ®404JïP
+*∞ßR™
+RegionLineNumbersRightBorder&®R!
+BackgroundColor#fbfbfb ®6©R
+Width10 ®6™R
+	AlignmentRight ®6´R
+Offset10,0,0,0 ®606JïP
+03J•P0JìP0PBÎ¨RÂ
+LabelDebugTextLabel≠R
+AutoSizeTrue ®=ÆR
+Height21 ®=!ØR
+	AlignmentTopRight ®=∞R
+RichTextFalse ®=+±R&!
+FontInconsolata-Regular SDF ®=≤R
+FontSize20 ®= ≥R
+	FontColor#5B5B5B ®=¥R
+Offset0,0,0,20 ®=$µR
+TextAlignmentTopLeft ®=∂R
+IsActiveFalse ®=0=PbTextMeshProÄàê†
+ó∑Rë
+DesignerToolbarDesignerToolbar"|/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Views/UI/Editor/DesignerToolbar.xml*ö:∏R
+Width40 ®:&πR!
+BackgroundColor#636363 ®:∫R
+	AlignmentLeft ®Äàê†´ªR•
+MoPubAdUnitºR
+Platformstring0ΩR
+Typestring0æR
+Namestring0øR
+AdUnitIdstring0¿R
+Custombool0" *b/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Models/Schema.txt2MoPubAdUnitsBõ¡Rï¬R
+ºandroid√R
+Ωbanner!ƒR
+æMoPub Sample Banner.≈R)
+ø b195f8dd8ded45fe847ad89ed1d016da∆R
+¿falseBß«R°»R
+ºandroid…R
+Ωinterstitial' R"
+æMoPub Sample Interstitial.ÀR)
+ø 24534e1901884e398f1253216226017eÃR
+¿falseB•ÕRüŒR
+ºandroidœR
+Ωrewarded)–R$
+æMoPub Sample Rewarded Video.—R)
+ø 920b6145fb1546cf8b5cf2ac34638bb7“R
+¿falseB™”R§‘R
+ºandroid’R
+Ωrewarded.÷R)
+æ MoPub Sample Rewarded Rich Media.◊R)
+ø a96ae2ef41d44822af45c6328c4e1eb1ÿR
+¿falseBúŸRñ⁄R
+ºios€R
+Ωbanner&‹R!
+æMoPub Sample HTML Banner.›R)
+ø 0ac59b0996d947309c33f59d6676399fﬁR
+¿falseBùﬂRó‡R
+ºios·R
+Ωbanner'‚R"
+æMoPub Sample MRAID Banner.„R)
+ø ef078b27e11c49bbb87080617a69b970‰R
+¿falseB¶ÂR†ÊR
+ºiosÁR
+Ωbanner0ËR+
+æ"MoPub Sample HTML Medium Rectangle.ÈR)
+ø 2aae44d2ab91424d9850870af33e5af7ÍR
+¿falseB®ÎR¢ÏR
+ºiosÌR
+Ωinterstitial,ÓR'
+æMoPub Sample HTML Interstitial.ÔR)
+ø 4f117153f5c24fa6a3a92b818a5eb630R
+¿falseB©ÒR£ÚR
+ºiosÛR
+Ωinterstitial-ÙR(
+æMoPub Sample MRAID Interstitial.ıR)
+ø 9f2859c6726447aa9eaaa43a35ae8682ˆR
+¿falseB°˜Rõ¯R
+ºios˘R
+Ωrewarded)˙R$
+æMoPub Sample Rewarded Video.˚R)
+ø 8f000bd5e00246de9c789eed39ff6096¸R
+¿falseB¶˝R†˛R
+ºiosˇR
+Ωrewarded.ÄR)
+æ MoPub Sample Rewarded Rich Media.ÅR)
+ø 98c29e015e7346bd9c380b1467b33850ÇR
+¿falseÆúÉRßú
+MoPubStylesg/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"‚
+Group
+MPTopGroupåÜ
+Width100% *ÙÑRÓ
+Group
+MPTopGroup
+Width100% *Ñ®
+Height100% *Ñ®
+Spacing10 *Ñ®#
+OrientationVertical *Ñ®
+	AlignmentTop *Ñ®&!
+BackgroundColor#ffffff *Ñ®1,
+BackgroundMaterialUI-Fast-Default *Ñ®(:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®
+Height100% *Ñ®
+Spacing10 *Ñ®#
+OrientationVertical *Ñ®
+	AlignmentTop *Ñ®&!
+BackgroundColor#ffffff *Ñ®1,
+BackgroundMaterialUI-Fast-Default *Ñ®(:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"Ñ
+LabelMPLabelùó
+Width100% *ÖÖRˇ
+LabelMPLabel
+Width100% *Ö®
+Margin	30,0,10,0 *Ö®
+	AlignmentLeft *Ö®'"
+EnableWordWrappingfalse *Ö®(:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®
+Margin	30,0,10,0 *Ö®
+	AlignmentLeft *Ö®'"
+EnableWordWrappingfalse *Ö®(:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"‰
+LabelMPHeaderÕ«
+Width100% *µÜRØ
+LabelMPHeader
+Width100% *Ü®#
+TextAlignmentCenter *Ü®
+FontSize48 *Ü®
+Offset0 *Ü®
+Margin-3 *Ü®
+Height120 *Ü®(:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPLabel®#
+TextAlignmentCenter *Ü®
+FontSize48 *Ü®
+Offset0 *Ü®
+Margin-3 *Ü®
+Height120 *Ü®(:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPLabel"≤
+RegionMPHeaderDelimiter≤¨
+Height2 *úáRñ
+RegionMPHeaderDelimiter
+Height2 *á®
+Offset0,23 *á®&!
+BackgroundColor#cfcfcf *á®1,
+BackgroundMaterialUI-Fast-Default *á®(:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®
+Offset0,23 *á®&!
+BackgroundColor#cfcfcf *á®1,
+BackgroundMaterialUI-Fast-Default *á®(:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"™
+RegionMPHeaderShadowÆ®
+Height3 *òàRí
+RegionMPHeaderShadow
+Height3 *à®$
+Offset0,8 *à®$&!
+BackgroundColor#aaaaaa *à®$1,
+BackgroundMaterialUI-Fast-Default *à®$($:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®$
+Offset0,8 *à®$&!
+BackgroundColor#aaaaaa *à®$1,
+BackgroundMaterialUI-Fast-Default *à®$($:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"˙
+RegionMPSectionTitleóë
+Height80 *ÄâR˙
+RegionMPSectionTitle
+Height80 *â®*(#
+BackgroundColor	#286295EF *â®*1,
+BackgroundMaterialUI-Fast-Default *â®*(*:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®*(#
+BackgroundColor	#286295EF *â®*1,
+BackgroundMaterialUI-Fast-Default *â®*(*:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"Ç
+LabelMPSectionTitleúñ
+Width100% *ÑäR˛
+LabelMPSectionTitle
+Width100% *ä®0
+Margin30 *ä®0
+FontSize46 *ä®0 
+	FontColor#242424 *ä®0(0:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPLabel®0
+Margin30 *ä®0
+FontSize46 *ä®0 
+	FontColor#242424 *ä®0(0:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPLabel"Ú
+ScrollableRegionMPScrollableRegionÏÊ
+VerticalScrollbarBarIsActiveFalse *ºãR∂
+ScrollableRegionMPScrollableRegion1,
+VerticalScrollbarBarIsActiveFalse *ã®8
+Offset  *ã®8
+
+HasInertiaTrue *ã®8
+
+Elasticity.15 *ã®8#
+DecelerationRate.05 *ã®8'"
+CanScrollVerticallyTrue *ã®8*%
+CanScrollHorizontallyFalse *ã®8
+MaskContentTrue *ã®8(8:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®8
+Offset  *ã®8
+
+HasInertiaTrue *ã®8
+
+Elasticity.15 *ã®8#
+DecelerationRate.05 *ã®8'"
+CanScrollVerticallyTrue *ã®8*%
+CanScrollHorizontallyFalse *ã®8
+MaskContentTrue *ã®8(8:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"æ
+RegionMPAdUnitListáÅ
+BackgroundColor#ffffff *‚åR‹
+RegionMPAdUnitList&!
+BackgroundColor#ffffff *å®C1,
+BackgroundMaterialUI-Fast-Default *å®C(C:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®C1,
+BackgroundMaterialUI-Fast-Default *å®C(C:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"ƒ
+ListMPAdUnitList¬º
+	CanSelectfalse *•çRü
+ListMPAdUnitList
+	CanSelectfalse *ç®H(H:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®H(H:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"º
+ListItem
+MPListItem˘Û
+Height160 *·éR€
+ListItem
+MPListItem
+Height160 *é®L1,
+BackgroundMaterialUI-Fast-Default *é®L,'
+BackgroundColorWhiteSelected*é®L/*
+BackgroundColorWhiteHighlighted*é®L+&
+BackgroundColorWhitePressed*é®L(L:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®L1,
+BackgroundMaterialUI-Fast-Default *é®L,'
+BackgroundColorWhiteSelected*é®L/*
+BackgroundColorWhiteHighlighted*é®L+&
+BackgroundColorWhitePressed*é®L(L:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"®
+LabelMPTitleØ©
+Width100% *óèRë
+LabelMPTitle
+Width100% *è®T
+Margin30 *è®T 
+	FontColor#242424 *è®T
+Height80 *è®T
+FontSize46 *è®T(T:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPLabel®T
+Margin30 *è®T 
+	FontColor#242424 *è®T
+Height80 *è®T
+FontSize46 *è®T(T:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPLabel"®
+Label
+MPSubtitleÔÈ
+Width100% *◊êR—
+Label
+MPSubtitle
+Width100% *ê®]
+Margin30 *ê®]
+Height40 *ê®]
+FontSize40 *ê®] 
+	FontColor#aaaaaa *ê®]
+	AlignmentLeft *ê®]
+AutoSizeTrue *ê®](]:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPLabel®]
+Margin30 *ê®]
+Height40 *ê®]
+FontSize40 *ê®] 
+	FontColor#aaaaaa *ê®]
+	AlignmentLeft *ê®]
+AutoSizeTrue *ê®](]:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPLabel"˛
+LabelMPAdUnitItemNameôì
+Height80 *ÇëR¸
+LabelMPAdUnitItemName
+Height80 *ë®h
+FontSize46 *ë®h
+Width100% *ë®h
+Margin30,-60 *ë®h(h:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPTitle®h
+FontSize46 *ë®h
+Width100% *ë®h
+Margin30,-60 *ë®h(h:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPTitle"¬
+LabelMPAdUnitItemIdªµ
+Height40 *§íRû
+LabelMPAdUnitItemId
+Height40 *í®p
+FontSize40 *í®p 
+	FontColor#aaaaaa *í®p
+Width100% *í®p
+Margin30,60 *í®p(p:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlB
+MPSubtitle®p
+FontSize40 *í®p 
+	FontColor#aaaaaa *í®p
+Width100% *í®p
+Margin30,60 *í®p(p:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlB
+MPSubtitle"∞
+RegionMPDelimiter±´
+Height2 *õìRï
+RegionMPDelimiter
+Height2 *ì®y
+Margin	45,0,45,0 *ì®y&!
+BackgroundColor#e3e3e4 *ì®y1,
+BackgroundMaterialUI-Fast-Default *ì®y(y:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®y
+Margin	45,0,45,0 *ì®y&!
+BackgroundColor#e3e3e4 *ì®y1,
+BackgroundMaterialUI-Fast-Default *ì®y(y:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"∂
+RegionMPItemDelimeterµÆ
+Height2 *ûîRò
+RegionMPItemDelimeter
+Height2 *î®Ä 
+Margin	45,0,45,0 *î®Ä'!
+BackgroundColor#e3e3e4 *î®Ä
+Offset0,80,0,0 *î®Ä(Ä:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPDelimiter®Ä 
+Margin	45,0,45,0 *î®Ä'!
+BackgroundColor#e3e3e4 *î®Ä
+Offset0,80,0,0 *î®Ä(Ä:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPDelimiter"¿
+
+InputFieldMPTextEntryÄ˘
+	AlignmentLeft *„ïR›
+
+InputFieldMPTextEntry
+	AlignmentLeft *ï®à
+Height100 *ï®à
+Width100% *ï®à"
+TextAlignmentLeft *ï®à
+FontSize40 *ï®à!
+	FontColor#aaaaaa *ï®à& 
+SelectionColor#6295ef *ï®à 
+Margin	30,0,30,0 *ï®à
+
+TextMargin0 *ï®à2,
+BackgroundMaterialUI-Fast-Default *ï®à(à:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®à
+Height100 *ï®à
+Width100% *ï®à"
+TextAlignmentLeft *ï®à
+FontSize40 *ï®à!
+	FontColor#aaaaaa *ï®à& 
+SelectionColor#6295ef *ï®à 
+Margin	30,0,30,0 *ï®à
+
+TextMargin0 *ï®à2,
+BackgroundMaterialUI-Fast-Default *ï®à(à:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"ä
+ButtonMPBack‡Ÿ
+Height80 *»ñR¬
+ButtonMPBack
+Height80 *ñ®ï
+Width  *ñ®ï
+FontSize50 *ñ®ï
+Margin10,10 *ñ®ï#
+
+TextMargin0,0,15,0 *ñ®ï
+	AlignmentLeft *ñ®ï%
+BackgroundColorclear *ñ®ï!
+	FontColor#6295ef *ñ®ï,&
+	FontColor#6295efHighlighted*ñ®ï0*
+BackgroundColorclearHighlighted*ñ®ï.(
+BackgroundColor#6295efPressed*ñ®ï("
+	FontColor#ffffffPressed*ñ®ï("
+	FontColorGray80Disabled*ñ®ï/)
+BackgroundColor#7d7d7dDisabled*ñ®ï2,
+BackgroundMaterialUI-Fast-Default *ñ®ï(ï:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®ï
+Width  *ñ®ï
+FontSize50 *ñ®ï
+Margin10,10 *ñ®ï#
+
+TextMargin0,0,15,0 *ñ®ï
+	AlignmentLeft *ñ®ï%
+BackgroundColorclear *ñ®ï!
+	FontColor#6295ef *ñ®ï,&
+	FontColor#6295efHighlighted*ñ®ï0*
+BackgroundColorclearHighlighted*ñ®ï.(
+BackgroundColor#6295efPressed*ñ®ï("
+	FontColor#ffffffPressed*ñ®ï("
+	FontColorGray80Disabled*ñ®ï/)
+BackgroundColor#7d7d7dDisabled*ñ®ï2,
+BackgroundMaterialUI-Fast-Default *ñ®ï(ï:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"¨
+Button
+MPAdActionÒÍ
+Height80 *ŸóR”
+Button
+MPAdAction
+Height80 *ó®ß
+Width200 *ó®ß
+FontSize40 *ó®ß
+Margin0 *ó®ß 
+
+TextMargin-10,0 *ó®ß'!
+BackgroundColor#6295ef *ó®ß!
+	FontColor#ffffff *ó®ß,&
+	FontColor#ffffffHighlighted*ó®ß2,
+BackgroundColor#6295efHighlighted*ó®ß0*
+BackgroundColor	#446295efPressed*ó®ß("
+	FontColor#6295efPressed*ó®ß)#
+	FontColor#ffffffDisabled*ó®ß("
+	FontStylenormalDisabled*ó®ß/)
+BackgroundColor#9c9c9cDisabled*ó®ß2,
+BackgroundMaterialUI-Fast-Default *ó®ß(ß:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®ß
+Width200 *ó®ß
+FontSize40 *ó®ß
+Margin0 *ó®ß 
+
+TextMargin-10,0 *ó®ß'!
+BackgroundColor#6295ef *ó®ß!
+	FontColor#ffffff *ó®ß,&
+	FontColor#ffffffHighlighted*ó®ß2,
+BackgroundColor#6295efHighlighted*ó®ß0*
+BackgroundColor	#446295efPressed*ó®ß("
+	FontColor#6295efPressed*ó®ß)#
+	FontColor#ffffffDisabled*ó®ß("
+	FontStylenormalDisabled*ó®ß/)
+BackgroundColor#9c9c9cDisabled*ó®ß2,
+BackgroundMaterialUI-Fast-Default *ó®ß(ß:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"‡
+ExpanderMPEventExpanderòë
+ContentMargin0,0,60,0 *ÛòRÌ
+ExpanderMPEventExpander& 
+ContentMargin0,0,60,0 *ò®π
+Width100% *ò®π 
+
+IsExpandedfalse *ò®π#
+HeaderAlignmentTop *ò®π%
+BackgroundColorClear *ò®π2,
+BackgroundMaterialUI-Fast-Default *ò®π(π:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®π
+Width100% *ò®π 
+
+IsExpandedfalse *ò®π#
+HeaderAlignmentTop *ò®π%
+BackgroundColorClear *ò®π2,
+BackgroundMaterialUI-Fast-Default *ò®π(π:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"⁄
+ExpanderHeaderMPEventHeaderÃ≈
+Size100%,100 *∞ôR™
+ExpanderHeaderMPEventHeader
+Size100%,100 *ô®¬(¬:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®¬(¬:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"‹
+ExpanderContentMPEventContentåÖ
+Size100%,60 *ÒöRÎ
+ExpanderContentMPEventContent
+Size100%,60 *ö®∆
+Offset60,90 *ö®∆
+	AlignmentTop *ö®∆& 
+AutoSizeToContentTrue *ö®∆%
+BackgroundColorClear *ö®∆2,
+BackgroundMaterialUI-Fast-Default *ö®∆(∆:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®∆
+Offset60,90 *ö®∆
+	AlignmentTop *ö®∆& 
+AutoSizeToContentTrue *ö®∆%
+BackgroundColorClear *ö®∆2,
+BackgroundMaterialUI-Fast-Default *ö®∆(∆:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"ú
+GroupMPEventGroupÌÊ
+Size100%,100 *—õRÀ
+GroupMPEventGroup
+Size100%,100 *õ®œ
+Offset0,-30 *õ®œ$
+OrientationVertical *õ®œ%
+BackgroundColorClear *õ®œ2,
+BackgroundMaterialUI-Fast-Default *õ®œ(œ:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlB
+MPTopGroup®œ
+Offset0,-30 *õ®œ$
+OrientationVertical *õ®œ%
+BackgroundColorClear *õ®œ2,
+BackgroundMaterialUI-Fast-Default *õ®œ(œ:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlB
+MPTopGroup"÷
+ImageMPEventChevron∆ø
+Height60 *ÆúR®
+ImageMPEventChevron
+Height60 *ú®ÿ
+Width60 *ú®ÿ
+	AlignmentLeft *ú®ÿ$
+Spritechevron-right *ú®ÿ("
+MaterialUI-Fast-Default *ú®ÿ(ÿ:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®ÿ
+Width60 *ú®ÿ
+	AlignmentLeft *ú®ÿ$
+Spritechevron-right *ú®ÿ("
+MaterialUI-Fast-Default *ú®ÿ(ÿ:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"ò
+ImageMPAdUnitChevronÁ‡
+Height60 *œùR…
+ImageMPAdUnitChevron
+Height60 *ù®‡
+Width60 *ù®‡
+	AlignmentRight *ù®‡
+Offset0,0,20 *ù®‡$
+Spritechevron-right *ù®‡("
+MaterialUI-Fast-Default *ù®‡(‡:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®‡
+Width60 *ù®‡
+	AlignmentRight *ù®‡
+Offset0,0,20 *ù®‡$
+Spritechevron-right *ù®‡("
+MaterialUI-Fast-Default *ù®‡(‡:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml"í
+LabelMPEventLabelÛÏ
+EnableWordWrappingFalse *ÃûR∆
+LabelMPEventLabel("
+EnableWordWrappingFalse *û®È
+Width100% *û®È!
+	FontColor#242424 *û®È
+Height80 *û®È
+FontSize46 *û®È
+Margin60 *û®È(È:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPTitle®È
+Width100% *û®È!
+	FontColor#242424 *û®È
+Height80 *û®È
+FontSize46 *û®È
+Margin60 *û®È(È:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPTitle"⁄
+
+InputField
+MPTextAreaÕ∆
+	AlignmentLeft *∞üR™
+
+InputField
+MPTextArea
+	AlignmentLeft *ü®Û
+Height40 *ü®Û
+FontSize32 *ü®Û!
+	FontColor#aaaaaa *ü®Û& 
+SelectionColor#6295ef *ü®Û
+
+TextMargin0 *ü®Û2,
+BackgroundMaterialUI-Fast-Default *ü®Û
+Width100% *ü®Û
+Offset30,-20 *ü®Û
+Margin0,0,80,0 *ü®Û
+	LineLimit0 *ü®Û)#
+LineTypeMultiLineNewline *ü®Û(Û:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPTextEntry®Û
+Height40 *ü®Û
+FontSize32 *ü®Û!
+	FontColor#aaaaaa *ü®Û& 
+SelectionColor#6295ef *ü®Û
+
+TextMargin0 *ü®Û2,
+BackgroundMaterialUI-Fast-Default *ü®Û
+Width100% *ü®Û
+Offset30,-20 *ü®Û
+Margin0,0,80,0 *ü®Û
+	LineLimit0 *ü®Û)#
+LineTypeMultiLineNewline *ü®Û(Û:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlBMPTextEntry"é
+ImageMPCheckImage‚€
+Height60 * †Rƒ
+ImageMPCheckImage
+Height60 *†®É
+Width60 *†®É
+Offset0,0,30,0 *†®É
+	AlignmentRight *†®É 
+Sprite	checkmark *†®É("
+MaterialUI-Fast-Default *†®É(É:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xml®É
+Width60 *†®É
+Offset0,0,30,0 *†®É
+	AlignmentRight *†®É 
+Sprite	checkmark *†®É("
+MaterialUI-Fast-Default *†®É(É:g/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Content/Styles/MoPubStyles.xmlƒø°RΩø
+StandardStyler/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"†
+
+Button∏≤
+BackgroundColor#7d7d7d *ì¢Rç
+Button&!
+BackgroundColor#7d7d7d *¢® 
+	FontColor#ffffff *¢®
+	FontStyleNormal *¢®0+
+BackgroundColorGray90Highlighted*¢®-(
+BackgroundColor#ef706aPressed*¢®+&
+	FontColor#000000Highlighted*¢®'"
+	FontColor#ffffffPressed*¢®
+Height30 *¢®
+FontSize16 *¢®'"
+	FontStyleItalicDisabled*¢®'"
+	FontColorGray80Disabled*¢®.)
+BackgroundColor#7d7d7dDisabled*¢®3.
+StateAnimationsFadeInOutHighlighted *¢®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml® 
+	FontColor#ffffff *¢®
+	FontStyleNormal *¢®0+
+BackgroundColorGray90Highlighted*¢®-(
+BackgroundColor#ef706aPressed*¢®+&
+	FontColor#000000Highlighted*¢®'"
+	FontColor#ffffffPressed*¢®
+Height30 *¢®
+FontSize16 *¢®'"
+	FontStyleItalicDisabled*¢®'"
+	FontColorGray80Disabled*¢®.)
+BackgroundColor#7d7d7dDisabled*¢®3.
+StateAnimationsFadeInOutHighlighted *¢®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"é
+ButtonComboBoxButton(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"∏
+Label∏≤
+FontSize16 *ü£Rô
+Label
+FontSize16 *£®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"å
+ListItem°õ
+Breadth30 *â§RÉ
+ListItem
+Breadth30 *§®	$
+BackgroundColorClear *§®	.)
+BackgroundColor#ef706aSelected*§®	1,
+BackgroundColor#d5d4d4Highlighted*§®	-(
+BackgroundColor#ef706aPressed*§®	.)
+BackgroundColorGray95	Alternate*§®	(	:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®	$
+BackgroundColorClear *§®	.)
+BackgroundColor#ef706aSelected*§®	1,
+BackgroundColor#d5d4d4Highlighted*§®	-(
+BackgroundColor#ef706aPressed*§®	.)
+BackgroundColorGray95	Alternate*§®	(	:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"÷
+ListItemClearëã
+BackgroundColorClear *Ó•RË
+ListItemClear$
+BackgroundColorClear *•®,'
+BackgroundColorClearSelected*•®/*
+BackgroundColorClearHighlighted*•®+&
+BackgroundColorClearPressed*•®-(
+BackgroundColorClear	Alternate*•®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®,'
+BackgroundColorClearSelected*•®/*
+BackgroundColorClearHighlighted*•®+&
+BackgroundColorClearPressed*•®-(
+BackgroundColorClear	Alternate*•®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"™
+ListItemUnselectableListItem∞™
+Breadth30 *ò¶Rí
+ListItemUnselectableListItem
+Breadth30 *¶®$
+BackgroundColorClear *¶®,'
+BackgroundColorClearSelected*¶®/*
+BackgroundColorClearHighlighted*¶®+&
+BackgroundColorClearPressed*¶®-(
+BackgroundColorClear	Alternate*¶®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®$
+BackgroundColorClear *¶®,'
+BackgroundColorClearSelected*¶®/*
+BackgroundColorClearHighlighted*¶®+&
+BackgroundColorClearPressed*¶®-(
+BackgroundColorClear	Alternate*¶®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"Œ
+
+InputFieldçá
+BackgroundColorWhite *ÍßR‰
+
+InputField$
+BackgroundColorWhite *ß®
+FontSize16 *ß® 
+	FontColor#000000 *ß®
+Width400 *ß®
+Height30 *ß®% 
+SelectionColor#ef706a *ß®!
+
+TextMargin5,7,5,0 *ß®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®
+FontSize16 *ß® 
+	FontColor#000000 *ß®
+Width400 *ß®
+Height30 *ß®% 
+SelectionColor#ef706a *ß®!
+
+TextMargin5,7,5,0 *ß®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"¬
+SliderâÉ
+SliderFillColor#ef706a *‰®Rﬁ
+Slider&!
+SliderFillColor#ef706a *®®(#
+SliderHandleColor#f8f6f3 *®®&!
+BackgroundColor#626262 *®®
+Breadth12 *®®#
+SliderHandleWidth11 *®®$
+SliderHandleHeight22 *®®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®(#
+SliderHandleColor#f8f6f3 *®®&!
+BackgroundColor#626262 *®®
+Breadth12 *®®#
+SliderHandleWidth11 *®®$
+SliderHandleHeight22 *®®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"∂
+ComboBoxµØ
+Height32 *û©Rò
+ComboBox
+Height32 *©®
+Width200 *©®#
+ButtonMargin0,2,0,0 *©® 
+ButtonFontSize16 *©®&!
+ButtonFontColor#000000 *©®'"
+ButtonTextAlignmentLeft *©®*%
+ButtonLabelMargin	10,0,10,0 *©®-(
+ButtonFontColor#000000Pressed*©®1,
+ButtonFontColor#000000Highlighted*©®4/
+ButtonBackgroundSpriteComboBoxButton *©®,'
+ButtonBackgroundColor#ffffff *©®B=
+ButtonBackgroundSpriteComboBoxButtonPressedPressed*©®72
+ButtonBackgroundColor#ddddddHighlighted*©®3.
+ButtonBackgroundColor#eeeeeePressed*©®&!
+BackgroundColor#ffffff *©®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®
+Width200 *©®#
+ButtonMargin0,2,0,0 *©® 
+ButtonFontSize16 *©®&!
+ButtonFontColor#000000 *©®'"
+ButtonTextAlignmentLeft *©®*%
+ButtonLabelMargin	10,0,10,0 *©®-(
+ButtonFontColor#000000Pressed*©®1,
+ButtonFontColor#000000Highlighted*©®4/
+ButtonBackgroundSpriteComboBoxButton *©®,'
+ButtonBackgroundColor#ffffff *©®B=
+ButtonBackgroundSpriteComboBoxButtonPressedPressed*©®72
+ButtonBackgroundColor#ddddddHighlighted*©®3.
+ButtonBackgroundColor#eeeeeePressed*©®&!
+BackgroundColor#ffffff *©®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"≤
+ComboBoxItemÙÓ
+Breadth30 *‹™R÷
+ComboBoxItem
+Breadth30 *™®$
+BackgroundColorWhite *™®.)
+BackgroundColor#ef706aSelected*™®0+
+BackgroundColorGray90Highlighted*™®-(
+BackgroundColor#ef706aPressed*™®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®$
+BackgroundColorWhite *™®.)
+BackgroundColor#ef706aSelected*™®0+
+BackgroundColorGray90Highlighted*™®-(
+BackgroundColor#ef706aPressed*™®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"‡
+CheckBoxÿ“
+CheckBoxSpriteCheckBox *≥´R≠
+CheckBox&!
+CheckBoxSpriteCheckBox *´®4/
+CheckBoxSpriteCheckBoxPressedChecked*´®
+Height20 *´®
+CheckBoxWidth20 *´® 
+CheckBoxHeight20 *´®$
+CheckBoxColor#ffffff *´®
+FontSize16 *´®
+	FontStyleNormal *´® 
+	FontColor#ffffff *´®
+Spacing10 *´®'"
+	FontStyleItalicDisabled*´®'"
+	FontColorGray80Disabled*´®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®4/
+CheckBoxSpriteCheckBoxPressedChecked*´®
+Height20 *´®
+CheckBoxWidth20 *´® 
+CheckBoxHeight20 *´®$
+CheckBoxColor#ffffff *´®
+FontSize16 *´®
+	FontStyleNormal *´® 
+	FontColor#ffffff *´®
+Spacing10 *´®'"
+	FontStyleItalicDisabled*´®'"
+	FontColorGray80Disabled*´®(:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"Ë	
+RadioButton¢ú
+RadioButtonSpriteRadioButton *˜¨RÒ
+RadioButton,'
+RadioButtonSpriteRadioButton *¨® :5
+RadioButtonSpriteRadioButtonPressedChecked*¨® "
+RadioButtonWidth17 *¨® #
+RadioButtonHeight17 *¨® 
+Height20 *¨® '"
+RadioButtonColor#ffffff *¨® (#
+RadioButtonOffset0,1,0,0 *¨® 
+FontSize16 *¨®  
+	FontColor#ffffff *¨® 
+	FontStyleNormal *¨® 
+Spacing10px *¨® '"
+	FontStyleItalicDisabled*¨® '"
+	FontColorGray80Disabled*¨® ( :r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml® :5
+RadioButtonSpriteRadioButtonPressedChecked*¨® "
+RadioButtonWidth17 *¨® #
+RadioButtonHeight17 *¨® 
+Height20 *¨® '"
+RadioButtonColor#ffffff *¨® (#
+RadioButtonOffset0,1,0,0 *¨® 
+FontSize16 *¨®  
+	FontColor#ffffff *¨® 
+	FontStyleNormal *¨® 
+Spacing10px *¨® '"
+	FontStyleItalicDisabled*¨® '"
+	FontColorGray80Disabled*¨® ( :r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"
+SelectionIndicator„›
+BackgroundSprite	Selection *ª≠Rµ
+SelectionIndicator)$
+BackgroundSprite	Selection *≠®$($:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®$($:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"ê
+NavigationButton·€
+Width30 *ÀÆR≈
+NavigationButton
+Width30 *Æ®%
+Height40 *Æ®%&!
+BackgroundColor#bbbbbb *Æ®%1,
+BackgroundColor#ddddddHighlighted*Æ®%-(
+BackgroundColor#ffffffPressed*Æ®%(%:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®%
+Height40 *Æ®%&!
+BackgroundColor#bbbbbb *Æ®%1,
+BackgroundColor#ddddddHighlighted*Æ®%-(
+BackgroundColor#ffffffPressed*Æ®%(%:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"º
+ExpanderàÇ
+SpriteExpanderArrowRight *·ØR€
+Expander(#
+SpriteExpanderArrowRight *Ø®'/*
+SpriteExpanderArrowDownExpanded*Ø®'(':r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®'/*
+SpriteExpanderArrowDownExpanded*Ø®'(':r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"›
+
+StateAnimationsFadeInOutHighlighted():r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJ‹∞R÷
+StateAnimation
+FromAny *∞®*
+ToHighlighted *∞®*(*:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÃ±R∆
+Animate'"
+PropertyBackgroundColor *±®+
+Duration0.05 *±®+(+:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJ∆≤R¿
+Animate!
+Property	FontColor *≤®,
+Duration0.05 *≤®,(,:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJﬁ≥Rÿ
+StateAnimation
+FromHighlighted *≥®/
+ToDefault *≥®/(/:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÀ¥R≈
+Animate'"
+PropertyBackgroundColor *¥®0
+Duration0.5 *¥®0(0:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJ≈µRø
+Animate!
+Property	FontColor *µ®1
+Duration0.5 *µ®1(1:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"Ó
+StateAnimationsNavigationTransitionSwipe(5:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJ∞∂R™
+StateAnimation
+FromClosed *∂®7
+ToDefault *∂®7(7:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÙ∑RÓ
+Animate
+PropertyOffset *∑®8
+Duration850ms *∑®8.)
+EasingFunctionQuadraticEaseOut *∑®8(8:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÛ∏RÌ
+Animate
+PropertyScale *∏®9
+Duration850ms *∏®9.)
+EasingFunctionQuadraticEaseOut *∏®9(9:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJ∞πR™
+StateAnimation
+FromDefault *π®=
+ToPushed *π®=(=:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÙ∫RÓ
+Animate
+PropertyOffset *∫®>
+Duration850ms *∫®>.)
+EasingFunctionQuadraticEaseOut *∫®>(>:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÛªRÌ
+Animate
+PropertyScale *ª®?
+Duration850ms *ª®?.)
+EasingFunctionQuadraticEaseOut *ª®?(?:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJ∞ºR™
+StateAnimation
+FromPushed *º®C
+ToDefault *º®C(C:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÙΩRÓ
+Animate
+PropertyOffset *Ω®D
+Duration850ms *Ω®D.)
+EasingFunctionQuadraticEaseOut *Ω®D(D:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÛæRÌ
+Animate
+PropertyScale *æ®E
+Duration850ms *æ®E.)
+EasingFunctionQuadraticEaseOut *æ®E(E:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJ∞øR™
+StateAnimation
+FromDefault *ø®I
+ToClosed *ø®I(I:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÙ¿RÓ
+Animate
+PropertyOffset *¿®J
+Duration850ms *¿®J.)
+EasingFunctionQuadraticEaseOut *¿®J(J:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÛ¡RÌ
+Animate
+PropertyScale *¡®K
+Duration850ms *¡®K.)
+EasingFunctionQuadraticEaseOut *¡®K(K:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"‡
+StateAnimationsListItemAnimation1(P:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJù	¬Ró	
+StateAnimation
+FromUnlisted *¬®R
+ToDefault *¬®R(R:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÚ√RÏ
+Animate
+PropertyScale *√®S
+Duration2850ms *√®S,'
+EasingFunctionElasticEaseOut *√®S(S:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÛƒRÌ
+Animate
+PropertyOffset *ƒ®T
+Duration2850ms *ƒ®T,'
+EasingFunctionElasticEaseOut *ƒ®T(T:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÒ≈RÎ
+Animate!
+Property	IsVisible *≈®U
+Duration2850ms *≈®U'"
+EasingFunction	FlipStart *≈®U(U:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJˆ∆R
+Animate(#
+PropertyRaycastBlockMode *∆®V
+Duration2850ms *∆®V% 
+EasingFunctionFlipEnd *∆®V(V:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJ¢«Rú
+StateAnimation
+FromDefault *«®Z
+ToRemoved *«®Z(Z:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJ»RÍ
+Animate
+PropertyScale *»®[
+Duration350ms *»®[+&
+EasingFunctionQuadricEaseIn *»®[([:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÓ…RË
+Animate!
+Property	IsVisible *…®\
+Duration350ms *…®\% 
+EasingFunctionFlipEnd *…®\(\:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJ˜ RÒ
+Animate(#
+PropertyRaycastBlockMode * ®]
+Duration350ms * ®]'"
+EasingFunction	FlipStart * ®](]:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"‚	
+ListItemAnimatedItem1§û
+StateAnimationsListItemAnimation1 *ÙÀRÓ
+ListItemAnimatedItem11,
+StateAnimationsListItemAnimation1 *À®`!
+Offset0%,0%,0%,0% *À®`*%
+Offset50%,0%,0%,0%Unlisted*À®`
+	IsVisibleTrue *À®`&!
+	IsVisibleFalseUnlisted*À®`% 
+	IsVisibleFalseRemoved*À®`&!
+RaycastBlockModeAlways *À®`-(
+RaycastBlockModeNeverUnlisted*À®`,'
+RaycastBlockModeNeverRemoved*À®`
+Scale1,1 *À®`&!
+Scale	0.75,0.75Unlisted*À®`
+Scale0,0Removed*À®`(`:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlBClear®`!
+Offset0%,0%,0%,0% *À®`*%
+Offset50%,0%,0%,0%Unlisted*À®`
+	IsVisibleTrue *À®`&!
+	IsVisibleFalseUnlisted*À®`% 
+	IsVisibleFalseRemoved*À®`&!
+RaycastBlockModeAlways *À®`-(
+RaycastBlockModeNeverUnlisted*À®`,'
+RaycastBlockModeNeverRemoved*À®`
+Scale1,1 *À®`&!
+Scale	0.75,0.75Unlisted*À®`
+Scale0,0Removed*À®`(`:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlBClear"◊
+StateAnimationsListItemAnimation2(g:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJù	ÃRó	
+StateAnimation
+FromUnlisted *Ã®i
+ToDefault *Ã®i(i:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÛÕRÌ
+Animate
+PropertyOffset *Õ®j
+Duration2850ms *Õ®j,'
+EasingFunctionElasticEaseOut *Õ®j(j:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÚŒRÏ
+Animate
+PropertyScale *Œ®k
+Duration2850ms *Œ®k,'
+EasingFunctionElasticEaseOut *Œ®k(k:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÒœRÎ
+Animate!
+Property	IsVisible *œ®l
+Duration2850ms *œ®l'"
+EasingFunction	FlipStart *œ®l(l:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJˆ–R
+Animate(#
+PropertyRaycastBlockMode *–®m
+Duration2850ms *–®m% 
+EasingFunctionFlipEnd *–®m(m:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJô	—Rì	
+StateAnimation
+FromDefault *—®q
+ToUnlisted *—®q(q:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÚ“RÏ
+Animate
+PropertyOffset *“®r
+Duration850ms *“®r,'
+EasingFunctionElasticEaseOut *“®r(r:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÒ”RÎ
+Animate
+PropertyScale *”®s
+Duration850ms *”®s,'
+EasingFunctionElasticEaseOut *”®s(s:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJÓ‘RË
+Animate!
+Property	IsVisible *‘®t
+Duration850ms *‘®t% 
+EasingFunctionFlipEnd *‘®t(t:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlJ˜’RÒ
+Animate(#
+PropertyRaycastBlockMode *’®u
+Duration850ms *’®u'"
+EasingFunction	FlipStart *’®u(u:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"Ù
+ListItemAnimatedItem2ÌÁ
+StateAnimationsListItemAnimation2 *Ω÷R∑
+ListItemAnimatedItem21,
+StateAnimationsListItemAnimation2 *÷®x!
+Offset0%,0%,0%,0% *÷®x+&
+Offset100%,0%,0%,0%Unlisted*÷®x
+	IsVisibleTrue *÷®x&!
+	IsVisibleFalseUnlisted*÷®x&!
+RaycastBlockModeAlways *÷®x-(
+RaycastBlockModeNeverUnlisted*÷®x(x:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlBClear®x!
+Offset0%,0%,0%,0% *÷®x+&
+Offset100%,0%,0%,0%Unlisted*÷®x
+	IsVisibleTrue *÷®x&!
+	IsVisibleFalseUnlisted*÷®x&!
+RaycastBlockModeAlways *÷®x-(
+RaycastBlockModeNeverUnlisted*÷®x(x:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xmlBClear"∞
+ButtonRoundedButtonëã
+BackgroundSpriteRoundedSquareFull@128px *€◊R’
+ButtonRoundedButton72
+BackgroundSpriteRoundedSquareFull@128px *◊®{&!
+BackgroundColor#7d7d7d *◊®{ 
+	FontColor#ffffff *◊®{
+	FontStyleNormal *◊®{0+
+BackgroundColorGray90Highlighted*◊®{-(
+BackgroundColor#ef706aPressed*◊®{+&
+	FontColor#000000Highlighted*◊®{'"
+	FontColor#ffffffPressed*◊®{
+Height30 *◊®{
+FontSize16 *◊®{'"
+	FontStyleItalicDisabled*◊®{'"
+	FontColorGray80Disabled*◊®{.)
+BackgroundColor#7d7d7dDisabled*◊®{3.
+StateAnimationsFadeInOutHighlighted *◊®{({:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml®{&!
+BackgroundColor#7d7d7d *◊®{ 
+	FontColor#ffffff *◊®{
+	FontStyleNormal *◊®{0+
+BackgroundColorGray90Highlighted*◊®{-(
+BackgroundColor#ef706aPressed*◊®{+&
+	FontColor#000000Highlighted*◊®{'"
+	FontColor#ffffffPressed*◊®{
+Height30 *◊®{
+FontSize16 *◊®{'"
+	FontStyleItalicDisabled*◊®{'"
+	FontColorGray80Disabled*◊®{.)
+BackgroundColor#7d7d7dDisabled*◊®{3.
+StateAnimationsFadeInOutHighlighted *◊®{({:r/Users/andres/workspace/mopub-unity/unity-sample-app/Assets/MoPub/Sample/Delight/Content/Styles/StandardStyles.xml"˛ÿR¯
+	Resources"#Assets/MoPub/Sample/Content/Assets/*k
+	checkmarkBAssets/MoPub/Sample/Content/Assets/Resources/Sprites/checkmark.pngØ"	Resources(2Sprites/*q
+chevron-downEAssets/MoPub/Sample/Content/Assets/Resources/Sprites/chevron-down.pngØ"	Resources(2Sprites/*q
+chevron-leftEAssets/MoPub/Sample/Content/Assets/Resources/Sprites/chevron-left.pngØ"	Resources(2Sprites/*s
+chevron-rightFAssets/MoPub/Sample/Content/Assets/Resources/Sprites/chevron-right.pngØ"	Resources(2Sprites/"Ä%ŸR˙$
+	Resources"+Assets/MoPub/Sample/Delight/Content/Assets/*ù
+
+Ebrima SDFKAssets/MoPub/Sample/Delight/Content/Assets/Resources/Fonts/Ebrima SDF.asset-⁄R(
+TMP_FontAssetTMPro.TMP_FontAsset "	Resources(2Fonts/*á
+EbrimaEAssets/MoPub/Sample/Delight/Content/Assets/Resources/Fonts/Ebrima.ttf!€R
+FontUnityEngine.Font "	Resources(2Fonts/*ç
+Inconsolata-Regular SDFXAssets/MoPub/Sample/Delight/Content/Assets/Resources/Fonts/Inconsolata-Regular SDF.asset⁄"	Resources(2Fonts/*É
+Inconsolata-RegularRAssets/MoPub/Sample/Delight/Content/Assets/Resources/Fonts/Inconsolata-Regular.ttf€"	Resources(2Fonts/*w
+Segoe UI SDFMAssets/MoPub/Sample/Delight/Content/Assets/Resources/Fonts/Segoe UI SDF.asset⁄"	Resources(2Fonts/*m
+Segoe UIGAssets/MoPub/Sample/Delight/Content/Assets/Resources/Fonts/Segoe UI.ttf€"	Resources(2Fonts/*Ç
+UI-Fast-DefaultRAssets/MoPub/Sample/Delight/Content/Assets/Resources/Materials/UI-Fast-Default.mat3"	Resources(2
+Materials/*¢
+UI-Fast-DefaultSAssets/MoPub/Sample/Delight/Content/Assets/Resources/Shaders/UI-Fast-Default.shader#‹R
+ShaderUnityEngine.Shader"	Resources(2Shaders/*q
+CheckBoxIAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/CheckBox.psdØ"	Resources(2Sprites/*
+CheckBoxPressedPAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/CheckBoxPressed.psdØ"	Resources(2Sprites/*w
+CloseButtonLAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/CloseButton.psdØ"	Resources(2Sprites/*}
+ComboBoxButtonOAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/ComboBoxButton.psdØ"	Resources(2Sprites/*ã
+ComboBoxButtonPressedVAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/ComboBoxButtonPressed.psdØ"	Resources(2Sprites/*{
+ContextMenuBgNAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/ContextMenuBg.psdØ"	Resources(2Sprites/*y
+DesignerGridMAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/DesignerGrid.psdØ"	Resources(2Sprites/*{
+DesignerGrid2NAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/DesignerGrid2.psdØ"	Resources(2Sprites/*u
+
+EditorGridKAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/EditorGrid.psdØ"	Resources(2Sprites/*É
+ExpanderArrowDownRAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/ExpanderArrowDown.psdØ"	Resources(2Sprites/*Ö
+ExpanderArrowRightSAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/ExpanderArrowRight.psdØ"	Resources(2Sprites/*É
+HamburgerMenuIconRAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/HamburgerMenuIcon.psdØ"	Resources(2Sprites/*ë
+HamburgerMenuIconPressedYAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/HamburgerMenuIconPressed.psdØ"	Resources(2Sprites/*{
+ListSelectionNAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/ListSelection.psdØ"	Resources(2Sprites/*i
+LockEAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/Lock.psdØ"	Resources(2Sprites/*w
+RadioButtonLAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/RadioButton.psdØ"	Resources(2Sprites/*Ö
+RadioButtonPressedSAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/RadioButtonPressed.psdØ"	Resources(2Sprites/*{
+RainbowSquareNAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/RainbowSquare.psdØ"	Resources(2Sprites/*á
+RoundedSquare10_5pxTAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/RoundedSquare10_5px.psdØ"	Resources(2Sprites/*è
+RoundedSquareFull@128pxXAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/RoundedSquareFull@128px.pngØ"	Resources(2Sprites/*è
+RoundedSquareFull@256pxXAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/RoundedSquareFull@256px.pngØ"	Resources(2Sprites/*è
+RoundedSquareFull@512pxXAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/RoundedSquareFull@512px.pngØ"	Resources(2Sprites/*s
+	SelectionJAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/Selection.psdØ"	Resources(2Sprites/*y
+TooltipArrowMAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/TooltipArrow.psdØ"	Resources(2Sprites/*y
+delight-iconMAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/delight-icon.pngØ"	Resources(2Sprites/*k
+eye16FAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/eye16.pngØ"	Resources(2Sprites/*k
+eye64FAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/eye64.pngØ"	Resources(2Sprites/*u
+
+fullscreenKAssets/MoPub/Sample/Delight/Content/Assets/Resources/Sprites/fullscreen.pngØ"	Resources(2Sprites/:€:3:Ø:⁄:‹:3›R.
+TMP_ColorGradientTMPro.TMP_ColorGradient :/ﬁR*
+TMP_SpriteAssetTMPro.TMP_SpriteAsset :-ﬂR(
+TMP_StyleSheetTMPro.TMP_StyleSheet :5‡R0
+TMP_InputValidatorTMPro.TMP_InputValidator :%·R 
+TextureUnityEngine.Texture 

@@ -14,8 +14,6 @@ public static class MoPubAdSizeMapping
                 return 320;
             case MaxAdSize.Width336Height280:
                 return 336;
-            case MaxAdSize.Width468Height60:
-                return 468;
             case MaxAdSize.Width728Height90:
                 return 728;
             case MaxAdSize.Width970Height90:
@@ -52,8 +50,6 @@ public static class MoPubAdSizeMapping
             case MaxAdSize.Width320Height50:
             case MaxAdSize.ScreenWidthHeight50:
                 return 50;
-            case MaxAdSize.Width468Height60:
-                return 60;
             case MaxAdSize.Width728Height90:
             case MaxAdSize.Width970Height90:
             case MaxAdSize.ScreenWidthHeight90:

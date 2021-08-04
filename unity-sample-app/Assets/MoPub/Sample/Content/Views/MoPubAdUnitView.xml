@@ -1,0 +1,353 @@
+<MoPubAdUnitView xmlns="Delight" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="Delight ../Delight.xsd"
+    EnableScriptEvents="True"
+    NavigateBack="t:Action"
+    AdType="t:string"
+    IsBanner="t:bool = true"
+    IsInterstitial="t:bool = true"
+    IsRewardedAd="t:bool = true"
+    m.AdUnitName=""
+    m.AdUnitId=""
+>
+    <Group BackgroundColor="White" Spacing="10" Height="" Alignment="Top">
+        <Group Orientation="Horizontal" Alignment="Left" Spacing="">
+            <Image Style="MPEventChevron" Sprite="chevron-left" Offset="15,5" />
+            <Button Text="  Back" Style="MPBack" Click="BackClickHandler" Offset="0,0,50" Width="200" />
+        </Group>
+
+        <Region Style="MPSectionTitle">
+            <Label Id="AdUnitName" Style="MPSectionTitle" Text="AdUnitName_placeholder" />
+        </Region>
+
+        <Label Text="Ad Unit ID" Style="MPTitle" />
+        <Label Id="AdUnitId" Style="MPSubtitle" Text="AdUnitId_placeholder" Offset="0,-10" />
+        <Region Style="MPDelimiter" />
+
+        <InputField Id="Keywords" Style="MPTextEntry" />
+        <Region Id="KeywordsDelimiter" Style="MPDelimiter" />
+
+        <InputField Id="UserDataKeywords" Style="MPTextEntry" />
+        <Region Id="UserDataKeywordsDelimiter" Style="MPDelimiter" />
+
+        <Region Style="MPHeaderDelimiter" />
+
+        <Button Id="LoadAdButton" Text="Load Ad" Style="MPAdAction" Offset="-110,56" Click="LoadAdHandler" />
+        <Button Id="ShowAdButton" Text="Show Ad" Style="MPAdAction" Offset="110,-34" Click="ShowAdHandler"
+                IsVisible="{!IsBanner}" IsDisabled="true" />
+
+        <Region Style="MPHeaderDelimiter" Offset="" />
+
+        <!--               -->
+        <!-- Banner Events -->
+        <!--               -->
+
+        <Expander IsActive="{IsBanner}" Id="OnAdLoadedExpander" Style="MPEventExpander"
+                  Click="$ OnAdLoadedExpander.IsExpanded = !OnAdLoadedExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnAdLoadedExpanderMPEventChevron" Style="MPEventChevron" Expanded-Sprite="chevron-down"
+                           ExpanderHeader.SetExpanderState="True" />
+                    <Image Id="OnAdLoadedExpanderCheckImage" Style="MPCheckImage" />
+                    <Label Id="OnAdLoadedExpanderEventLabel" Text="OnAdLoadedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent" Size="100%,100">
+                <Group Style="MPEventGroup">
+                    <Label Id="OnAdLoadedExpanderAdUnitIdLabel" Style="MPSubtitle" />
+                    <Label Id="OnAdLoadedExpanderHeightLabel" Style="MPSubtitle" Offset="0,-50" />
+                </Group>
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsBanner}" />
+
+        <Expander IsActive="{IsBanner}" Id="OnAdClickedExpander" Style="MPEventExpander"
+                  Click="$ OnAdClickedExpander.IsExpanded = !OnAdClickedExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnAdClickedExpanderMPEventChevron" Style="MPEventChevron" Expanded-Sprite="chevron-down"
+                           ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnAdClickedExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnAdClickedExpanderEventLabel" Text="OnAdClickedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent">
+                <Label Id="OnAdClickedExpanderAdUnitIdLabel" Style="MPSubtitle" />
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsBanner}" />
+
+        <Expander IsActive="{IsBanner}" Id="OnAdFailedExpander" Style="MPEventExpander"
+                  Click="$ OnAdFailedExpander.IsExpanded = !OnAdFailedExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnAdFailedExpanderMPEventChevron" Style="MPEventChevron" Expanded-Sprite="chevron-down"
+                           ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnAdFailedExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnAdFailedExpanderEventLabel" Text="OnAdFailedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent" Size="100%,100">
+                <Group Style="MPEventGroup">
+                    <Label Id="OnAdFailedExpanderAdUnitIdLabel" Style="MPSubtitle" />
+                    <Label Id="OnAdFailedExpanderErrorLabel" Style="MPSubtitle" Offset="0,-50" />
+                </Group>
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsBanner}" />
+
+        <!--                    -->
+        <!-- Interstital Events -->
+        <!--                    -->
+
+        <Expander IsActive="{IsInterstitial}" Id="OnInterstitialLoadedExpander" Style="MPEventExpander"
+                  Click="$ OnInterstitialLoadedExpander.IsExpanded = !OnInterstitialLoadedExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnInterstitialLoadedExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnInterstitialLoadedExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnInterstitialLoadedExpanderEventLabel" Text="OnInterstitialLoadedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent">
+                <Label Id="OnInterstitialLoadedExpanderAdUnitIdLabel" Style="MPSubtitle" />
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsInterstitial}" />
+
+        <Expander IsActive="{IsInterstitial}" Id="OnInterstitialShownExpander" Style="MPEventExpander"
+                  Click="$ OnInterstitialShownExpander.IsExpanded = !OnInterstitialShownExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnInterstitialShownExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnInterstitialShownExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnInterstitialShownExpanderEventLabel" Text="OnInterstitialShownEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent">
+                <Label Id="OnInterstitialShownExpanderAdUnitIdLabel" Style="MPSubtitle" />
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsInterstitial}" />
+
+        <Expander IsActive="{IsInterstitial}" Id="OnInterstitialClickedExpander" Style="MPEventExpander"
+                  Click="$ OnInterstitialClickedExpander.IsExpanded = !OnInterstitialClickedExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnInterstitialClickedExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnInterstitialClickedExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnInterstitialClickedExpanderEventLabel" Text="OnInterstitialClickedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent">
+                <Label Id="OnInterstitialClickedExpanderAdUnitIdLabel" Style="MPSubtitle" />
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsInterstitial}" />
+
+        <Expander IsActive="{IsInterstitial}" Id="OnInterstitialDismissedExpander" Style="MPEventExpander"
+                  Click="$ OnInterstitialDismissedExpander.IsExpanded = !OnInterstitialDismissedExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnInterstitialDismissedExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnInterstitialDismissedExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnInterstitialDismissedExpanderEventLabel" Text="OnInterstitialDismissedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent">
+                <Label Id="OnInterstitialDismissedExpanderAdUnitIdLabel" Style="MPSubtitle" />
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsInterstitial}" />
+
+        <Expander IsActive="{IsInterstitial}" Id="OnInterstitialFailedExpander" Style="MPEventExpander"
+                  Click="$ OnInterstitialFailedExpander.IsExpanded = !OnInterstitialFailedExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnInterstitialFailedExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnInterstitialFailedExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnInterstitialFailedExpanderEventLabel" Text="OnInterstitialFailedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent" Size="100%,100">
+                <Group Style="MPEventGroup">
+                    <Label Id="OnInterstitialFailedExpanderAdUnitIdLabel" Style="MPSubtitle" />
+                    <Label Id="OnInterstitialFailedExpanderErrorLabel" Style="MPSubtitle" Offset="0,-50" />
+                </Group>
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsInterstitial}" />
+
+        <!--                    -->
+        <!-- Rewarded Ad Events -->
+        <!--                    -->
+
+        <Expander IsActive="{IsRewardedAd}" Id="OnRewardedVideoLoadedExpander" Style="MPEventExpander"
+                  Click="$ OnRewardedVideoLoadedExpander.IsExpanded = !OnRewardedVideoLoadedExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnRewardedVideoLoadedExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnRewardedVideoLoadedExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnRewardedVideoLoadedExpanderEventLabel" Text="OnRewardedVideoLoadedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent">
+                <Label Id="OnRewardedVideoLoadedExpanderAdUnitIdLabel" Style="MPSubtitle" />
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsRewardedAd}" />
+
+        <Expander IsActive="{IsRewardedAd}" Id="OnRewardedVideoShownExpander" Style="MPEventExpander"
+                  Click="$ OnRewardedVideoShownExpander.IsExpanded = !OnRewardedVideoShownExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnRewardedVideoShownExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnRewardedVideoShownExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnRewardedVideoShownExpanderEventLabel" Text="OnRewardedVideoShownvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent">
+                <Label Id="OnRewardedVideoShownExpanderAdUnitIdLabel" Style="MPSubtitle" />
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsRewardedAd}" />
+
+        <Expander IsActive="{IsRewardedAd}" Id="OnRewardedVideoClickedExpander" Style="MPEventExpander"
+                  Click="$ OnRewardedVideoClickedExpander.IsExpanded = !OnRewardedVideoClickedExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnRewardedVideoClickedExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnRewardedVideoClickedExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnRewardedVideoClickedExpanderEventLabel" Text="OnRewardedVideoClickedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent">
+                <Label Id="OnRewardedVideoClickedExpanderAdUnitIdLabel" Style="MPSubtitle" />
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsRewardedAd}" />
+
+        <Expander IsActive="{IsRewardedAd}" Id="OnRewardedVideoClosedExpander" Style="MPEventExpander"
+                  Click="$ OnRewardedVideoClosedExpander.IsExpanded = !OnRewardedVideoClosedExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnRewardedVideoClosedExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnRewardedVideoClosedExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnRewardedVideoClosedExpanderEventLabel" Text="OnRewardedVideoClosedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent">
+                <Label Id="OnRewardedVideoClosedExpanderAdUnitIdLabel" Style="MPSubtitle" />
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsRewardedAd}" />
+
+        <Expander IsActive="{IsRewardedAd}" Id="OnRewardedVideoReceivedRewardExpander" Style="MPEventExpander"
+                  Click="$ OnRewardedVideoReceivedRewardExpander.IsExpanded = !OnRewardedVideoReceivedRewardExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnRewardedVideoReceivedRewardExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnRewardedVideoReceivedRewardExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnRewardedVideoReceivedRewardExpanderEventLabel" Text="OnRewardedVideoReceivedRewardEvent"
+                       Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent" Size="100%,180">
+                <Group Style="MPEventGroup">
+                    <Label Id="OnRewardedVideoReceivedRewardExpanderAdUnitIdLabel" Style="MPSubtitle" />
+                    <Label Id="OnRewardedVideoReceivedRewardExpanderLabelLabel" Style="MPSubtitle" Offset="0,-50" />
+                    <Label Id="OnRewardedVideoReceivedRewardExpanderAmountLabel" Style="MPSubtitle" Offset="0,-100" />
+                </Group>
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsRewardedAd}" />
+
+        <Expander IsActive="{IsRewardedAd}" Id="OnRewardedVideoFailedToPlayExpander" Style="MPEventExpander"
+                  Click="$ OnRewardedVideoFailedToPlayExpander.IsExpanded = !OnRewardedVideoFailedToPlayExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnRewardedVideoFailedToPlayExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnRewardedVideoFailedToPlayExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnRewardedVideoFailedToPlayExpanderEventLabel" Text="OnRewardedVideoFailedToPlayEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent" Size="100%,100">
+                <Group Style="MPEventGroup">
+                    <Label Id="OnRewardedVideoFailedToPlayExpanderAdUnitIdLabel" Style="MPSubtitle" />
+                    <Label Id="OnRewardedVideoFailedToPlayExpanderErrorLabel" Style="MPSubtitle" Offset="0,-50" />
+                </Group>
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsRewardedAd}" />
+
+        <Expander IsActive="{IsRewardedAd}" Id="OnRewardedVideoFailedEventExpander" Style="MPEventExpander"
+                  Click="$ OnRewardedVideoFailedEventExpander.IsExpanded = !OnRewardedVideoFailedEventExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnRewardedVideoFailedEventExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnRewardedVideoFailedEventExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnRewardedVideoFailedEventExpanderEventLabel" Text="OnRewardedVideoFailedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent" Size="100%,100">
+                <Group Style="MPEventGroup">
+                    <Label Id="OnRewardedVideoFailedEventExpanderAdUnitIdLabel" Style="MPSubtitle" />
+                    <Label Id="OnRewardedVideoFailedEventExpanderErrorLabel" Style="MPSubtitle" Offset="0,-50" />
+                </Group>
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" IsActive="{IsRewardedAd}" />
+
+        <!--                   -->
+        <!-- Impression Events -->
+        <!--                   -->
+
+        <Expander Id="OnImpressionTrackedBgExpander" Style="MPEventExpander"
+                  Click="$ OnImpressionTrackedBgExpander.IsExpanded = !OnImpressionTrackedBgExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnImpressionTrackedBgExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnImpressionTrackedBgExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnImpressionTrackedBgExpanderEventLabel" Text="OnImpressionTrackedBgEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent" AutoSizeToContent="False">
+                <Group Style="MPEventGroup">
+                    <Label Id="OnImpressionTrackedBgExpanderAdUnitIdLabel" Style="MPSubtitle" />
+                    <InputField Id="OnImpressionTrackedBgExpanderImpressionDataField" Style="MPTextArea" />
+                </Group>
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" />
+
+        <Expander Id="OnImpressionTrackedExpander" Style="MPEventExpander"
+                  Click="$ OnImpressionTrackedExpander.IsExpanded = !OnImpressionTrackedExpander.IsExpanded ">
+            <ExpanderHeader Style="MPEventHeader">
+                <Region BackgroundColor="White">
+                    <Image Id="OnImpressionTrackedExpanderMPEventChevron" Style="MPEventChevron"
+                           Expanded-Sprite="chevron-down" ExpanderHeader.SetExpanderState="True" />
+                <Image Id="OnImpressionTrackedExpanderCheckImage" Style="MPCheckImage" />
+                <Label Id="OnImpressionTrackedExpanderEventLabel" Text="OnImpressionTrackedEvent" Style="MPEventLabel" />
+                </Region>
+            </ExpanderHeader>
+            <ExpanderContent Style="MPEventContent" AutoSizeToContent="False">
+                <Group Style="MPEventGroup">
+                    <Label Id="OnImpressionTrackedExpanderAdUnitIdLabel" Style="MPSubtitle" />
+                    <InputField Id="OnImpressionTrackedExpanderImpressionDataField" Style="MPTextArea" />
+                </Group>
+            </ExpanderContent>
+        </Expander>
+        <Region Style="MPDelimiter" />
+    </Group>
+</MoPubAdUnitView>

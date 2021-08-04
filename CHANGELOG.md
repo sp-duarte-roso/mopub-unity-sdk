@@ -1,6 +1,7 @@
 ## Version 5.17.0 (May 12, 2021)
 - **Features**
   - The MoPub Unity Plugin now includes version `5.17.0` of the MoPub Android and iOS SDKs.
+  - Completely new sample app (see below), rebuilt from the ground up, with a focus on usability, cross-platform consistency, and showcasing the MoPub API.
   - Cleaned up `MoPub.cs` to ensure it only includes Publisher API methods.
 
 - **Bug Fixes**

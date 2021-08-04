@@ -40,6 +40,7 @@ INTERNAL_DEPENDENCIES='\
     <androidPackage spec="androidx.legacy:legacy-support-v4:1.0.0"\/>\
     <androidPackage spec="androidx.appcompat:appcompat:1.1.0"\/>\
     <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"\/>\
+    <androidPackage spec="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"\/>\
     <androidPackage spec="androidx.media2:media2-session:1.1.1"\/>\
     <androidPackage spec="androidx.media2:media2-widget:1.1.1"\/>\
     <androidPackage spec="androidx.media2:media2-player:1.1.1"\/>\

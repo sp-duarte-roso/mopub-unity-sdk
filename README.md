@@ -10,16 +10,36 @@ To get started visit our [Unity Integration Guide](https://developers.mopub.com/
 
 To file an issue with our team please email [support@mopub.com](mailto:support@mopub.com).
 
-## New in This Version (5.17.0 - May 12, 2021)
+## New in This Version (5.18.0 - August 4, 2021)
 
 Please view the [MoPub Unity SDK changelog](https://github.com/mopub/mopub-unity-sdk/blob/master/CHANGELOG.md), [MoPub Android SDK changelog](https://github.com/mopub/mopub-android-sdk/blob/master/CHANGELOG.md), and [MoPub iOS SDK changelog](https://github.com/mopub/mopub-ios-sdk/blob/master/CHANGELOG.md) for a complete list of additions, fixes, and enhancements across releases and platforms.
 
 - **Features**
-  - The MoPub Unity Plugin now includes version `5.17.0` of the MoPub Android and iOS SDKs.
-  - Cleaned up `MoPub.cs` to ensure it only includes Publisher API methods.
+  - The MoPub Unity Plugin now includes version `5.18.0` of the MoPub Android and iOS SDKs.
+  - Completely new sample app (see below), rebuilt from the ground up, with a focus on usability, cross-platform consistency, and showcasing the MoPub API.
+  - Added validation to prevent duplicate ad unit ids.
 
 - **Bug Fixes**
-  - Fixed issue with some banners on iOS extending beyond the desired size.
+  - Removed size 468x60 constant due to inconsistent behavior.
+
+## New Sample App
+
+The new MoPub Unity sample app is the `MoPubSample` scene under `unity-sample-app/Assets/MoPub/Sample/`; the previous app has been moved into a `Legacy/` directory in the same location and can still be used as well.
+
+The scene can be ran within the Unity Editor with simulated ad lifecycle events, or deployed to an Android or iOS device to run with real ads. 
+
+![sample app demo](https://github.com/mopub/mopub-unity-sdk/blob/master/mopub-unity-sample.gif?raw=true)
+
+### Sample App Troubleshooting
+
+The MoPub Unity sample app is for demonstration, testing, and troubleshooting purposes only. If it causes any compilation issues,
+the `unity-sample-app/Assets/MoPub/Sample/` directory can be safely removed, or the following can be done to address them:
+* Ensuring TextMesh Pro 2.1.6 is installed (via the Unity Package Manager)
+* Ensuring `DELIGHT_MODULE_TEXTMESHPRO` is present in the Scripting Define Symbols (via Project Settings > Player > Other Settings)
+* Removing `TextMeshPro` as a Module from `unity-sample-app/Assets/MoPub/Sample/Content/Config.txt`, letting Unity compile, then re-adding it
+* Ensuring `UI/Default` is listed under `Always Included Shaders` (via Project Settings > Graphics > Built-in Shader Settings)
+
+If none of these address the problem, the `MoPubSample` scene and `AppIcons`, `Content` and `Delight` directories under `unity-sample-app/Assets/MoPub/Sample` can be safely removed to unblock using the legacy sample app.
 
 ## Upgrading to SDK 5.16
 Starting from version `5.16.0` the minimum supported Gradle Tools version is `3.4.3`.

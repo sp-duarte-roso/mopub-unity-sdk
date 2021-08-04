@@ -109,7 +109,6 @@ public abstract class MoPubBase : MoPubBaseInternal
         Width300Height250,
         Width320Height50,
         Width336Height280,
-        Width468Height60,
         Width728Height90,
         Width970Height90,
         Width970Height250,
@@ -304,8 +303,12 @@ public abstract class MoPubBase : MoPubBaseInternal
         public class AppLovin   : SupportedNetwork { public AppLovin()   : base("AppLovin") { } }
         public class Chartboost : SupportedNetwork { public Chartboost() : base("Chartboost") { } }
         public class Facebook   : SupportedNetwork { public Facebook()   : base("Facebook") { } }
+        public class Fyber      : SupportedNetwork { public Fyber()      : base("Fyber") { } }
         public class Flurry     : SupportedNetwork { public Flurry()     : base("Flurry") { } }
+        public class InMobi     : SupportedNetwork { public InMobi()     : base("InMobi") { } }
         public class IronSource : SupportedNetwork { public IronSource() : base("IronSource") { } }
+        public class Mintegral  : SupportedNetwork { public Mintegral()  : base("Mintegral") { } }
+        public class Ogury      : SupportedNetwork { public Ogury()      : base("Ogury") { } }
         public class Pangle     : SupportedNetwork { public Pangle()     : base("Pangle") { } }
         public class Snap       : SupportedNetwork { public Snap()       : base("SnapAd") { } }
         public class Tapjoy     : SupportedNetwork { public Tapjoy()     : base("Tapjoy") { } }

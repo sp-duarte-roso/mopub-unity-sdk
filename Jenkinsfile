@@ -6,6 +6,7 @@ pipeline {
         string(name: 'XCODE_VERSION', defaultValue: "${env.DEFAULT_XCODE}", description: 'Xcode version')
     }
     environment {
+        JAVA_HOME = "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home"
         UNITY_ROOT = "${params.UNITY_ROOT}"
         UNITY_VERSION = "${params.UNITY_VERSION}"
         UNITY_BIN = "${env.UNITY_ROOT}/${env.UNITY_VERSION}/Unity.app/Contents/MacOS/Unity"

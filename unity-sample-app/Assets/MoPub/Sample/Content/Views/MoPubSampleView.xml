@@ -1,0 +1,40 @@
+<MoPubSampleView xmlns="Delight" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="Delight ../Delight.xsd"
+    EnableScriptEvents="True"
+>
+
+    <Grid Columns="100%" Rows="150,100%,150" Spacing="0" BackgroundColor="White">
+
+        <!-- main content -->
+        <ScrollableRegion Grid.Cell="1,0" Id="MPScrollable" Style="MPScrollableRegion">
+            <Region Height="$ {@ScreenHeight}" Offset="">
+                <ViewSwitcher Id="MoPubAdUnitSwitcher" Offset="">
+                    <MoPubAdUnitListView Id="MoPubAdUnitList" ShowAdUnit="ShowAdUnit" />
+                    <MoPubAdUnitView Id="MoPubAdUnit" NavigateBack="NavigateBack" />
+                </ViewSwitcher>
+            </Region>
+        </ScrollableRegion>
+
+        <!-- header -->
+        <Region Grid.Cell="0,0" Width="100%" BackgroundColor="White" Margin="0">
+            <Label Text="MoPub Unity Sample" Style="MPHeader" />
+            <Region Style="MPHeaderDelimiter" Alignment="Bottom" Offset="0,-3" />
+            <Region Style="MPHeaderShadow" Alignment="Bottom" Offset="0" />
+        </Region>
+
+        <!-- footer -->
+        <Region Grid.Cell="2,0" BackgroundColor="White" Width="100%">
+            <Group Orientation="Vertical" ContentAlignment="Bottom" Height="150" Alignment="Bottom" Width="100%">
+                <Region Style="MPHeaderShadow" Alignment="Bottom" Offset="0" />
+                <Region Style="MPHeaderDelimiter" Alignment="Bottom" Offset="0" />
+                <Region Margin="0,0,0,0" Width="100%">
+                    <Label Id="PluginNameLabel" Style="MPSubtitle" Text="plugin_name_placeholder" FontSize="34"
+                           Alignment="Bottom" TextAlignment="Bottom" Offset="0,0,0,50" />
+                    <Label Id="SdkNameLabel" Style="MPSubtitle" Text="sdk_name_placeholder" FontSize="34"
+                           Alignment="Bottom" TextAlignment="Center" />
+                </Region>
+            </Group>
+        </Region>
+
+    </Grid>
+
+</MoPubSampleView>

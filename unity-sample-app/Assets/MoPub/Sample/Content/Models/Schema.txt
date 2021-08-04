@@ -1,0 +1,21 @@
+﻿// MoPub Sample Ad Units
+
+= MoPubAdUnit
+string Platform
+string Type
+string Name
+string AdUnitId
+bool Custom
+
++ MoPubAdUnit (Platform, Type, Name, AdUnitId, Custom)
+"android", "banner", "MoPub Sample Banner", "b195f8dd8ded45fe847ad89ed1d016da", false
+"android", "interstitial", "MoPub Sample Interstitial", "24534e1901884e398f1253216226017e", false
+"android", "rewarded", "MoPub Sample Rewarded Video", "920b6145fb1546cf8b5cf2ac34638bb7", false
+"android", "rewarded", "MoPub Sample Rewarded Rich Media", "a96ae2ef41d44822af45c6328c4e1eb1", false
+"ios", "banner", "MoPub Sample HTML Banner", "0ac59b0996d947309c33f59d6676399f", false
+"ios", "banner", "MoPub Sample MRAID Banner", "ef078b27e11c49bbb87080617a69b970", false
+"ios", "banner", "MoPub Sample HTML Medium Rectangle", "2aae44d2ab91424d9850870af33e5af7", false
+"ios", "interstitial", "MoPub Sample HTML Interstitial", "4f117153f5c24fa6a3a92b818a5eb630", false
+"ios", "interstitial", "MoPub Sample MRAID Interstitial", "9f2859c6726447aa9eaaa43a35ae8682", false
+"ios", "rewarded", "MoPub Sample Rewarded Video", "8f000bd5e00246de9c789eed39ff6096", false
+"ios", "rewarded", "MoPub Sample Rewarded Rich Media", "98c29e015e7346bd9c380b1467b33850", false

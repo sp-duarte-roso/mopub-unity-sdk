@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
 using UnityEngine;
 
 /// <summary>
@@ -21,7 +19,7 @@ public abstract class MoPub : MoPubBase
     /// Please see <a href="https://github.com/mopub/mopub-unity-sdk">our GitHub repository</a> for details.
     /// </para>
     /// </summary>
-    public const string MoPubSdkVersion = "5.17.0";
+    public const string MoPubSdkVersion = "5.18.0";
 
 
     #region SdkSetup
@@ -54,13 +52,13 @@ public abstract class MoPub : MoPubBase
     /// event callbacks.)</remarks>
     public static void InitializeSdk(SdkConfiguration sdkConfiguration)
     {
+        CachedLogLevel = sdkConfiguration.LogLevel;
         MoPubLog.Log("InitializeSdk", MoPubLog.SdkLogEvent.InitStarted);
 
         ValidateAdUnitForSdkInit(sdkConfiguration.AdUnitId);
 
         MoPubManager.MoPubPlatformApi.InitializeSdk(sdkConfiguration);
         MoPubManager.MoPubPlatformApi.SetEngineInformation("unity", Application.unityVersion);
-        CachedLogLevel = sdkConfiguration.LogLevel;
     }
 
 
