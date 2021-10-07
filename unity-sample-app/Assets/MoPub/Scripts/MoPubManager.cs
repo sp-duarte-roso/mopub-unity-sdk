@@ -368,7 +368,7 @@ public class MoPubManager : MonoBehaviour
     }
 
 
-    public static void EmitConsentDialogDismissedEvent()
+    public void EmitConsentDialogDismissedEvent()
     {
         MoPubLog.Log("EmitConsentDialogDismissedEvent", MoPubLog.ConsentLogEvent.Dismissed);
         var evt = OnConsentDialogDismissedEvent;
@@ -714,7 +714,7 @@ public class MoPubManager : MonoBehaviour
     {
         if (applicationPaused || !consentDialogShown) return;
 
-        EmitConsentDialogDismissedEvent();
+        Instance.EmitConsentDialogDismissedEvent();
         consentDialogShown = false;
     }
 

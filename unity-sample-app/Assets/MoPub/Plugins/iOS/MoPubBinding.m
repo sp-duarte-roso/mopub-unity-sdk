@@ -412,8 +412,12 @@ void _moPubLoadConsentDialog()
 
 void _moPubShowConsentDialog()
 {
-    [[MoPub sharedInstance] showConsentDialogFromViewController:[MoPubManager unityViewController] completion:^{
+    [[MoPub sharedInstance] showConsentDialogFromViewController:[MoPubManager unityViewController]
+                                                        didShow:^{
         [MoPubManager sendUnityEvent:@"EmitConsentDialogShownEvent" withArgs:@[]];
+    }
+                                                     didDismiss:^{
+        [MoPubManager sendUnityEvent:@"EmitConsentDialogDismissedEvent" withArgs:@[]];
     }];
 }
 
